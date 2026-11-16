@@ -1,0 +1,1311 @@
+{
+  "parts": [
+    {
+      "ref": "J101",
+      "mpn": "USB4135-GF-A",
+      "value": "USB-C power input",
+      "lcsc": "C5438410",
+      "footprint": "GCT_USB4135",
+      "height_mm": 3.35,
+      "pins": {
+        "B12": "GND",
+        "B9": "VBUS",
+        "A5": "USB_CC1",
+        "B5": "USB_CC2",
+        "A9": "VBUS",
+        "A12": "GND",
+        "SH1": "GND",
+        "SH2": "GND",
+        "SH3": "GND",
+        "SH4": "GND"
+      },
+      "x": 9,
+      "y": 3.45,
+      "rot": 0,
+      "function": "USB-C and input selection",
+      "pin_names": {
+        "B12": "GND",
+        "B9": "VBUS",
+        "A5": "USB_CC1",
+        "B5": "USB_CC2",
+        "A9": "VBUS",
+        "A12": "GND",
+        "SH1": "GND",
+        "SH2": "GND",
+        "SH3": "GND",
+        "SH4": "GND"
+      },
+      "pin_types": {
+        "B12": "pas",
+        "B9": "pas",
+        "A5": "pas",
+        "B5": "pas",
+        "A9": "pas",
+        "A12": "pas",
+        "SH1": "pas",
+        "SH2": "pas",
+        "SH3": "pas",
+        "SH4": "pas"
+      }
+    },
+    {
+      "ref": "J102",
+      "mpn": "BM03B-ACHSS-GAN-ETF(LF)(SN)",
+      "value": "LP223439 pack, black / yellow / red",
+      "lcsc": "C5118705",
+      "footprint": "JST_ACH03P_POWER",
+      "height_mm": 1.5,
+      "pins": {
+        "1": "GND",
+        "2": "BAT_NTC",
+        "3": "VBAT",
+        "M1": "GND",
+        "M2": "GND"
+      },
+      "x": 30.8,
+      "y": 22.3,
+      "rot": 0,
+      "function": "Protected cell charger",
+      "pin_names": {
+        "1": "PACK_NEG",
+        "2": "NTC",
+        "3": "PACK_POS",
+        "M1": "MT1",
+        "M2": "MT2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas",
+        "3": "pas",
+        "M1": "pas",
+        "M2": "pas"
+      }
+    },
+    {
+      "ref": "J103",
+      "mpn": "PCB-FEATURE",
+      "value": "PV+ / PV− wire lands",
+      "lcsc": "",
+      "footprint": "PV_WIRE_PAIR",
+      "height_mm": 0,
+      "pins": {
+        "1": "PV_RAW",
+        "2": "GND"
+      },
+      "x": 2.75,
+      "y": 13.7,
+      "rot": 0,
+      "function": "Solar MPPT",
+      "assembly": "PCB feature",
+      "populate": false,
+      "pin_names": {
+        "1": "PV_POS",
+        "2": "PV_NEG"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      }
+    },
+    {
+      "ref": "U101",
+      "mpn": "SPV1050TTR",
+      "value": "SPV1050TTR",
+      "lcsc": "C5181469",
+      "footprint": "SPV_VFQFPN20",
+      "height_mm": 1,
+      "pins": {
+        "1": "PV_MPP",
+        "2": "PV_MPP_SET",
+        "3": "PV_MPP_REF",
+        "4": "GND",
+        "5": "GND",
+        "6": "GND",
+        "8": "PV_READY_N",
+        "9": "PV_EOC",
+        "10": "PV_UVP",
+        "13": "GND",
+        "14": "PV_BUFFER",
+        "15": "PV_STORE",
+        "16": "PV_LVSW",
+        "18": "GND",
+        "19": "PV_HVSW",
+        "20": "PV_IC_IN",
+        "EP": "GND"
+      },
+      "x": 7,
+      "y": 20,
+      "rot": 0,
+      "function": "Solar MPPT",
+      "pin_names": {
+        "1": "MPP",
+        "2": "MPP_SET",
+        "3": "MPP_REF",
+        "4": "GND",
+        "5": "LDO1_EN",
+        "6": "LDO2_EN",
+        "7": "BATT_CHG_N",
+        "8": "BATT_CONN_N",
+        "9": "EOC",
+        "10": "UVP",
+        "11": "LDO1",
+        "12": "LDO2",
+        "13": "CONF",
+        "14": "BATT",
+        "15": "STORE",
+        "16": "IN_LV",
+        "17": "NC",
+        "18": "PGND",
+        "19": "L_HV",
+        "20": "IN_HV",
+        "EP": "EP"
+      },
+      "pin_types": {
+        "1": "in",
+        "2": "in",
+        "3": "in",
+        "4": "pwr",
+        "5": "in",
+        "6": "in",
+        "7": "oc",
+        "8": "oc",
+        "9": "in",
+        "10": "in",
+        "11": "out",
+        "12": "out",
+        "13": "in",
+        "14": "io",
+        "15": "out",
+        "16": "io",
+        "17": "nc",
+        "18": "pwr",
+        "19": "io",
+        "20": "pwr",
+        "EP": "pwr"
+      }
+    },
+    {
+      "ref": "U102",
+      "mpn": "BQ24074RGTR",
+      "value": "BQ24074RGTR",
+      "lcsc": "C54313",
+      "footprint": "TI_RGT16_BQ74",
+      "height_mm": 1,
+      "pins": {
+        "1": "BQ_TS",
+        "2": "VBAT",
+        "3": "VBAT",
+        "4": "CHG_DISABLE",
+        "5": "GND",
+        "6": "GND",
+        "8": "GND",
+        "10": "SYS_AON",
+        "11": "SYS_AON",
+        "12": "BQ_ILIM",
+        "13": "CHG_IN",
+        "14": "BQ_TMR",
+        "15": "BQ_ITERM",
+        "16": "BQ_ISET",
+        "EP": "GND"
+      },
+      "x": 23.5,
+      "y": 10.5,
+      "rot": 0,
+      "function": "Protected cell charger",
+      "pin_names": {
+        "1": "TS",
+        "2": "BAT_1",
+        "3": "BAT_2",
+        "4": "CE_N",
+        "5": "EN2",
+        "6": "EN1",
+        "7": "PGOOD_N",
+        "8": "VSS",
+        "9": "CHG_N",
+        "10": "OUT_1",
+        "11": "OUT_2",
+        "12": "ILIM",
+        "13": "IN",
+        "14": "TMR",
+        "15": "ITERM",
+        "16": "ISET",
+        "EP": "EP"
+      },
+      "pin_types": {
+        "1": "in",
+        "2": "io",
+        "3": "io",
+        "4": "in",
+        "5": "in",
+        "6": "in",
+        "7": "oc",
+        "8": "pwr",
+        "9": "oc",
+        "10": "out",
+        "11": "out",
+        "12": "in",
+        "13": "pwr",
+        "14": "in",
+        "15": "in",
+        "16": "io",
+        "EP": "pwr"
+      }
+    },
+    {
+      "ref": "U103",
+      "mpn": "TPS2116DRLR",
+      "value": "TPS2116DRLR",
+      "lcsc": "C3235557",
+      "footprint": "TI_DRL8_MUX",
+      "height_mm": 0.6,
+      "pins": {
+        "1": "GND",
+        "2": "CHG_IN",
+        "3": "VBUS",
+        "4": "USB_PR",
+        "5": "VBUS",
+        "6": "PV_VALID",
+        "7": "CHG_IN"
+      },
+      "x": 16.25,
+      "y": 12.1,
+      "rot": 0,
+      "function": "USB-C and input selection",
+      "pin_names": {
+        "1": "GND",
+        "2": "VOUT_1",
+        "3": "VIN1",
+        "4": "PR1",
+        "5": "MODE",
+        "6": "VIN2",
+        "7": "VOUT_2",
+        "8": "ST"
+      },
+      "pin_types": {
+        "1": "pwr",
+        "2": "out",
+        "3": "pwr",
+        "4": "in",
+        "5": "in",
+        "6": "pwr",
+        "7": "out",
+        "8": "oc"
+      }
+    },
+    {
+      "ref": "U104",
+      "mpn": "RT6160AWSC",
+      "value": "RT6160AWSC",
+      "lcsc": "C7065276",
+      "footprint": "RT_WLCSP15",
+      "height_mm": 0.6,
+      "pins": {
+        "A1": "MAIN_EN",
+        "A2": "RT_VIN_LOCAL",
+        "A3": "RT_VIN_LOCAL",
+        "B1": "GND",
+        "B2": "RT_SW1",
+        "B3": "RT_SW1",
+        "C1": "GND",
+        "C2": "GND",
+        "C3": "GND",
+        "D1": "SCL",
+        "D2": "RT_SW2",
+        "D3": "RT_SW2",
+        "E1": "SDA",
+        "E2": "RT_VOUT_LOCAL",
+        "E3": "RT_VOUT_LOCAL"
+      },
+      "x": 36,
+      "y": 10,
+      "rot": 0,
+      "function": "Switched 3.3 V",
+      "pin_names": {
+        "A1": "EN",
+        "A2": "VIN_1",
+        "A3": "VIN_2",
+        "B1": "VSEL",
+        "B2": "SW1_1",
+        "B3": "SW1_2",
+        "C1": "AGND",
+        "C2": "PGND_1",
+        "C3": "PGND_2",
+        "D1": "SCL",
+        "D2": "SW2_1",
+        "D3": "SW2_2",
+        "E1": "SDA",
+        "E2": "VOUT_1",
+        "E3": "VOUT_2"
+      },
+      "pin_types": {
+        "A1": "in",
+        "A2": "pwr",
+        "A3": "pwr",
+        "B1": "in",
+        "B2": "io",
+        "B3": "io",
+        "C1": "pwr",
+        "C2": "pwr",
+        "C3": "pwr",
+        "D1": "in",
+        "D2": "io",
+        "D3": "io",
+        "E1": "io",
+        "E2": "out",
+        "E3": "out"
+      }
+    },
+    {
+      "ref": "U105",
+      "mpn": "MCP6542-I/MS",
+      "value": "MCP6542-I/MS",
+      "lcsc": "C636338",
+      "footprint": "MC_MSOP8_TEMP",
+      "height_mm": 1.1,
+      "pins": {
+        "1": "TEMP_COLD",
+        "2": "NTC_COLD_REF",
+        "3": "BAT_NTC",
+        "4": "GND",
+        "5": "NTC_HOT_REF",
+        "6": "BAT_NTC",
+        "7": "TEMP_HOT",
+        "8": "CHG_IN"
+      },
+      "x": 22.5,
+      "y": 20.4,
+      "rot": 0,
+      "function": "Pack temperature window",
+      "pin_names": {
+        "1": "OUTA",
+        "2": "INA_N",
+        "3": "INA_P",
+        "4": "VSS",
+        "5": "INB_P",
+        "6": "INB_N",
+        "7": "OUTB",
+        "8": "VDD"
+      },
+      "pin_types": {
+        "1": "out",
+        "2": "in",
+        "3": "in",
+        "4": "pwr",
+        "5": "in",
+        "6": "in",
+        "7": "out",
+        "8": "pwr"
+      }
+    },
+    {
+      "ref": "D101",
+      "mpn": "USBLC6-2SC6",
+      "value": "USBLC6-2SC6",
+      "lcsc": "C7519",
+      "footprint": "ST_SOT23_6_ESD",
+      "height_mm": 1.45,
+      "pins": {
+        "1": "USB_CC1",
+        "2": "GND",
+        "3": "USB_CC2",
+        "4": "USB_CC2",
+        "5": "VBUS",
+        "6": "USB_CC1"
+      },
+      "x": 9.0,
+      "y": 9.5,
+      "rot": 90,
+      "function": "USB-C and input selection",
+      "pin_names": {
+        "1": "IO1A",
+        "2": "GND",
+        "3": "IO2A",
+        "4": "IO2B",
+        "5": "VBUS",
+        "6": "IO1B"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pwr",
+        "3": "pas",
+        "4": "pas",
+        "5": "pas",
+        "6": "pas"
+      }
+    },
+    {
+      "ref": "D102",
+      "mpn": "PMEG2010ER,115",
+      "value": "PMEG2010ER,115",
+      "lcsc": "C82288",
+      "footprint": "NXP_CFP3_DIODE",
+      "height_mm": 1.1,
+      "pins": {
+        "1": "PV_IN",
+        "2": "PV_RAW"
+      },
+      "x": 2.6,
+      "y": 17.1,
+      "rot": 180,
+      "function": "Solar MPPT",
+      "pin_names": {
+        "1": "K",
+        "2": "A"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      }
+    },
+    {
+      "ref": "Q101",
+      "mpn": "AO3401A",
+      "value": "AO3401A",
+      "lcsc": "C15127",
+      "footprint": "SOT23_AO3401A",
+      "height_mm": 1.2,
+      "pins": {
+        "1": "PV_READY_N",
+        "2": "PV_STORE",
+        "3": "PV_VALID"
+      },
+      "x": 12.7,
+      "y": 18.6,
+      "rot": 90,
+      "function": "Solar MPPT",
+      "pin_names": {
+        "1": "G",
+        "2": "S",
+        "3": "D"
+      },
+      "pin_types": {
+        "1": "in",
+        "2": "pas",
+        "3": "pas"
+      }
+    },
+    {
+      "ref": "L101",
+      "mpn": "SRN3015-220M",
+      "value": "22uH 0.58A",
+      "lcsc": "C2918094",
+      "footprint": "BOURNS_SRN3015",
+      "height_mm": 1.5,
+      "pins": {
+        "1": "PV_HVSW",
+        "2": "PV_LVSW"
+      },
+      "x": 7,
+      "y": 23.65,
+      "rot": 0,
+      "function": "Solar MPPT"
+    },
+    {
+      "ref": "L102",
+      "mpn": "XGL4015-471MEC",
+      "value": "0.47uH 4.4A at 10% drop",
+      "lcsc": "C5452431",
+      "footprint": "COIL_XGL4015",
+      "height_mm": 1.5,
+      "pins": {
+        "1": "RT_SW1",
+        "2": "RT_SW2"
+      },
+      "x": 40.2,
+      "y": 10,
+      "rot": 270,
+      "function": "Switched 3.3 V"
+    },
+    {
+      "ref": "R101",
+      "mpn": "0402WGF5101TCE",
+      "value": "5.1k 1%",
+      "lcsc": "C25905",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "USB_CC1",
+        "2": "GND"
+      },
+      "x": 6.9,
+      "y": 9.1,
+      "rot": 90,
+      "function": "USB-C and input selection"
+    },
+    {
+      "ref": "R102",
+      "mpn": "0402WGF5101TCE",
+      "value": "5.1k 1%",
+      "lcsc": "C25905",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "USB_CC2",
+        "2": "GND"
+      },
+      "x": 11.2,
+      "y": 9.1,
+      "rot": 90,
+      "function": "USB-C and input selection"
+    },
+    {
+      "ref": "R103",
+      "mpn": "0402WGF3013TCE",
+      "value": "301k 1%",
+      "lcsc": "C25775",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "VBUS",
+        "2": "USB_PR"
+      },
+      "x": 15.35,
+      "y": 9.75,
+      "rot": 90,
+      "function": "USB-C and input selection"
+    },
+    {
+      "ref": "R104",
+      "mpn": "0402WGF1003TCE",
+      "value": "100k 1%",
+      "lcsc": "C25741",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "USB_PR",
+        "2": "GND"
+      },
+      "x": 16.6,
+      "y": 9.75,
+      "rot": 90,
+      "function": "USB-C and input selection"
+    },
+    {
+      "ref": "C101",
+      "mpn": "CL05A105KO5NNNC",
+      "value": "1uF 16V X5R",
+      "lcsc": "C29266",
+      "footprint": "C0402",
+      "height_mm": 0.6,
+      "pins": {
+        "1": "VBUS",
+        "2": "GND"
+      },
+      "x": 14.3,
+      "y": 11.85,
+      "rot": 90,
+      "function": "USB-C and input selection"
+    },
+    {
+      "ref": "C102",
+      "mpn": "GRM188R61C475KE11D",
+      "value": "4.7uF 16V X5R",
+      "lcsc": "C77045",
+      "footprint": "C0603",
+      "height_mm": 0.9,
+      "pins": {
+        "1": "CHG_IN",
+        "2": "GND"
+      },
+      "x": 18.35,
+      "y": 13.6,
+      "rot": 90,
+      "function": "USB-C and input selection"
+    },
+    {
+      "ref": "C103",
+      "mpn": "GRM188R61C475KE11D",
+      "value": "4.7uF 16V X5R",
+      "lcsc": "C77045",
+      "footprint": "C0603",
+      "height_mm": 0.9,
+      "pins": {
+        "1": "PV_IC_IN",
+        "2": "GND"
+      },
+      "x": 3.7,
+      "y": 22.7,
+      "rot": 180,
+      "function": "Solar MPPT"
+    },
+    {
+      "ref": "C104",
+      "mpn": "CL05B103KA5NNNC",
+      "value": "10nF 25V X7R",
+      "lcsc": "C318576",
+      "footprint": "C0402",
+      "height_mm": 0.6,
+      "pins": {
+        "1": "PV_MPP_REF",
+        "2": "GND"
+      },
+      "x": 4.4,
+      "y": 19.7,
+      "rot": 90,
+      "function": "Solar MPPT"
+    },
+    {
+      "ref": "R105",
+      "mpn": "0402WGF6804TCE",
+      "value": "6.8M 1%",
+      "lcsc": "C620473",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "PV_IC_IN",
+        "2": "PV_MPP"
+      },
+      "x": 2.15,
+      "y": 25.15,
+      "rot": 0,
+      "function": "Solar MPPT"
+    },
+    {
+      "ref": "R106",
+      "mpn": "0402WGF3603TCE",
+      "value": "360k 1%",
+      "lcsc": "C45956",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "PV_MPP",
+        "2": "PV_MPP_SET"
+      },
+      "x": 3.45,
+      "y": 26.35,
+      "rot": 0,
+      "function": "Solar MPPT"
+    },
+    {
+      "ref": "R107",
+      "mpn": "0402WGF1504TCE",
+      "value": "1.5M 1%",
+      "lcsc": "C22276",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "PV_MPP_SET",
+        "2": "GND"
+      },
+      "x": 4.4,
+      "y": 25.05,
+      "rot": 0,
+      "function": "Solar MPPT"
+    },
+    {
+      "ref": "R108",
+      "mpn": "0402WGF6804TCE",
+      "value": "6.8M 1%",
+      "lcsc": "C620473",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "PV_STORE",
+        "2": "PV_UVP"
+      },
+      "x": 8.85,
+      "y": 16.1,
+      "rot": 0,
+      "function": "Solar MPPT"
+    },
+    {
+      "ref": "R109",
+      "mpn": "0402WGF1504TCE",
+      "value": "1.5M 1%",
+      "lcsc": "C22276",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "PV_UVP",
+        "2": "PV_EOC"
+      },
+      "x": 7,
+      "y": 15.6,
+      "rot": 0,
+      "function": "Solar MPPT"
+    },
+    {
+      "ref": "R110",
+      "mpn": "0402WGF2704TCE",
+      "value": "2.7M 1%",
+      "lcsc": "C270621",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "PV_EOC",
+        "2": "GND"
+      },
+      "x": 5.6,
+      "y": 16.7,
+      "rot": 0,
+      "function": "Solar MPPT"
+    },
+    {
+      "ref": "R111",
+      "mpn": "0402WGF1004TCE",
+      "value": "1M 1%",
+      "lcsc": "C26083",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "PV_READY_N",
+        "2": "PV_STORE"
+      },
+      "x": 12.2,
+      "y": 16.1,
+      "rot": 0,
+      "function": "Solar MPPT"
+    },
+    {
+      "ref": "C105",
+      "mpn": "CL05A105KO5NNNC",
+      "value": "1uF 16V X5R",
+      "lcsc": "C29266",
+      "footprint": "C0402",
+      "height_mm": 0.6,
+      "pins": {
+        "1": "PV_BUFFER",
+        "2": "GND"
+      },
+      "x": 10.216,
+      "y": 19.378,
+      "rot": 90,
+      "function": "Solar MPPT"
+    },
+    {
+      "ref": "C106",
+      "mpn": "GRM31CR61A476KE15L",
+      "value": "47uF 10V X5R",
+      "lcsc": "C426659",
+      "footprint": "C1206P",
+      "height_mm": 1.8,
+      "pins": {
+        "1": "PV_STORE",
+        "2": "GND"
+      },
+      "x": 10.5,
+      "y": 23.65,
+      "rot": 90,
+      "function": "Solar MPPT"
+    },
+    {
+      "ref": "C107",
+      "mpn": "GRM31CR61A476KE15L",
+      "value": "47uF 10V X5R",
+      "lcsc": "C426659",
+      "footprint": "C1206P",
+      "height_mm": 1.8,
+      "pins": {
+        "1": "PV_STORE",
+        "2": "GND"
+      },
+      "x": 13.0,
+      "y": 23.65,
+      "rot": 90,
+      "function": "Solar MPPT"
+    },
+    {
+      "ref": "C108",
+      "mpn": "CL05A105KO5NNNC",
+      "value": "1uF 16V X5R",
+      "lcsc": "C29266",
+      "footprint": "C0402",
+      "height_mm": 0.6,
+      "pins": {
+        "1": "PV_VALID",
+        "2": "GND"
+      },
+      "x": 16.9,
+      "y": 14.9,
+      "rot": 90,
+      "function": "Solar MPPT"
+    },
+    {
+      "ref": "R112",
+      "mpn": "0402WGF1002TCE",
+      "value": "10k 1%",
+      "lcsc": "C25744",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "BQ_TS",
+        "2": "GND"
+      },
+      "x": 20.3,
+      "y": 11.25,
+      "rot": 90,
+      "function": "Protected cell charger"
+    },
+    {
+      "ref": "R113",
+      "mpn": "0402WGF2001TCE",
+      "value": "2k 1%",
+      "lcsc": "C4109",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "BQ_ILIM",
+        "2": "GND"
+      },
+      "x": 26.75,
+      "y": 12.5,
+      "rot": 90,
+      "function": "Protected cell charger"
+    },
+    {
+      "ref": "R114",
+      "mpn": "0402WGF6802TCE",
+      "value": "68k 1%",
+      "lcsc": "C36871",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "BQ_TMR",
+        "2": "GND"
+      },
+      "x": 23.4,
+      "y": 14.0,
+      "rot": 90,
+      "function": "Protected cell charger"
+    },
+    {
+      "ref": "R123",
+      "mpn": "0402WGF4701TCE",
+      "value": "4.7k 1%",
+      "lcsc": "C25900",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "BQ_ITERM",
+        "2": "GND"
+      },
+      "x": 24.9,
+      "y": 15.2,
+      "rot": 0,
+      "function": "Protected cell charger"
+    },
+    {
+      "ref": "R115",
+      "mpn": "0402WGF8661TCE",
+      "value": "8.66k 1%",
+      "lcsc": "C270576",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "BQ_ISET",
+        "2": "GND"
+      },
+      "x": 21.6,
+      "y": 14.0,
+      "rot": 90,
+      "function": "Protected cell charger"
+    },
+    {
+      "ref": "C109",
+      "mpn": "GRM188R61C226ME01D",
+      "value": "22uF 16V X5R",
+      "lcsc": "C5116073",
+      "footprint": "C0603",
+      "height_mm": 0.9,
+      "pins": {
+        "1": "VBAT",
+        "2": "GND"
+      },
+      "x": 20.15,
+      "y": 8.9,
+      "rot": 90,
+      "function": "Protected cell charger"
+    },
+    {
+      "ref": "C110",
+      "mpn": "GRM188R61C226ME01D",
+      "value": "22uF 16V X5R",
+      "lcsc": "C5116073",
+      "footprint": "C0603",
+      "height_mm": 0.9,
+      "pins": {
+        "1": "SYS_AON",
+        "2": "GND"
+      },
+      "x": 26.7,
+      "y": 9.25,
+      "rot": 90,
+      "function": "Protected cell charger"
+    },
+    {
+      "ref": "C111",
+      "mpn": "CL05A105KO5NNNC",
+      "value": "1uF 16V X5R",
+      "lcsc": "C29266",
+      "footprint": "C0402",
+      "height_mm": 0.6,
+      "pins": {
+        "1": "CHG_IN",
+        "2": "GND"
+      },
+      "x": 25.45,
+      "y": 13.77,
+      "rot": 90,
+      "function": "Protected cell charger"
+    },
+    {
+      "ref": "R116",
+      "mpn": "0402WGF2202TCE",
+      "value": "22k 1%",
+      "lcsc": "C25768",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "CHG_IN",
+        "2": "BAT_NTC"
+      },
+      "x": 27.25,
+      "y": 22.58,
+      "rot": 0,
+      "function": "Pack temperature window"
+    },
+    {
+      "ref": "R117",
+      "mpn": "0402WGF6202TCE",
+      "value": "62k 1%",
+      "lcsc": "C37825",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "CHG_IN",
+        "2": "NTC_COLD_REF"
+      },
+      "x": 17.7,
+      "y": 22.7,
+      "rot": 0,
+      "function": "Pack temperature window"
+    },
+    {
+      "ref": "R118",
+      "mpn": "0402WGF2202TCE",
+      "value": "22k 1%",
+      "lcsc": "C25768",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "NTC_COLD_REF",
+        "2": "NTC_HOT_REF"
+      },
+      "x": 17.7,
+      "y": 21.45,
+      "rot": 0,
+      "function": "Pack temperature window"
+    },
+    {
+      "ref": "R119",
+      "mpn": "0402WGF2202TCE",
+      "value": "22k 1%",
+      "lcsc": "C25768",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "NTC_HOT_REF",
+        "2": "GND"
+      },
+      "x": 17.7,
+      "y": 20.15,
+      "rot": 0,
+      "function": "Pack temperature window"
+    },
+    {
+      "ref": "R120",
+      "mpn": "0402WGF2202TCE",
+      "value": "22k 1%",
+      "lcsc": "C25768",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "CHG_DISABLE",
+        "2": "GND"
+      },
+      "x": 20.1,
+      "y": 17.55,
+      "rot": 90,
+      "function": "Pack temperature window"
+    },
+    {
+      "ref": "D103",
+      "mpn": "BAT54C,215",
+      "value": "BAT54C,215",
+      "lcsc": "C37704",
+      "footprint": "NXP_SOT23_DIODE",
+      "height_mm": 1.1,
+      "pins": {
+        "1": "TEMP_HOT",
+        "2": "TEMP_COLD",
+        "3": "CHG_DISABLE"
+      },
+      "x": 22.75,
+      "y": 16.95,
+      "rot": 180,
+      "function": "Pack temperature window",
+      "pin_names": {
+        "1": "A1",
+        "2": "A2",
+        "3": "K1_K2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas",
+        "3": "pas"
+      }
+    },
+    {
+      "ref": "C112",
+      "mpn": "CL05B104KO5NNNC",
+      "value": "100nF 16V X7R",
+      "lcsc": "C1525",
+      "footprint": "C0402",
+      "height_mm": 0.6,
+      "pins": {
+        "1": "CHG_IN",
+        "2": "GND"
+      },
+      "x": 25.65,
+      "y": 22.8,
+      "rot": 90,
+      "function": "Pack temperature window"
+    },
+    {
+      "ref": "R122",
+      "mpn": "0402WGF1004TCE",
+      "value": "1M 1%",
+      "lcsc": "C26083",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "MAIN_EN",
+        "2": "GND"
+      },
+      "x": 33.5,
+      "y": 12.9,
+      "rot": 0,
+      "function": "Switched 3.3 V"
+    },
+    {
+      "ref": "C113",
+      "mpn": "GRM188R61C226ME01D",
+      "value": "22uF 16V X5R",
+      "lcsc": "C5116073",
+      "footprint": "C0603",
+      "height_mm": 0.9,
+      "pins": {
+        "1": "RT_VIN_LOCAL",
+        "2": "GND"
+      },
+      "x": 38.0,
+      "y": 13.45,
+      "rot": 0,
+      "function": "Switched 3.3 V"
+    },
+    {
+      "ref": "C114",
+      "mpn": "CL05B104KO5NNNC",
+      "value": "100nF 16V X7R",
+      "lcsc": "C1525",
+      "footprint": "C0402",
+      "height_mm": 0.6,
+      "pins": {
+        "1": "RT_VIN_LOCAL",
+        "2": "GND"
+      },
+      "x": 35.8,
+      "y": 12.6,
+      "rot": 180,
+      "function": "Switched 3.3 V"
+    },
+    {
+      "ref": "C115",
+      "mpn": "GRM188R61A226ME15D",
+      "value": "22uF 10V X5R",
+      "lcsc": "C84419",
+      "footprint": "C0603",
+      "height_mm": 0.9,
+      "pins": {
+        "1": "RT_VOUT_LOCAL",
+        "2": "GND"
+      },
+      "x": 37.65,
+      "y": 6.8,
+      "rot": 0,
+      "function": "Switched 3.3 V"
+    },
+    {
+      "ref": "C116",
+      "mpn": "GRM188R61A226ME15D",
+      "value": "22uF 10V X5R",
+      "lcsc": "C84419",
+      "footprint": "C0603",
+      "height_mm": 0.9,
+      "pins": {
+        "1": "RT_VOUT_LOCAL",
+        "2": "GND"
+      },
+      "x": 37.65,
+      "y": 5.2,
+      "rot": 0,
+      "function": "Switched 3.3 V"
+    },
+    {
+      "ref": "R124",
+      "mpn": "ERJ3GEY0R00V",
+      "value": "0R 1A DFT input",
+      "lcsc": "C122704",
+      "footprint": "R0603",
+      "height_mm": 0.55,
+      "pins": {
+        "1": "RT_VIN_LOCAL",
+        "2": "SYS_AON"
+      },
+      "x": 37.5,
+      "y": 15.5,
+      "rot": 90,
+      "function": "Switched 3.3 V"
+    },
+    {
+      "ref": "R125",
+      "mpn": "ERJ3GEY0R00V",
+      "value": "0R 1A DFT output",
+      "lcsc": "C122704",
+      "footprint": "R0603",
+      "height_mm": 0.55,
+      "pins": {
+        "1": "RT_VOUT_LOCAL",
+        "2": "VMAIN"
+      },
+      "x": 36.2,
+      "y": 3.1,
+      "rot": 270,
+      "function": "Switched 3.3 V"
+    },
+    {
+      "ref": "R126",
+      "mpn": "ERJ3GEY0R00V",
+      "value": "0R 1A DFT solar",
+      "lcsc": "C122704",
+      "footprint": "R0603",
+      "height_mm": 0.55,
+      "pins": {
+        "1": "PV_IC_IN",
+        "2": "PV_IN"
+      },
+      "x": 0.4,
+      "y": 19.6,
+      "rot": 270,
+      "function": "Solar MPPT"
+    },
+    {
+      "ref": "TP101",
+      "mpn": "PCB-FEATURE",
+      "value": "PV_STORE",
+      "lcsc": "",
+      "footprint": "TP",
+      "height_mm": 0,
+      "pins": {
+        "1": "PV_STORE"
+      },
+      "x": 15.65,
+      "y": 23.3,
+      "rot": 0,
+      "function": "Solar MPPT",
+      "assembly": "PCB feature",
+      "populate": false
+    },
+    {
+      "ref": "TP102",
+      "mpn": "PCB-FEATURE",
+      "value": "CHG_IN",
+      "lcsc": "",
+      "footprint": "TP",
+      "height_mm": 0,
+      "pins": {
+        "1": "CHG_IN"
+      },
+      "x": 18.5,
+      "y": 7.5,
+      "rot": 0,
+      "function": "USB-C and input selection",
+      "assembly": "PCB feature",
+      "populate": false
+    },
+    {
+      "ref": "TP103",
+      "mpn": "PCB-FEATURE",
+      "value": "VBAT",
+      "lcsc": "",
+      "footprint": "TP",
+      "height_mm": 0,
+      "pins": {
+        "1": "VBAT"
+      },
+      "x": 28.4,
+      "y": 17.7,
+      "rot": 0,
+      "function": "Protected cell charger",
+      "assembly": "PCB feature",
+      "populate": false
+    },
+    {
+      "ref": "TP104",
+      "mpn": "PCB-FEATURE",
+      "value": "SYS_AON",
+      "lcsc": "",
+      "footprint": "TP",
+      "height_mm": 0,
+      "pins": {
+        "1": "SYS_AON"
+      },
+      "x": 30.1,
+      "y": 9.1,
+      "rot": 0,
+      "function": "Protected cell charger",
+      "assembly": "PCB feature",
+      "populate": false
+    },
+    {
+      "ref": "TP105",
+      "mpn": "PCB-FEATURE",
+      "value": "GND",
+      "lcsc": "",
+      "footprint": "TP",
+      "height_mm": 0,
+      "pins": {
+        "1": "GND"
+      },
+      "x": 30.1,
+      "y": 6.9,
+      "rot": 0,
+      "function": "Protected cell charger",
+      "assembly": "PCB feature",
+      "populate": false
+    },
+    {
+      "ref": "TP106",
+      "mpn": "PCB-FEATURE",
+      "value": "VMAIN",
+      "lcsc": "",
+      "footprint": "TP",
+      "height_mm": 0,
+      "pins": {
+        "1": "VMAIN"
+      },
+      "x": 39.6,
+      "y": 4.0,
+      "rot": 0,
+      "function": "Switched 3.3 V",
+      "assembly": "PCB feature",
+      "populate": false
+    }
+  ],
+  "notes": [
+    "USB power-only GCT USB4135. LP223439 external pack with PCM and 10 kΩ NTC, pin 1 black/−, 2 yellow/NTC, 3 red/+. Verify pack polarity at incoming inspection.",
+    "SPV1050 charges its own reservoir. BATT_CONN opens a source-side P-channel switch only after cold-start EOC. BQ24074 is the sole LiPo CC/CV charger for both inputs.",
+    "VBUS priority TPS2116. SYS_AON follows the cell in darkness; regulated 4.4 V when enough input is available. VSEL grounded; RT6160A power-on default 3.3 V; I2C 0x75 on centrally pulled-up VMAIN bus.",
+    "J103 and TP101–TP106 are unpopulated copper. PV sign and strain relief must be maintained by the off-board harness. See docs/power.md."
+  ]
+}

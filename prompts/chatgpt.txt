@@ -1,0 +1,6 @@
+https://www.anthropic.com/research/claude-electronics-design
+
+https://dantudose.github.io/articles/solar-e-ink-board-with-an-ai/
+
+vreau sa folosesc gpt 6 astra max pe codex, sa reproduc experimentul.
+voi folosi fusion, mcp-ul fusion, full access la pc, full computer use oricand vrea modelul. full internet. fara nicio restrictie. vreau sa imi dai promtul. as vrea sa incerc sa faca tot dintr un promt, deci vom folosi /goal. spune sa nu se opreasca pana nu testeaza complet vizual si face toate testele pe care le considera necesare, inclusiv checkuri de productie, manufacturing, cred ca dom se numesc, etc. si pe masura ce testeaza si observa ceva, sa modifice, sa se auto corecteze si sa isi foloseasca la maxim reasinngul pentru a lua decizii bune. sa foloseasca orice tool vrea, orice din fusion sau din pc, poate si instala ceva daca are nevoie. sa foloseasca intens internetul pentru a se documenta despre pcb design and schematic design etc, bune practici, etc. vreau doar un promt care sa incapa in cele 4000 de caractere necesare pentru /goal. nu vreau alte fisiere md. gandirea o va face astra, tu da mi doar promtul initial. also nu mentiona sursele, doar cerintele, nu vreau sa copieze sau sa vada greselile intampinate in experimentul initial

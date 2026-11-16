@@ -1,0 +1,5 @@
+case,full_events,partial_events,skipped_panel_events,total_awake_s,standby_mAh,main_input_mAh,electronics_mAh_day,estimated_pack_self_discharge_mAh_day,cell_total_mAh_day,battery_energy_mWh_day,illustrative_days_without_light,break_even_minutes_at_net_current
+room_illustration,16,80,0,139.2,0.288,0.25192,0.53992,0.16667,0.70658,2.61436,283.05222,2.11975
+qualification_envelope,16,80,0,249.2,0.72,1.3251,2.0451,0.25,2.2951,7.80333,70.80315,6.88529
+cold_full_only_charge_inhibited,96,0,0,860.4,0.96,6.67632,7.63632,0.25,7.88632,26.41918,15.85023,
+below_display_floor_no_harvest,0,0,96,19.2,0.96,0.06234,1.02234,0.25,1.27234,3.94424,19.64889,

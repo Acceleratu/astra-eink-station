@@ -1,0 +1,335 @@
+{
+  "synthetic_only": true,
+  "full_case_step_sha256": "0ecf7606efe8e2e5c8d1abdf82748b40e9f5b99b8cd6232bdbb4c4b8cf062447",
+  "qualified_usb_pocket_source_sha256": "087acd6f338b22fa63bc9f44e282c7e489cca79657157679703d36c88e639e5e",
+  "examples": {
+    "01-pass-nonzero": {
+      "serial": "SYNTHETIC-01-pass-nonzero",
+      "expanded_pairwise_uncertainty_mm": 0.003,
+      "measured_minimum_distances_mm": {
+        "free_PET_border": 0.16900000000000048,
+        "adhesive_setback_from_PET": 0.02799541368668354,
+        "circumferential_steel_adhesive_bearing": 0.07745859394274575
+      },
+      "lower_confidence_bounds_mm": {
+        "free_PET_border": 0.16600000000000048,
+        "adhesive_setback_from_PET": 0.02499541368668354,
+        "circumferential_steel_adhesive_bearing": 0.07445859394274575
+      },
+      "limits_mm": {
+        "free_PET_border": 0.025,
+        "adhesive_setback_from_PET": 0.01,
+        "circumferential_steel_adhesive_bearing": 0.035
+      },
+      "radial_PET_to_bore_center_mm": 0.0049999999999999455,
+      "upper_confidence_radial_center_mm": 0.007999999999999945,
+      "maximum_radial_center_mm": 0.035,
+      "geometry_pass": true,
+      "transparent_PSA_oblique_check": {
+        "status": "measured outlines and bounded pocket",
+        "pass": true,
+        "required_after_uncertainty_mm": 0.005,
+        "pet_back_to_steel_upper_mm": 0.055,
+        "magnification_of_PAIR_uncertainty": 1.0065907729179149,
+        "nominal_minimum_projected_land_mm": 0.00868040564390495,
+        "minimum_land_after_uncertainty_mm": 0.005660633325151206,
+        "minimum_cheek_to_steel_mm": 8.4,
+        "max_cheek_edge_outwards_per_axis_mm": 0.25,
+        "max_board_to_pocket_centre_per_axis_mm": 0.35,
+        "case_step_sha256": "0ecf7606efe8e2e5c8d1abdf82748b40e9f5b99b8cd6232bdbb4c4b8cf062447",
+        "usb_pocket_source_sha256": "087acd6f338b22fa63bc9f44e282c7e489cca79657157679703d36c88e639e5e",
+        "credits_black_adhesive": false,
+        "optional_measured_black_carrier": {
+          "clear_acrylic_plus_air_upper_mm": 0.02,
+          "changes_zero_credit_release_result": false,
+          "projected_land_after_uncertainty_mm": 0.0413318681572863,
+          "meets_same_land_threshold": true
+        }
+      },
+      "release_pass": true,
+      "trial_shift_yz_mm": [
+        0.004,
+        -0.003
+      ],
+      "PET_cut_normal_deviation_mm": 0.003,
+      "PSA_cut_normal_deviation_mm": 0.001,
+      "suggested_adjustment": {
+        "action": "Current measured position passes.",
+        "shift_yz_mm": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "02-fail-oblique": {
+      "serial": "SYNTHETIC-02-fail-oblique",
+      "expanded_pairwise_uncertainty_mm": 0.002,
+      "measured_minimum_distances_mm": {
+        "free_PET_border": 0.16799999999999993,
+        "adhesive_setback_from_PET": 0.013997651302072367,
+        "circumferential_steel_adhesive_bearing": 0.04831150622970583
+      },
+      "lower_confidence_bounds_mm": {
+        "free_PET_border": 0.16599999999999993,
+        "adhesive_setback_from_PET": 0.011997651302072367,
+        "circumferential_steel_adhesive_bearing": 0.046311506229705826
+      },
+      "limits_mm": {
+        "free_PET_border": 0.025,
+        "adhesive_setback_from_PET": 0.01,
+        "circumferential_steel_adhesive_bearing": 0.035
+      },
+      "radial_PET_to_bore_center_mm": 0.03111269837220777,
+      "upper_confidence_radial_center_mm": 0.03311269837220777,
+      "maximum_radial_center_mm": 0.035,
+      "geometry_pass": true,
+      "transparent_PSA_oblique_check": {
+        "status": "measured outlines and bounded pocket",
+        "pass": false,
+        "required_after_uncertainty_mm": 0.005,
+        "pet_back_to_steel_upper_mm": 0.055,
+        "magnification_of_PAIR_uncertainty": 1.0065907729179149,
+        "nominal_minimum_projected_land_mm": -0.030061082274773138,
+        "minimum_land_after_uncertainty_mm": -0.03207426382060897,
+        "minimum_cheek_to_steel_mm": 8.4,
+        "max_cheek_edge_outwards_per_axis_mm": 0.25,
+        "max_board_to_pocket_centre_per_axis_mm": 0.35,
+        "case_step_sha256": "0ecf7606efe8e2e5c8d1abdf82748b40e9f5b99b8cd6232bdbb4c4b8cf062447",
+        "usb_pocket_source_sha256": "087acd6f338b22fa63bc9f44e282c7e489cca79657157679703d36c88e639e5e",
+        "credits_black_adhesive": false,
+        "optional_measured_black_carrier": {
+          "clear_acrylic_plus_air_upper_mm": 0.02,
+          "changes_zero_credit_release_result": false,
+          "projected_land_after_uncertainty_mm": 0.013396736931229645,
+          "meets_same_land_threshold": true
+        }
+      },
+      "release_pass": false,
+      "trial_shift_yz_mm": [
+        0.022,
+        -0.022
+      ],
+      "PET_cut_normal_deviation_mm": 0.02,
+      "PSA_cut_normal_deviation_mm": 0.004,
+      "suggested_adjustment": {
+        "action": "No passing pose on the 0.005 mm grid. Recut a fresh skirt to the inward process target within drawing tolerance, or try a different measured laminate; rescan all five contours.",
+        "target_grid_step_mm": 0.005,
+        "recommended_inward_process_target_mm": 0.02,
+        "approved_by_grid_search": false
+      }
+    },
+    "03-pass-recut-same-connector": {
+      "serial": "SYNTHETIC-03-pass-recut-same-connector",
+      "expanded_pairwise_uncertainty_mm": 0.002,
+      "measured_minimum_distances_mm": {
+        "free_PET_border": 0.1279999999999999,
+        "adhesive_setback_from_PET": 0.053991910872111686,
+        "circumferential_steel_adhesive_bearing": 0.04831150622970583
+      },
+      "lower_confidence_bounds_mm": {
+        "free_PET_border": 0.1259999999999999,
+        "adhesive_setback_from_PET": 0.051991910872111684,
+        "circumferential_steel_adhesive_bearing": 0.046311506229705826
+      },
+      "limits_mm": {
+        "free_PET_border": 0.025,
+        "adhesive_setback_from_PET": 0.01,
+        "circumferential_steel_adhesive_bearing": 0.035
+      },
+      "radial_PET_to_bore_center_mm": 0.031112698372207655,
+      "upper_confidence_radial_center_mm": 0.033112698372207656,
+      "maximum_radial_center_mm": 0.035,
+      "geometry_pass": true,
+      "transparent_PSA_oblique_check": {
+        "status": "measured outlines and bounded pocket",
+        "pass": true,
+        "required_after_uncertainty_mm": 0.005,
+        "pet_back_to_steel_upper_mm": 0.055,
+        "magnification_of_PAIR_uncertainty": 1.0065907729179149,
+        "nominal_minimum_projected_land_mm": 0.010197448905545883,
+        "minimum_land_after_uncertainty_mm": 0.008184267359710052,
+        "minimum_cheek_to_steel_mm": 8.4,
+        "max_cheek_edge_outwards_per_axis_mm": 0.25,
+        "max_board_to_pocket_centre_per_axis_mm": 0.35,
+        "case_step_sha256": "0ecf7606efe8e2e5c8d1abdf82748b40e9f5b99b8cd6232bdbb4c4b8cf062447",
+        "usb_pocket_source_sha256": "087acd6f338b22fa63bc9f44e282c7e489cca79657157679703d36c88e639e5e",
+        "credits_black_adhesive": false,
+        "optional_measured_black_carrier": {
+          "clear_acrylic_plus_air_upper_mm": 0.02,
+          "changes_zero_credit_release_result": false,
+          "projected_land_after_uncertainty_mm": 0.013396736931229645,
+          "meets_same_land_threshold": true
+        }
+      },
+      "release_pass": true,
+      "trial_shift_yz_mm": [
+        0.022,
+        -0.022
+      ],
+      "PET_cut_normal_deviation_mm": -0.02,
+      "PSA_cut_normal_deviation_mm": 0.004,
+      "suggested_adjustment": {
+        "action": "Current measured position passes.",
+        "shift_yz_mm": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "04-fail-before-recentering": {
+      "serial": "SYNTHETIC-04-fail-before-recentering",
+      "expanded_pairwise_uncertainty_mm": 0.003,
+      "measured_minimum_distances_mm": {
+        "free_PET_border": 0.1589999999999998,
+        "adhesive_setback_from_PET": 0.02799541368668369,
+        "circumferential_steel_adhesive_bearing": 0.06606336077319679
+      },
+      "lower_confidence_bounds_mm": {
+        "free_PET_border": 0.1559999999999998,
+        "adhesive_setback_from_PET": 0.02499541368668369,
+        "circumferential_steel_adhesive_bearing": 0.06306336077319678
+      },
+      "limits_mm": {
+        "free_PET_border": 0.025,
+        "adhesive_setback_from_PET": 0.01,
+        "circumferential_steel_adhesive_bearing": 0.035
+      },
+      "radial_PET_to_bore_center_mm": 0.016643316977093,
+      "upper_confidence_radial_center_mm": 0.019643316977092998,
+      "maximum_radial_center_mm": 0.035,
+      "geometry_pass": true,
+      "transparent_PSA_oblique_check": {
+        "status": "measured outlines and bounded pocket",
+        "pass": false,
+        "required_after_uncertainty_mm": 0.005,
+        "pet_back_to_steel_upper_mm": 0.055,
+        "magnification_of_PAIR_uncertainty": 1.0065907729179149,
+        "nominal_minimum_projected_land_mm": 0.0008492275046803801,
+        "minimum_land_after_uncertainty_mm": -0.0021705448140733647,
+        "minimum_cheek_to_steel_mm": 8.4,
+        "max_cheek_edge_outwards_per_axis_mm": 0.25,
+        "max_board_to_pocket_centre_per_axis_mm": 0.35,
+        "case_step_sha256": "0ecf7606efe8e2e5c8d1abdf82748b40e9f5b99b8cd6232bdbb4c4b8cf062447",
+        "usb_pocket_source_sha256": "087acd6f338b22fa63bc9f44e282c7e489cca79657157679703d36c88e639e5e",
+        "credits_black_adhesive": false,
+        "optional_measured_black_carrier": {
+          "clear_acrylic_plus_air_upper_mm": 0.02,
+          "changes_zero_credit_release_result": false,
+          "projected_land_after_uncertainty_mm": 0.029697876288618152,
+          "meets_same_land_threshold": true
+        }
+      },
+      "release_pass": false,
+      "trial_shift_yz_mm": [
+        0.014,
+        -0.009
+      ],
+      "PET_cut_normal_deviation_mm": 0.003,
+      "PSA_cut_normal_deviation_mm": 0.001,
+      "suggested_adjustment": {
+        "action": "Move the registered PET/PSA assembly on the XY stage before pressing, then rescan all five contours.",
+        "shift_yz_mm": [
+          -0.008999999999999755,
+          0.0039999999999999385
+        ],
+        "target_grid_step_mm": 0.005,
+        "predicted_transparent_land_lower_mm": 0.005905584457573523,
+        "predicted_only": true
+      }
+    },
+    "05-pass-after-recentering": {
+      "serial": "SYNTHETIC-05-pass-after-recentering",
+      "expanded_pairwise_uncertainty_mm": 0.003,
+      "measured_minimum_distances_mm": {
+        "free_PET_border": 0.16799999999999993,
+        "adhesive_setback_from_PET": 0.027995413686683544,
+        "circumferential_steel_adhesive_bearing": 0.07534912078264396
+      },
+      "lower_confidence_bounds_mm": {
+        "free_PET_border": 0.16499999999999992,
+        "adhesive_setback_from_PET": 0.024995413686683544,
+        "circumferential_steel_adhesive_bearing": 0.07234912078264395
+      },
+      "limits_mm": {
+        "free_PET_border": 0.025,
+        "adhesive_setback_from_PET": 0.01,
+        "circumferential_steel_adhesive_bearing": 0.035
+      },
+      "radial_PET_to_bore_center_mm": 0.007071067811865272,
+      "upper_confidence_radial_center_mm": 0.010071067811865272,
+      "maximum_radial_center_mm": 0.035,
+      "geometry_pass": true,
+      "transparent_PSA_oblique_check": {
+        "status": "measured outlines and bounded pocket",
+        "pass": true,
+        "required_after_uncertainty_mm": 0.005,
+        "pet_back_to_steel_upper_mm": 0.055,
+        "magnification_of_PAIR_uncertainty": 1.0065907729179149,
+        "nominal_minimum_projected_land_mm": 0.008925356776328011,
+        "minimum_land_after_uncertainty_mm": 0.005905584457574267,
+        "minimum_cheek_to_steel_mm": 8.4,
+        "max_cheek_edge_outwards_per_axis_mm": 0.25,
+        "max_board_to_pocket_centre_per_axis_mm": 0.35,
+        "case_step_sha256": "0ecf7606efe8e2e5c8d1abdf82748b40e9f5b99b8cd6232bdbb4c4b8cf062447",
+        "usb_pocket_source_sha256": "087acd6f338b22fa63bc9f44e282c7e489cca79657157679703d36c88e639e5e",
+        "credits_black_adhesive": false,
+        "optional_measured_black_carrier": {
+          "clear_acrylic_plus_air_upper_mm": 0.02,
+          "changes_zero_credit_release_result": false,
+          "projected_land_after_uncertainty_mm": 0.039332520096241746,
+          "meets_same_land_threshold": true
+        }
+      },
+      "release_pass": true,
+      "trial_shift_yz_mm": [
+        0.005000000000000246,
+        -0.005000000000000061
+      ],
+      "PET_cut_normal_deviation_mm": 0.003,
+      "PSA_cut_normal_deviation_mm": 0.001,
+      "suggested_adjustment": {
+        "action": "Current measured position passes.",
+        "shift_yz_mm": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "same_connector_recut_gain_mm": 0.040258531180319024,
+  "missing_gap_rejected": true,
+  "unverified_pocket_rejected": true,
+  "wrong_case_rejected": true,
+  "CLI_replay": [
+    {
+      "input": "01-pass-nonzero.json",
+      "exit_code": 0,
+      "release_pass": true,
+      "directional_lower_mm": 0.005660633325151206
+    },
+    {
+      "input": "02-fail-oblique.json",
+      "exit_code": 1,
+      "release_pass": false,
+      "directional_lower_mm": -0.03207426382060897
+    },
+    {
+      "input": "03-pass-recut-same-connector.json",
+      "exit_code": 0,
+      "release_pass": true,
+      "directional_lower_mm": 0.008184267359710052
+    },
+    {
+      "input": "04-fail-before-recentering.json",
+      "exit_code": 1,
+      "release_pass": false,
+      "directional_lower_mm": -0.0021705448140733647
+    },
+    {
+      "input": "05-pass-after-recentering.json",
+      "exit_code": 0,
+      "release_pass": true,
+      "directional_lower_mm": 0.005905584457574267
+    }
+  ]
+}

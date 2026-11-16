@@ -1,0 +1,489 @@
+{
+  "EBYTE_08S1F_LGA40": {
+    "pads": [
+      {
+        "n": "1",
+        "x": -5.15,
+        "y": 2.55,
+        "w": 1.0,
+        "h": 1.0,
+        "roundness": 0,
+        "shape": "rect"
+      },
+      {
+        "n": "2",
+        "x": -5.15,
+        "y": 1.25,
+        "w": 1.0,
+        "h": 0.6,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "3",
+        "x": -5.15,
+        "y": 0.15,
+        "w": 1.0,
+        "h": 0.6,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "4",
+        "x": -5.15,
+        "y": -0.95,
+        "w": 1.0,
+        "h": 0.6,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "5",
+        "x": -5.15,
+        "y": -2.05,
+        "w": 1.0,
+        "h": 0.6,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "6",
+        "x": -5.15,
+        "y": -3.15,
+        "w": 1.0,
+        "h": 0.6,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "7",
+        "x": -5.15,
+        "y": -4.25,
+        "w": 1.0,
+        "h": 0.6,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "8",
+        "x": -5.15,
+        "y": -5.35,
+        "w": 1.0,
+        "h": 0.6,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "9",
+        "x": -5.15,
+        "y": -6.45,
+        "w": 1.0,
+        "h": 0.6,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "10",
+        "x": -5.15,
+        "y": -7.75,
+        "w": 1.0,
+        "h": 1.0,
+        "roundness": 100,
+        "shape": "round"
+      },
+      {
+        "n": "11",
+        "x": -3.85,
+        "y": -7.75,
+        "w": 0.6,
+        "h": 1.0,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "12",
+        "x": -2.75,
+        "y": -7.75,
+        "w": 0.6,
+        "h": 1.0,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "13",
+        "x": -1.65,
+        "y": -7.75,
+        "w": 0.6,
+        "h": 1.0,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "14",
+        "x": -0.55,
+        "y": -7.75,
+        "w": 0.6,
+        "h": 1.0,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "15",
+        "x": 0.55,
+        "y": -7.75,
+        "w": 0.6,
+        "h": 1.0,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "16",
+        "x": 1.65,
+        "y": -7.75,
+        "w": 0.6,
+        "h": 1.0,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "17",
+        "x": 2.75,
+        "y": -7.75,
+        "w": 0.6,
+        "h": 1.0,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "18",
+        "x": 3.85,
+        "y": -7.75,
+        "w": 0.6,
+        "h": 1.0,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "19",
+        "x": 5.15,
+        "y": -7.75,
+        "w": 1.0,
+        "h": 1.0,
+        "roundness": 100,
+        "shape": "round"
+      },
+      {
+        "n": "20",
+        "x": 5.15,
+        "y": -6.45,
+        "w": 1.0,
+        "h": 0.6,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "21",
+        "x": 5.15,
+        "y": -5.35,
+        "w": 1.0,
+        "h": 0.6,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "22",
+        "x": 5.15,
+        "y": -4.25,
+        "w": 1.0,
+        "h": 0.6,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "23",
+        "x": 5.15,
+        "y": -3.15,
+        "w": 1.0,
+        "h": 0.6,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "24",
+        "x": 5.15,
+        "y": -2.05,
+        "w": 1.0,
+        "h": 0.6,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "25",
+        "x": 5.15,
+        "y": -0.95,
+        "w": 1.0,
+        "h": 0.6,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "26",
+        "x": 5.15,
+        "y": 0.15,
+        "w": 1.0,
+        "h": 0.6,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "27",
+        "x": 5.15,
+        "y": 1.25,
+        "w": 1.0,
+        "h": 0.6,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "28",
+        "x": 5.15,
+        "y": 2.55,
+        "w": 1.0,
+        "h": 1.0,
+        "roundness": 100,
+        "shape": "round"
+      },
+      {
+        "n": "29",
+        "x": 3.85,
+        "y": 2.55,
+        "w": 0.6,
+        "h": 1.0,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "30",
+        "x": 2.75,
+        "y": 2.55,
+        "w": 0.6,
+        "h": 1.0,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "31",
+        "x": 1.65,
+        "y": 2.55,
+        "w": 0.6,
+        "h": 1.0,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "32",
+        "x": 0.55,
+        "y": 2.55,
+        "w": 0.6,
+        "h": 1.0,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "33",
+        "x": -0.55,
+        "y": 2.55,
+        "w": 0.6,
+        "h": 1.0,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "34",
+        "x": -1.65,
+        "y": 2.55,
+        "w": 0.6,
+        "h": 1.0,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "35",
+        "x": -2.75,
+        "y": 2.55,
+        "w": 0.6,
+        "h": 1.0,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "36",
+        "x": -3.85,
+        "y": 2.55,
+        "w": 0.6,
+        "h": 1.0,
+        "roundness": 100,
+        "shape": "obround"
+      },
+      {
+        "n": "37",
+        "x": -0.675,
+        "y": -1.725,
+        "w": 1.2,
+        "h": 1.2,
+        "roundness": 100,
+        "shape": "round"
+      },
+      {
+        "n": "38",
+        "x": -0.675,
+        "y": -3.125,
+        "w": 1.2,
+        "h": 1.2,
+        "roundness": 100,
+        "shape": "round"
+      },
+      {
+        "n": "39",
+        "x": 0.725,
+        "y": -3.125,
+        "w": 1.2,
+        "h": 1.2,
+        "roundness": 100,
+        "shape": "round"
+      },
+      {
+        "n": "40",
+        "x": 0.725,
+        "y": -1.725,
+        "w": 1.2,
+        "h": 1.2,
+        "roundness": 100,
+        "shape": "round"
+      }
+    ],
+    "body": [
+      12,
+      17.2
+    ],
+    "height_mm": 2.6,
+    "body_height_nom_mm": 2.4,
+    "share_height_assumption": "2.4 nominal plus 0.2 envelope per Ebyte. Add solder stand-off separately.",
+    "model_features": {
+      "base": [
+        12.0,
+        17.2,
+        0.65
+      ],
+      "shield": [
+        11.4,
+        10.9,
+        1.75
+      ],
+      "shield_xy": [
+        0,
+        -2.79
+      ],
+      "antenna_end": "+Y"
+    },
+    "source": "Ebyte orderable drawing §3.1 + original Altium E73-2G4M08S1F.PcbLib. Peripheral land centers and all land sizes use manufacturer CAD. Central lands 37–40 indexed from dimensioned package drawing; see verification/radio/pad-verification.json."
+  },
+  "SWD_FIXTURE_7": {
+    "pads": [
+      {
+        "n": "1",
+        "x": -3.81,
+        "y": 1.27,
+        "w": 1.45,
+        "h": 1.45,
+        "shape": "round",
+        "roundness": 100,
+        "cream": false,
+        "paste": false,
+        "stop": true
+      },
+      {
+        "n": "2",
+        "x": -3.81,
+        "y": -1.27,
+        "w": 1.45,
+        "h": 1.45,
+        "shape": "round",
+        "roundness": 100,
+        "cream": false,
+        "paste": false,
+        "stop": true
+      },
+      {
+        "n": "3",
+        "x": -1.27,
+        "y": 1.27,
+        "w": 1.45,
+        "h": 1.45,
+        "shape": "round",
+        "roundness": 100,
+        "cream": false,
+        "paste": false,
+        "stop": true
+      },
+      {
+        "n": "4",
+        "x": -1.27,
+        "y": -1.27,
+        "w": 1.45,
+        "h": 1.45,
+        "shape": "round",
+        "roundness": 100,
+        "cream": false,
+        "paste": false,
+        "stop": true
+      },
+      {
+        "n": "5",
+        "x": 1.27,
+        "y": 1.27,
+        "w": 1.45,
+        "h": 1.45,
+        "shape": "round",
+        "roundness": 100,
+        "cream": false,
+        "paste": false,
+        "stop": true
+      },
+      {
+        "n": "6",
+        "x": 1.27,
+        "y": -1.27,
+        "w": 1.45,
+        "h": 1.45,
+        "shape": "round",
+        "roundness": 100,
+        "cream": false,
+        "paste": false,
+        "stop": true
+      },
+      {
+        "n": "7",
+        "x": 3.81,
+        "y": 1.27,
+        "w": 1.45,
+        "h": 1.45,
+        "shape": "round",
+        "roundness": 100,
+        "cream": false,
+        "paste": false,
+        "stop": true
+      }
+    ],
+    "body": [
+      9.15,
+      4.1
+    ],
+    "height_mm": 0,
+    "type": "copper_alone",
+    "no_silkscreen_body": true,
+    "no_paste": true,
+    "no_3d": true,
+    "source": "Carrier-specific pogo pattern, pin 8 missing. The connector body belongs to the fixture."
+  }
+}

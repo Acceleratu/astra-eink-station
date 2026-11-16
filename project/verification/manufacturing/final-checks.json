@@ -1,0 +1,471 @@
+{
+  "native_board_sha256": "0da00a40681e1f48cb4f430ed5fa661a97a2074d9160dce65e817eecbc15665d",
+  "automated_checks_passed": true,
+  "native_and_CAM_counts": {
+    "native_pad_count": 491,
+    "native_signal_count": 92,
+    "native_vias_compared": 210,
+    "reopened_drill_count": 214,
+    "drill_coordinate_comparison": {
+      "grid_mm": 0.001,
+      "matched_one_to_one": 214,
+      "maximum_axis_quantization_mm": 0.0005
+    },
+    "job_specifications": {
+      "BoardThickness": 1.0,
+      "Finish": "ENIG",
+      "LayerNumber": 2,
+      "ProjectId": {
+        "GUID": "61737472-612e-46b6-9963-61645f706362",
+        "Name": "astra",
+        "Revision": "A"
+      },
+      "Size": {
+        "X": 112.0,
+        "Y": 84.0
+      }
+    }
+  },
+  "checks": {
+    "native_board_sha": {
+      "pass": true,
+      "result": "0da00a40681e1f48cb4f430ed5fa661a97a2074d9160dce65e817eecbc15665d"
+    },
+    "native_import": {
+      "pass": true,
+      "result": {
+        "errors": [],
+        "warnings": []
+      }
+    },
+    "independent_DRC": {
+      "pass": true,
+      "result": {
+        "violations": {},
+        "unconnected_entries": 0
+      }
+    },
+    "missing_native_drills": {
+      "pass": true,
+      "result": []
+    },
+    "extra_plot_drills": {
+      "pass": true,
+      "result": []
+    },
+    "missing_plated_annulus": {
+      "pass": true,
+      "result": []
+    },
+    "missing_copper_at_pads": {
+      "pass": true,
+      "result": []
+    },
+    "via_net_mismatches": {
+      "pass": true,
+      "result": []
+    },
+    "shorted_nets_from_copper": {
+      "pass": true,
+      "result": []
+    },
+    "open_nets_from_copper": {
+      "pass": true,
+      "result": {}
+    },
+    "missing_x2_pad_attributes": {
+      "pass": true,
+      "result": []
+    },
+    "shifted_x2_pad_centers": {
+      "pass": true,
+      "result": []
+    },
+    "merged_top_mask_openings": {
+      "pass": true,
+      "result": []
+    },
+    "native_vs_Gerber_conductors": {
+      "pass": true,
+      "result": {
+        "differences": [],
+        "gerber_segments": 1070,
+        "maximum_residual_length_mm": 0,
+        "native_segments": 1070,
+        "xy_comparison_tolerance_mm": 0.0015
+      }
+    },
+    "profile": {
+      "pass": true,
+      "result": {
+        "boundary_hausdorff_mm": 0.0,
+        "gerber_contours": 1,
+        "native_contours": 1,
+        "symmetric_difference_mm2": 0.0
+      }
+    },
+    "published_Gerber_job": {
+      "pass": true,
+      "result": {
+        "BoardThickness": 1.0,
+        "Finish": "ENIG",
+        "LayerNumber": 2,
+        "ProjectId": {
+          "GUID": "61737472-612e-46b6-9963-61645f706362",
+          "Name": "astra",
+          "Revision": "A"
+        },
+        "Size": {
+          "X": 112.0,
+          "Y": 84.0
+        }
+      }
+    },
+    "bottom_copper_edge": {
+      "pass": true,
+      "result": {
+        "copper_outside_profile_area_mm2": 0.0,
+        "distance_to_milled_edge_mm": 0.375
+      }
+    },
+    "top_copper_edge": {
+      "pass": true,
+      "result": {
+        "copper_outside_profile_area_mm2": 0.0,
+        "distance_to_milled_edge_mm": 0.375
+      }
+    },
+    "bottom_copper": {
+      "pass": true,
+      "result": {
+        "closest_pair": [
+          "EPD_DC",
+          "BTN3"
+        ],
+        "minimum_within_search_radius_mm": 0.16663,
+        "threshold_mm": 0.1,
+        "violations": []
+      }
+    },
+    "different_net_smd_pads": {
+      "pass": true,
+      "result": {
+        "closest_pair": [
+          "U104.A1",
+          "U104.A2"
+        ],
+        "minimum_within_search_radius_mm": 0.14998,
+        "threshold_mm": 0.15,
+        "violations": []
+      }
+    },
+    "solder_mask_web": {
+      "pass": true,
+      "result": {
+        "closest_pair": [
+          "U101.10",
+          "U101.9"
+        ],
+        "minimum_within_search_radius_mm": 0.1,
+        "threshold_mm": 0.1,
+        "violations": []
+      }
+    },
+    "top_copper": {
+      "pass": true,
+      "result": {
+        "closest_pair": [
+          "RT_SW2",
+          "SCL"
+        ],
+        "minimum_within_search_radius_mm": 0.14998,
+        "threshold_mm": 0.1,
+        "violations": []
+      }
+    },
+    "bottom_mask_to_foreign_copper": {
+      "pass": true,
+      "result": {
+        "closest_foreign_copper": null,
+        "openings": 4,
+        "violations": []
+      }
+    },
+    "top_mask_to_foreign_copper": {
+      "pass": true,
+      "result": {
+        "closest_foreign_copper": {
+          "clearance": 0.125,
+          "near_net": [
+            "PV_EOC"
+          ],
+          "opening": 156,
+          "xy_mm": [
+            18.525,
+            68.2
+          ]
+        },
+        "openings": 498,
+        "violations": []
+      }
+    },
+    "drill_spacing": {
+      "pass": true,
+      "result": {
+        "closest_pair": [
+          "PTH (11.904,54.671)",
+          "PTH (11.904,53.900)"
+        ],
+        "minimum_within_search_radius_mm": 0.471,
+        "threshold_mm": 0.2,
+        "violations": []
+      }
+    },
+    "silk_to_mask": {
+      "pass": true,
+      "result": 0.22492
+    },
+    "stepped_stencil": {
+      "pass": true,
+      "result": {
+        "steps": [
+          {
+            "active_apertures": 31,
+            "bounds_xyxy_mm": [
+              0.325,
+              32.55,
+              18.275,
+              44.83
+            ],
+            "closest_aperture_to_step_mm": 1.55,
+            "family": "WLCSP",
+            "populated_refs": [
+              "C113",
+              "C114",
+              "C115",
+              "C116",
+              "L102",
+              "R122",
+              "R124",
+              "R125",
+              "U104"
+            ],
+            "thickness_mm": 0.08
+          },
+          {
+            "active_apertures": 69,
+            "bounds_xyxy_mm": [
+              31.725,
+              0.85,
+              61.3,
+              18.41
+            ],
+            "closest_aperture_to_step_mm": 1.55,
+            "family": "FH12",
+            "populated_refs": [
+              "C301",
+              "C302",
+              "C303",
+              "C304",
+              "C305",
+              "C306",
+              "C307",
+              "C308",
+              "C309",
+              "C310",
+              "C311",
+              "D301",
+              "D302",
+              "D303",
+              "J301",
+              "L301",
+              "Q301",
+              "R301",
+              "R302",
+              "R303",
+              "R304",
+              "R305"
+            ],
+            "thickness_mm": 0.15
+          }
+        ],
+        "paste_openings": 480,
+        "minimum_area_ratio": 0.6867
+      }
+    },
+    "component_terminal_spacing": {
+      "pass": true,
+      "result": {
+        "classified_pairs": 7503,
+        "violations": []
+      }
+    },
+    "max_boost_package_to_foreign_paste": {
+      "pass": true,
+      "result": {
+        "Q301": {
+          "max_body_xy_mm": [
+            3.04,
+            1.4
+          ],
+          "assembly_xy_tolerance_assumption_mm": 0.05,
+          "nearest_foreign_paste_contacts": [
+            "C301.1"
+          ],
+          "max_body_to_paste_mm": 0.08,
+          "with_placement_to_paste_mm": 0.03,
+          "with_placement_paste_overlap_mm2": 0,
+          "pass": true
+        },
+        "L301": {
+          "max_body_xy_mm": [
+            4.2,
+            4.2
+          ],
+          "assembly_xy_tolerance_assumption_mm": 0.05,
+          "nearest_foreign_paste_contacts": [
+            "C302.1"
+          ],
+          "max_body_to_paste_mm": 0.125,
+          "with_placement_to_paste_mm": 0.075,
+          "with_placement_paste_overlap_mm2": 0,
+          "pass": true
+        }
+      }
+    },
+    "top_probe_access": {
+      "pass": true,
+      "result": {
+        "points": 17,
+        "flags": []
+      }
+    },
+    "current_measurement_links": {
+      "pass": true,
+      "result": [
+        {
+          "Designator": "R124",
+          "Manufacturer part": "ERJ3GEY0R00V",
+          "Pad 1 net": "RT_VIN_LOCAL",
+          "Pad 1 X mm": "14.6750",
+          "Pad 1 Y mm": "38.5000",
+          "Pad 2 net": "SYS_AON",
+          "Pad 2 X mm": "16.3250",
+          "Pad 2 Y mm": "38.5000"
+        },
+        {
+          "Designator": "R125",
+          "Manufacturer part": "ERJ3GEY0R00V",
+          "Pad 1 net": "RT_VOUT_LOCAL",
+          "Pad 1 X mm": "3.9250",
+          "Pad 1 Y mm": "39.8000",
+          "Pad 2 net": "VMAIN",
+          "Pad 2 X mm": "2.2750",
+          "Pad 2 Y mm": "39.8000"
+        },
+        {
+          "Designator": "R126",
+          "Manufacturer part": "ERJ3GEY0R00V",
+          "Pad 1 net": "PV_IC_IN",
+          "Pad 1 X mm": "20.4250",
+          "Pad 1 Y mm": "75.6000",
+          "Pad 2 net": "PV_IN",
+          "Pad 2 X mm": "18.7750",
+          "Pad 2 Y mm": "75.6000"
+        }
+      ]
+    },
+    "CPL_reference_set_and_side": {
+      "pass": true,
+      "result": {
+        "fitted": 139,
+        "independently_compared": 139
+      }
+    },
+    "published_TOP_height": {
+      "pass": true,
+      "result": {
+        "tallest": "J101",
+        "maximum_component_envelope_mm": 3.35,
+        "project_limit_mm": 4.1
+      }
+    },
+    "rotation_evidence": {
+      "pass": true,
+      "result": {
+        "Orientation matched by pad numbers": 67,
+        "Orientation matched to Coilcraft carrier tape, start lead to pad 1": 1
+      }
+    },
+    "live_stock_coverage": {
+      "pass": true,
+      "result": {
+        "codes": 67,
+        "sample_boards": 2,
+        "insufficient_SMT_stock": [],
+        "parts_library_prebuy_below_allowance": [
+          [
+            "C92489",
+            "151",
+            "0"
+          ]
+        ],
+        "raw_hash_errors": [],
+        "retrieved_utc": [
+          "2026-11-15",
+          "2026-11-15"
+        ]
+      }
+    },
+    "fabrication_zip": {
+      "pass": true,
+      "result": {
+        "astra-B_Cu.gbl": "e44585c759d71fd9744d99c1e503212f763686d9c3715611998fd2f21912863d",
+        "astra-B_Mask.gbs": "8abdf295f1d32043467b21f5aa3f89798c7ea838e0bed051bdf1612e83a939de",
+        "astra-B_Silkscreen.gbo": "a7ad9ddb0212e27d67c5d9288a58daffedc00f74a9fb9c56db284f504871b835",
+        "astra-Edge_Cuts.gm1": "23374030c9ff47cba1dae36a22336f3430d410f660c3c2f8a6f0029c21adeed7",
+        "astra-F_Cu.gtl": "706e71d0f1c01a83040e42d5211bfddc648c93189ebd485217dfcfb165367d73",
+        "astra-F_Mask.gts": "e362535afbbcfd1de179d8931840de4477b1499363325352d9adcd689146901f",
+        "astra-F_Paste.gtp": "b1e21fb156f4efd766a0795cf343dc2ef9d0b9193c6fd14a2cf138cb7942b0a7",
+        "astra-F_Silkscreen.gto": "f68e586b4d4770437ec0def5e65432d105abf4af666a66a08ce97841539d1b87",
+        "astra-NPTH.drl": "0d68b0d0e20312e81db74855cca3142101f3524e71135175c91dc5e402f8e3de",
+        "astra-PTH.drl": "44c289aa8ed7ba3adb216dcd5645fe744091ad97ce19035e47572af58fe0e82f",
+        "astra-job.gbrjob": "d8899fc0f18140efb5ccf5a1afb40fce4b9c963c4b1c345566be94847a413ffb"
+      }
+    }
+  },
+  "KiCad_builtin_optional_checks_disabled_by_default": [
+    {
+      "description": "Footprint has no courtyard defined",
+      "key": "missing_courtyard"
+    },
+    {
+      "description": "Tuning profile track geometries",
+      "key": "tuning_profile_track_geometries"
+    },
+    {
+      "description": "Footprint doesn't match symbol's footprint filters",
+      "key": "footprint_filters_mismatch"
+    }
+  ],
+  "assembly_process_records": [
+    "SPI paste volume",
+    "AOI and WLCSP X-ray",
+    "post-reflow height",
+    "fixture fit",
+    "functional and RF bench tests"
+  ],
+  "physical_tests_status": "Unexecuted. No populated board, stencil or instruments supplied.",
+  "fabrication_and_assembly_outputs": {
+    "BOM-JLCPCB.csv": "928332820af79022590c036e79cfa08816f8611ae1f4687abf4bb54be302f2af",
+    "CPL-JLCPCB.csv": "00f6b341f00b9cc0860f5e48c8c3c94d9678c942579b9cb247eef9e0f6119bd3",
+    "assembly-notes.txt": "64e41a2dc1740df336a2a4f91e66bf7a678f3c0f1a672792359931c0bc45eea3",
+    "assembly-top.pdf": "7e32bec4d6835453d1005c81faeca7c8462f0a4ed3f85a89e2aa3dbac263a85d",
+    "astra-Gerber-drill.zip": "519ad4b6eae6d53644f3a6d027d4cfd8219f0bdf15bc7c85f07cea0c0e6e1ab9",
+    "astra.ipc": "c61bc9f89cb67b1cda9c7c9437b4f03c410875ef120983da3d32f936f14b7e9d",
+    "measurement-links.csv": "cd58760f12addfb9e51066300c82ce2fc75535c4ac2d4d280dae4eb87b5a7125",
+    "off-board-items.csv": "5c02e8a7e0e6ff928233a1ce645ee37c78a098695f4a7d0ceb49d7ec9661513d",
+    "probe-map.csv": "9c2cb8a15190ef287a77470036debc6fd7b7398ebb84b60c75ab684cee9fe6b7",
+    "stencil-step-zones-mm.dxf": "711b93acdfa319a4aeeb151f27d67da115429dbf90fa2639ad38506288fd2f98"
+  }
+}

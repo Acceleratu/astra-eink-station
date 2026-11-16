@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -92 124 100" width="1240" height="1000"><defs><style>
+    .c0{fill:rgb(255,255,255);}
+    .c1{fill:rgb(0,0,0);}
+    .c2{fill:none;stroke:rgb(255,255,255);stroke-width:0.002;stroke-linecap:round;}
+  </style><mask id="film" maskUnits="userSpaceOnUse" x="-6" y="-92" width="124" height="100">
+<g transform="scale(25.4,-25.4)">
+  <g fill-rule="evenodd">
+    <g>
+      <g>
+      </g>
+    </g>
+    <g>
+      <g>
+      </g>
+      <g>
+        <line class="c2" x1="0" y1="3.248" x2="0" y2="0.059"/>
+        <line class="c2" x1="0" y1="0.059" x2="0.059" y2="0"/>
+        <line class="c2" x1="0.059" y1="3.307" x2="0" y2="3.248"/>
+        <line class="c2" x1="0.059" y1="0" x2="4.35" y2="0"/>
+        <line class="c2" x1="4.35" y1="3.307" x2="0.059" y2="3.307"/>
+        <line class="c2" x1="4.35" y1="0" x2="4.409" y2="0.059"/>
+        <line class="c2" x1="4.409" y1="3.248" x2="4.35" y2="3.307"/>
+        <line class="c2" x1="4.409" y1="0.059" x2="4.409" y2="3.248"/>
+      </g>
+    </g>
+  </g>
+</g>
+</mask></defs><rect x="-6" y="-92" width="124" height="100" fill="#ddede2" mask="url(#film)"/></svg>

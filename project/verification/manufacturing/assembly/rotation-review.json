@@ -1,0 +1,1298 @@
+{
+  "C107365/C0805": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "C0805",
+    "max_center_deviation_mm": 0.05,
+    "mpn": "CL21B475KOFNNNE",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.05,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "C0805",
+    "vendor_land_count": 2
+  },
+  "C115360/ALPS_SKRP": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 4,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "ALPS_SKRP",
+    "max_center_deviation_mm": 0.0251,
+    "mirrored_rms_deviation_mm": 2.1501,
+    "mpn": "SKRPABE010",
+    "named_land_pairs": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "rms_center_deviation_mm": 0.0251,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "KEY-SMD_4P-L4.2-W3.2-P2.20-LS4.6",
+    "vendor_land_count": 4
+  },
+  "C122704/R0603": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "R0603",
+    "max_center_deviation_mm": 0.0716,
+    "mpn": "ERJ3GEY0R00V",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0716,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "R0603",
+    "vendor_land_count": 2
+  },
+  "C130910/SOT23_WAKE": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 3,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "SOT23_WAKE",
+    "max_center_deviation_mm": 0.0285,
+    "mirrored_rms_deviation_mm": 1.5514,
+    "mpn": "BAT54A,215",
+    "named_land_pairs": [
+      "1",
+      "2",
+      "3"
+    ],
+    "rms_center_deviation_mm": 0.0201,
+    "rotation_from_catalog_deg": 180,
+    "vendor_footprint": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR",
+    "vendor_land_count": 3
+  },
+  "C137724/R0603": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "R0603",
+    "max_center_deviation_mm": 0.0716,
+    "mpn": "RC0603FR-073RL",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0716,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "R0603",
+    "vendor_land_count": 2
+  },
+  "C13832/EPD_C1206": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "EPD_C1206",
+    "max_center_deviation_mm": 0.1926,
+    "mpn": "CL31B105KCHNNNE",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.1926,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "C1206",
+    "vendor_land_count": 2
+  },
+  "C15127/SOT23_AO3401A": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 3,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "SOT23_AO3401A",
+    "max_center_deviation_mm": 0.2,
+    "mirrored_rms_deviation_mm": 1.5577,
+    "mpn": "AO3401A",
+    "named_land_pairs": [
+      "1",
+      "2",
+      "3"
+    ],
+    "rms_center_deviation_mm": 0.1414,
+    "rotation_from_catalog_deg": 270,
+    "vendor_footprint": "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR",
+    "vendor_land_count": 3
+  },
+  "C15127/SOT23_WAKE": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 3,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "SOT23_WAKE",
+    "max_center_deviation_mm": 0.0933,
+    "mirrored_rms_deviation_mm": 1.5527,
+    "mpn": "AO3401A",
+    "named_land_pairs": [
+      "1",
+      "2",
+      "3"
+    ],
+    "rms_center_deviation_mm": 0.066,
+    "rotation_from_catalog_deg": 180,
+    "vendor_footprint": "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR",
+    "vendor_land_count": 3
+  },
+  "C15195/C0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "C0402",
+    "max_center_deviation_mm": 0.0599,
+    "mpn": "CL05B103KB5NNNC",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0599,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "C0402",
+    "vendor_land_count": 2
+  },
+  "C1523/C0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "C0402",
+    "max_center_deviation_mm": 0.0599,
+    "mpn": "0402B102K500NT",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0599,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "C0402",
+    "vendor_land_count": 2
+  },
+  "C1525/C0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "C0402",
+    "max_center_deviation_mm": 0.0599,
+    "mpn": "CL05B104KO5NNNC",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0599,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "C0402",
+    "vendor_land_count": 2
+  },
+  "C1562/C0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "C0402",
+    "max_center_deviation_mm": 0.0599,
+    "mpn": "0402CG330J500NT",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0599,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "C0402",
+    "vendor_land_count": 2
+  },
+  "C1779/C0805": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "C0805",
+    "max_center_deviation_mm": 0.05,
+    "mpn": "CL21A475KAQNNNE",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.05,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "C0805",
+    "vendor_land_count": 2
+  },
+  "C1985277/ABRACON_ABS07": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "ABRACON_ABS07",
+    "max_center_deviation_mm": 0.0201,
+    "mpn": "ABS07-32.768KHZ-7-1-T",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0201,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "CRYSTAL-SMD_L3.2-W1.5-2",
+    "vendor_land_count": 2
+  },
+  "C202112/FH12_24S_05SH": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 26,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "FH12_24S_05SH",
+    "max_center_deviation_mm": 0.0004,
+    "mpn": "FH12-24S-0.5SH(55)",
+    "named_land_pairs": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24"
+    ],
+    "rms_center_deviation_mm": 0.0002,
+    "rotation_from_catalog_deg": 180,
+    "vendor_footprint": "FPC-SMD_FH12-24S-0.5SH-55",
+    "vendor_land_count": 26
+  },
+  "C2149796/TI_DCK6_SENSE": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 6,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "TI_DCK6_SENSE",
+    "max_center_deviation_mm": 0.15,
+    "mirrored_rms_deviation_mm": 1.072,
+    "mpn": "TPS22919DCKR",
+    "named_land_pairs": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "rms_center_deviation_mm": 0.15,
+    "rotation_from_catalog_deg": 180,
+    "vendor_footprint": "SC-70-6_L2.2-W1.3-P0.65-LS2.1-BR",
+    "vendor_land_count": 6
+  },
+  "C22276/R0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "R0402",
+    "max_center_deviation_mm": 0.0772,
+    "mpn": "0402WGF1504TCE",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0772,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "R0402",
+    "vendor_land_count": 2
+  },
+  "C25104/R0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "R0402",
+    "max_center_deviation_mm": 0.0772,
+    "mpn": "0402WGF3300TCE",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0772,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "R0402",
+    "vendor_land_count": 2
+  },
+  "C25741/R0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "R0402",
+    "max_center_deviation_mm": 0.0772,
+    "mpn": "0402WGF1003TCE",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0772,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "R0402",
+    "vendor_land_count": 2
+  },
+  "C25744/R0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "R0402",
+    "max_center_deviation_mm": 0.0772,
+    "mpn": "0402WGF1002TCE",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0772,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "R0402",
+    "vendor_land_count": 2
+  },
+  "C25768/R0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "R0402",
+    "max_center_deviation_mm": 0.0772,
+    "mpn": "0402WGF2202TCE",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0772,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "R0402",
+    "vendor_land_count": 2
+  },
+  "C25775/R0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "R0402",
+    "max_center_deviation_mm": 0.0772,
+    "mpn": "0402WGF3013TCE",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0772,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "R0402",
+    "vendor_land_count": 2
+  },
+  "C25776/R0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "R0402",
+    "max_center_deviation_mm": 0.0772,
+    "mpn": "0402WGF3002TCE",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0772,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "R0402",
+    "vendor_land_count": 2
+  },
+  "C25779/R0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "R0402",
+    "max_center_deviation_mm": 0.0772,
+    "mpn": "0402WGF3302TCE",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0772,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "R0402",
+    "vendor_land_count": 2
+  },
+  "C25792/R0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "R0402",
+    "max_center_deviation_mm": 0.0772,
+    "mpn": "0402WGF4702TCE",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0772,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "R0402",
+    "vendor_land_count": 2
+  },
+  "C25890/R0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "R0402",
+    "max_center_deviation_mm": 0.0772,
+    "mpn": "0402WGF3301TCE",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0772,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "R0402",
+    "vendor_land_count": 2
+  },
+  "C25900/R0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "R0402",
+    "max_center_deviation_mm": 0.0772,
+    "mpn": "0402WGF4701TCE",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0772,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "R0402",
+    "vendor_land_count": 2
+  },
+  "C25905/R0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "R0402",
+    "max_center_deviation_mm": 0.0772,
+    "mpn": "0402WGF5101TCE",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0772,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "R0402",
+    "vendor_land_count": 2
+  },
+  "C26083/R0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "R0402",
+    "max_center_deviation_mm": 0.0772,
+    "mpn": "0402WGF1004TCE",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0772,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "R0402",
+    "vendor_land_count": 2
+  },
+  "C2682139/TI_DCK6_SENSE": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 6,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "TI_DCK6_SENSE",
+    "max_center_deviation_mm": 0.15,
+    "mirrored_rms_deviation_mm": 1.072,
+    "mpn": "SN74AUP1G97DCKR",
+    "named_land_pairs": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "rms_center_deviation_mm": 0.15,
+    "rotation_from_catalog_deg": 180,
+    "vendor_footprint": "SC-70-6_L2.0-W1.3-P0.65-LS2.1-BR",
+    "vendor_land_count": 6
+  },
+  "C270576/R0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "R0402",
+    "max_center_deviation_mm": 0.0772,
+    "mpn": "0402WGF8661TCE",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0772,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "R0402",
+    "vendor_land_count": 2
+  },
+  "C270621/R0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "R0402",
+    "max_center_deviation_mm": 0.0772,
+    "mpn": "0402WGF2704TCE",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0772,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "R0402",
+    "vendor_land_count": 2
+  },
+  "C28323/C0805": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "C0805",
+    "max_center_deviation_mm": 0.05,
+    "mpn": "CL21B105KBFNNNE",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.05,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "C0805",
+    "vendor_land_count": 2
+  },
+  "C2863927/TI_DCU8_KEY": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 8,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "TI_DCU8_KEY",
+    "max_center_deviation_mm": 0.1474,
+    "mirrored_rms_deviation_mm": 1.1277,
+    "mpn": "SN74AUP3G14DCUR",
+    "named_land_pairs": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "rms_center_deviation_mm": 0.1474,
+    "rotation_from_catalog_deg": 180,
+    "vendor_footprint": "VSSOP-8_L2.3-W2.0-P0.50-LS3.1-BR",
+    "vendor_land_count": 8
+  },
+  "C2870554/TI_DDC6_TPL": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 6,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "TI_DDC6_TPL",
+    "max_center_deviation_mm": 0.15,
+    "mirrored_rms_deviation_mm": 1.5585,
+    "mpn": "TPL5111DDCR",
+    "named_land_pairs": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "rms_center_deviation_mm": 0.15,
+    "rotation_from_catalog_deg": 270,
+    "vendor_footprint": "TSOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL",
+    "vendor_land_count": 6
+  },
+  "C2918094/BOURNS_SRN3015": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "BOURNS_SRN3015",
+    "max_center_deviation_mm": 0.1,
+    "mpn": "SRN3015-220M",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.1,
+    "rotation_from_catalog_deg": 180,
+    "vendor_footprint": "IND-SMD_L3.0-W3.0",
+    "vendor_land_count": 2
+  },
+  "C29266/C0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "C0402",
+    "max_center_deviation_mm": 0.0599,
+    "mpn": "CL05A105KO5NNNC",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0599,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "C0402",
+    "vendor_land_count": 2
+  },
+  "C318576/C0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "C0402",
+    "max_center_deviation_mm": 0.0599,
+    "mpn": "CL05B103KA5NNNC",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0599,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "C0402",
+    "vendor_land_count": 2
+  },
+  "C3235557/TI_DRL8_MUX": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 8,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "TI_DRL8_MUX",
+    "max_center_deviation_mm": 0.0999,
+    "mirrored_rms_deviation_mm": 1.1225,
+    "mpn": "TPS2116DRLR",
+    "named_land_pairs": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "rms_center_deviation_mm": 0.0999,
+    "rotation_from_catalog_deg": 270,
+    "vendor_footprint": "SOT-583-8_L2.1-W1.6-P0.50-LS1.6-BL",
+    "vendor_land_count": 8
+  },
+  "C36871/R0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "R0402",
+    "max_center_deviation_mm": 0.0772,
+    "mpn": "0402WGF6802TCE",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0772,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "R0402",
+    "vendor_land_count": 2
+  },
+  "C37704/NXP_SOT23_DIODE": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 3,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "NXP_SOT23_DIODE",
+    "max_center_deviation_mm": 0.3134,
+    "mirrored_rms_deviation_mm": 1.5671,
+    "mpn": "BAT54C,215",
+    "named_land_pairs": [
+      "1",
+      "2",
+      "3"
+    ],
+    "rms_center_deviation_mm": 0.2216,
+    "rotation_from_catalog_deg": 270,
+    "vendor_footprint": "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+    "vendor_land_count": 3
+  },
+  "C37825/R0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "R0402",
+    "max_center_deviation_mm": 0.0772,
+    "mpn": "0402WGF6202TCE",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0772,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "R0402",
+    "vendor_land_count": 2
+  },
+  "C4109/R0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "R0402",
+    "max_center_deviation_mm": 0.0772,
+    "mpn": "0402WGF2001TCE",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0772,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "R0402",
+    "vendor_land_count": 2
+  },
+  "C426659/C1206P": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "C1206P",
+    "max_center_deviation_mm": 0.1426,
+    "mpn": "GRM31CR61A476KE15L",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.1426,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "C1206",
+    "vendor_land_count": 2
+  },
+  "C426698/NXP_TSSOP16_MONO": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 16,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "NXP_TSSOP16_MONO",
+    "max_center_deviation_mm": 0.0592,
+    "mirrored_rms_deviation_mm": 2.9793,
+    "mpn": "74HC123PW,118",
+    "named_land_pairs": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "rms_center_deviation_mm": 0.0592,
+    "rotation_from_catalog_deg": 270,
+    "vendor_footprint": "TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL",
+    "vendor_land_count": 16
+  },
+  "C45956/R0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "R0402",
+    "max_center_deviation_mm": 0.0772,
+    "mpn": "0402WGF3603TCE",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0772,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "R0402",
+    "vendor_land_count": 2
+  },
+  "C47783/EPD_C1210": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "EPD_C1210",
+    "max_center_deviation_mm": 0.0174,
+    "mpn": "CL32B475KBJNNNE",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0174,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "C1210",
+    "vendor_land_count": 2
+  },
+  "C503307/SRN4018": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "SRN4018",
+    "max_center_deviation_mm": 0.125,
+    "mpn": "SRN4018-100M",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.125,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "IND-SMD_L4.0-W4.0_SRN4018TA",
+    "vendor_land_count": 2
+  },
+  "C5116073/C0603": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "C0603",
+    "max_center_deviation_mm": 0.075,
+    "mpn": "GRM188R61C226ME01D",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.075,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "C0603",
+    "vendor_land_count": 2
+  },
+  "C5118705/JST_ACH03P_POWER": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 5,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "JST_ACH03P_POWER",
+    "max_center_deviation_mm": 0.0001,
+    "mpn": "BM03B-ACHSS-GAN-ETF(LF)(SN)",
+    "named_land_pairs": [
+      "1",
+      "2",
+      "3"
+    ],
+    "rms_center_deviation_mm": 0.0001,
+    "rotation_from_catalog_deg": 270,
+    "vendor_footprint": "CONN-SMD_3P-P1.20_BM03B-ACHSS-GAN-ETF",
+    "vendor_land_count": 5
+  },
+  "C5151540/NXP_SO8_RTC": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 8,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "NXP_SO8_RTC",
+    "max_center_deviation_mm": 0.1999,
+    "mirrored_rms_deviation_mm": 2.8468,
+    "mpn": "PCF85063AT/AY",
+    "named_land_pairs": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "rms_center_deviation_mm": 0.1999,
+    "rotation_from_catalog_deg": 270,
+    "vendor_footprint": "SO-8_L4.9-W3.9-P1.27-LS6.0-BL",
+    "vendor_land_count": 8
+  },
+  "C5181469/SPV_VFQFPN20": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 21,
+    "deviation_from_orthogonal_deg": 0.002,
+    "footprint": "SPV_VFQFPN20",
+    "max_center_deviation_mm": 0.0251,
+    "mirrored_rms_deviation_mm": 2.2507,
+    "mpn": "SPV1050TTR",
+    "named_land_pairs": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20"
+    ],
+    "rms_center_deviation_mm": 0.025,
+    "rotation_from_catalog_deg": 270,
+    "vendor_footprint": "WQFN-20_L3.0-W3.0-P0.40-BL-EP1.7",
+    "vendor_land_count": 21
+  },
+  "C5220176/TI_DBV5_W": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 5,
+    "deviation_from_orthogonal_deg": 0.001,
+    "footprint": "TI_DBV5_W",
+    "max_center_deviation_mm": 0.2399,
+    "mirrored_rms_deviation_mm": 1.7106,
+    "mpn": "TPS7A0228PDBVR",
+    "named_land_pairs": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "rms_center_deviation_mm": 0.1959,
+    "rotation_from_catalog_deg": 180,
+    "vendor_footprint": "SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR",
+    "vendor_land_count": 5
+  },
+  "C52923/C0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "C0402",
+    "max_center_deviation_mm": 0.0599,
+    "mpn": "CL05A105KA5NQNC",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0599,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "C0402",
+    "vendor_land_count": 2
+  },
+  "C54313/TI_RGT16_BQ74": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 17,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "TI_RGT16_BQ74",
+    "max_center_deviation_mm": 0.1001,
+    "mirrored_rms_deviation_mm": 2.1989,
+    "mpn": "BQ24074RGTR",
+    "named_land_pairs": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "rms_center_deviation_mm": 0.1,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "QFN-16_L3.0-W3.0-P0.50-TL-EP1.7",
+    "vendor_land_count": 17
+  },
+  "C54337734/EBYTE_08S1F_LGA40": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 40,
+    "deviation_from_orthogonal_deg": 0.001,
+    "footprint": "EBYTE_08S1F_LGA40",
+    "max_center_deviation_mm": 0.0503,
+    "mirrored_rms_deviation_mm": 7.9628,
+    "mpn": "E73-2G4M08S1F",
+    "named_land_pairs": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "rms_center_deviation_mm": 0.0168,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "WIRELM-SMD_E73-2G4M08S1F",
+    "vendor_land_count": 40
+  },
+  "C5438410/GCT_USB4135": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 10,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "GCT_USB4135",
+    "max_center_deviation_mm": 0.0001,
+    "mpn": "USB4135-GF-A",
+    "named_land_pairs": [
+      "B12",
+      "B9",
+      "A5",
+      "B5",
+      "A9",
+      "A12"
+    ],
+    "rms_center_deviation_mm": 0.0,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "TYPE-C-SMD_USB4135-GF-A",
+    "vendor_land_count": 10
+  },
+  "C5452431/COIL_XGL4015": {
+    "assessment": "Orientation matched to Coilcraft carrier tape, start lead to pad 1",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "evidence": [
+      "coilcraft-physical.gif",
+      "coilcraft-tape.gif",
+      "coilcraft-orientation.gif"
+    ],
+    "footprint": "COIL_XGL4015",
+    "max_center_deviation_mm": 0.0,
+    "mpn": "XGL4015-471MEC",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "orientation_source": "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xgl/xgl4015/",
+    "rms_center_deviation_mm": 0.0,
+    "rotation_from_catalog_deg": 90,
+    "vendor_footprint": null,
+    "vendor_land_count": 0,
+    "zero_rule": "https://jlcpcb.com/help/article/pcb-assembly-faqs-part-2"
+  },
+  "C620473/R0402": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "R0402",
+    "max_center_deviation_mm": 0.0772,
+    "mpn": "0402WGF6804TCE",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.0772,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "R0402",
+    "vendor_land_count": 2
+  },
+  "C636338/MC_MSOP8_TEMP": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 8,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "MC_MSOP8_TEMP",
+    "max_center_deviation_mm": 0.1,
+    "mirrored_rms_deviation_mm": 1.457,
+    "mpn": "MCP6542-I/MS",
+    "named_land_pairs": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "rms_center_deviation_mm": 0.1,
+    "rotation_from_catalog_deg": 270,
+    "vendor_footprint": "MSOP-8_L3.0-W3.0-P0.65-LS4.9-BL",
+    "vendor_land_count": 8
+  },
+  "C7065276/RT_WLCSP15": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 15,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "RT_WLCSP15",
+    "max_center_deviation_mm": 0.0001,
+    "mirrored_rms_deviation_mm": 0.6532,
+    "mpn": "RT6160AWSC",
+    "named_land_pairs": [
+      "A1",
+      "A2",
+      "A3",
+      "B1",
+      "B2",
+      "B3",
+      "C1",
+      "C2",
+      "C3",
+      "D1",
+      "D2",
+      "D3",
+      "E1",
+      "E2",
+      "E3"
+    ],
+    "rms_center_deviation_mm": 0.0001,
+    "rotation_from_catalog_deg": 270,
+    "vendor_footprint": "WLCSP-15_L2.3-W1.4-R3-C5-P0.40-BL",
+    "vendor_land_count": 15
+  },
+  "C7519/ST_SOT23_6_ESD": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 6,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "ST_SOT23_6_ESD",
+    "max_center_deviation_mm": 0.1509,
+    "mirrored_rms_deviation_mm": 1.5586,
+    "mpn": "USBLC6-2SC6",
+    "named_land_pairs": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "rms_center_deviation_mm": 0.1509,
+    "rotation_from_catalog_deg": 270,
+    "vendor_footprint": "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL",
+    "vendor_land_count": 6
+  },
+  "C77045/C0603": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "C0603",
+    "max_center_deviation_mm": 0.075,
+    "mpn": "GRM188R61C475KE11D",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.075,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "C0603",
+    "vendor_land_count": 2
+  },
+  "C82045/BSS138_CASE318": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 3,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "BSS138_CASE318",
+    "max_center_deviation_mm": 0.3468,
+    "mirrored_rms_deviation_mm": 1.5706,
+    "mpn": "BSS138LT1G",
+    "named_land_pairs": [
+      "1",
+      "2",
+      "3"
+    ],
+    "rms_center_deviation_mm": 0.2452,
+    "rotation_from_catalog_deg": 270,
+    "vendor_footprint": "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+    "vendor_land_count": 3
+  },
+  "C82046/MBR0530_CASE425": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "MBR0530_CASE425",
+    "max_center_deviation_mm": 0.065,
+    "mpn": "MBR0530T1G",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.065,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "SOD-123_L2.7-W1.6-LS3.7-RD-1",
+    "vendor_land_count": 2
+  },
+  "C82288/NXP_CFP3_DIODE": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "NXP_CFP3_DIODE",
+    "max_center_deviation_mm": 0.2924,
+    "mpn": "PMEG2010ER,115",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.2924,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "SOD-123_L2.6-W1.7-LS3.5-RD",
+    "vendor_land_count": 2
+  },
+  "C84419/C0603": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 2,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "C0603",
+    "max_center_deviation_mm": 0.075,
+    "mpn": "GRM188R61A226ME15D",
+    "named_land_pairs": [
+      "1",
+      "2"
+    ],
+    "rms_center_deviation_mm": 0.075,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "C0603",
+    "vendor_land_count": 2
+  },
+  "C92489/BOSCH_BME280": {
+    "assessment": "Orientation matched by pad numbers",
+    "design_land_count": 8,
+    "deviation_from_orthogonal_deg": 0.0,
+    "footprint": "BOSCH_BME280",
+    "max_center_deviation_mm": 0.2336,
+    "mirrored_rms_deviation_mm": 1.4722,
+    "mpn": "BME280",
+    "named_land_pairs": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "rms_center_deviation_mm": 0.2336,
+    "rotation_from_catalog_deg": 0,
+    "vendor_footprint": "LGA-8_BME280_BL",
+    "vendor_land_count": 8
+  }
+}

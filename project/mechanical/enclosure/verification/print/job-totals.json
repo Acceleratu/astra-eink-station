@@ -1,0 +1,140 @@
+{
+  "per_part_jobs": [
+    "Battery_guard.stl",
+    "Desktop_stand.stl",
+    "Display_retainer.stl",
+    "Front_shell.stl",
+    "Key_SW401.stl",
+    "Key_SW402.stl",
+    "Key_SW403.stl",
+    "Lower_PCB_rail.stl",
+    "Rear_cover.stl",
+    "Upper_PCB_rail.stl",
+    "key_keeper.stl"
+  ],
+  "parts": [
+    {
+      "stl": "Battery_guard.stl",
+      "stl_sha256": "11994249a78c4284bdd317baecdcf721e526c1f61a390d4f522e91e9a2d3f626",
+      "settings_file": "petg-mk4s-0p4.ini",
+      "settings_sha256": "ffd6e84b9e5153e09b8b4843b34c4cb1f51b24f99cbfe53d56f123639d56e25e",
+      "gcode_sha256": "ef4cc1b42f76d41eee43dde67e129bac1ba14f6d64f1a94f294a9a4dcb55570a",
+      "gcode_gzip_sha256": "df8db0b018054fa19b5563269580e948576bf018c4eae2d6ddca933e7c5d31e8",
+      "support_used": false,
+      "screen_pass": true
+    },
+    {
+      "stl": "Desktop_stand.stl",
+      "stl_sha256": "3c30287b1056888cc3c16f73701f913bedc87b76572ab8c96687901cf5f13329",
+      "settings_file": "petg-mk4s-0p4.ini",
+      "settings_sha256": "ffd6e84b9e5153e09b8b4843b34c4cb1f51b24f99cbfe53d56f123639d56e25e",
+      "gcode_sha256": "d67c2be7fe522b3cf44ae2c7f71a8d7dcfb361507b9365fb3967783d08a0b9e7",
+      "gcode_gzip_sha256": "1c5c013a55ef1e8bffb042b420691fcc0efd57f5f5d8813b70e908578d00f0f3",
+      "support_used": false,
+      "screen_pass": true
+    },
+    {
+      "stl": "Display_retainer.stl",
+      "stl_sha256": "6c735cb811af1be4cf62fb27686ec1977a0443ed58099ad4dbf75e817b1a41fc",
+      "settings_file": "petg-mk4s-0p4.ini",
+      "settings_sha256": "ffd6e84b9e5153e09b8b4843b34c4cb1f51b24f99cbfe53d56f123639d56e25e",
+      "gcode_sha256": "a73f803ed7d1c7e59a753ba001c73ce9e88107402caef73e27e4f1f657ddc88d",
+      "gcode_gzip_sha256": "150382c9060ef03a8d50647fd46cdf47be85d59830252a1d36a4299a28411111",
+      "support_used": false,
+      "screen_pass": true
+    },
+    {
+      "stl": "Front_shell.stl",
+      "stl_sha256": "06a5d3ba3e0c89bd1f8eadd535d2e70251d9e30c613b47c4ea81da0bb50ebcd5",
+      "settings_file": "front-petg-mk4s-0p4.ini",
+      "settings_sha256": "d11aa47abc9f37af30015b1564bda206a8b075602eaa6b29bdafcfdd93e59538",
+      "gcode_sha256": "c32b4013fc7f7fb47223d922fdb35e7e1c1650a44486babf5acfa4b699a56b62",
+      "gcode_gzip_sha256": "6a3e946a056298567c23e7d6194155e3e550c02aeb563900bb1e2c667618bb91",
+      "support_used": true,
+      "screen_pass": true
+    },
+    {
+      "stl": "Key_SW401.stl",
+      "stl_sha256": "90de535cc1f262c4759b675b2032c2d14f3a27728789b405f0b07b5e2ba94b9e",
+      "settings_file": "petg-mk4s-0p4.ini",
+      "settings_sha256": "ffd6e84b9e5153e09b8b4843b34c4cb1f51b24f99cbfe53d56f123639d56e25e",
+      "gcode_sha256": "0c80a914f9da907f3b5a81f1b12f099c3e415a6210b5f8ab4e429c565fb9b15f",
+      "gcode_gzip_sha256": "a17225ab69bba9d7513a266646b6a7e297082f1dddb60c36e2b65266d61a94bc",
+      "support_used": false,
+      "screen_pass": true
+    },
+    {
+      "stl": "Key_SW402.stl",
+      "stl_sha256": "f0c1792bf50eabeab4a661402d663325b173290fce47424fba58d9b1f2c2596d",
+      "settings_file": "petg-mk4s-0p4.ini",
+      "settings_sha256": "ffd6e84b9e5153e09b8b4843b34c4cb1f51b24f99cbfe53d56f123639d56e25e",
+      "gcode_sha256": "f5674131f27c93d5f52f9d9bdbc903d7f6721b9dcaade8b0c2234f53da6742f0",
+      "gcode_gzip_sha256": "35716c52846ea92dc39d5ae5566e4d54372561c4f8c7f1129f0e507c6c13c704",
+      "support_used": false,
+      "screen_pass": true
+    },
+    {
+      "stl": "Key_SW403.stl",
+      "stl_sha256": "71df2004c3cbc6d0192397314966b6c8eb6be1eaecda2acf97549b6949c2f2f7",
+      "settings_file": "petg-mk4s-0p4.ini",
+      "settings_sha256": "ffd6e84b9e5153e09b8b4843b34c4cb1f51b24f99cbfe53d56f123639d56e25e",
+      "gcode_sha256": "50bae043320cd82d3cfd23fe8a444525f4ee7c72b2f85409d364649325f0ef4f",
+      "gcode_gzip_sha256": "a2c5a318501d09cdc8a33b4c72c207209b0c34090644e8d440d2479a2bd8c2fe",
+      "support_used": false,
+      "screen_pass": true
+    },
+    {
+      "stl": "Lower_PCB_rail.stl",
+      "stl_sha256": "6de77ea64825b832fa30cb864815383b58677f9af522c6f26981cc097cfb1ad7",
+      "settings_file": "petg-mk4s-0p4.ini",
+      "settings_sha256": "ffd6e84b9e5153e09b8b4843b34c4cb1f51b24f99cbfe53d56f123639d56e25e",
+      "gcode_sha256": "3d084dbd665b500de5867531cdff8c02396f589d3f8598ad2ee2ae64f03334ac",
+      "gcode_gzip_sha256": "2003a9bc7b72bfa514c5609bf22f6d9eb654c572e27ff8a20d1bd1588707ec36",
+      "support_used": true,
+      "screen_pass": true
+    },
+    {
+      "stl": "Rear_cover.stl",
+      "stl_sha256": "c1b2549169a9b029b665d1c8694f9f22c107c4028396063161dba6a5fb600e44",
+      "settings_file": "petg-mk4s-0p4.ini",
+      "settings_sha256": "ffd6e84b9e5153e09b8b4843b34c4cb1f51b24f99cbfe53d56f123639d56e25e",
+      "gcode_sha256": "521a6e4022f4682dceb39e333d8fd4688120a97c8da16eeda53207c72c182ba9",
+      "gcode_gzip_sha256": "29adc1678f5fec6ddc12a84e2e515b86a71c0b6210afddc10e3cee6b9d8e597b",
+      "support_used": true,
+      "screen_pass": true
+    },
+    {
+      "stl": "Upper_PCB_rail.stl",
+      "stl_sha256": "f03bfb3280036d2f99f05f04d184d4cef7f32460566b946c53d5fad8e3446918",
+      "settings_file": "petg-mk4s-0p4.ini",
+      "settings_sha256": "ffd6e84b9e5153e09b8b4843b34c4cb1f51b24f99cbfe53d56f123639d56e25e",
+      "gcode_sha256": "992f3c5c9bbdf9f94c4551902bfdd34c7a03ec83ca92fa7b40a0b6a0641e306c",
+      "gcode_gzip_sha256": "bd99e39413555a5129dfe28db23b16a0f9dd535343a1215ed21cb8fa7ea41381",
+      "support_used": true,
+      "screen_pass": true
+    },
+    {
+      "stl": "key_keeper.stl",
+      "stl_sha256": "16256fe0151aeb19fb42b21a575795905c22ef93f76146383edb2cbe9c78796a",
+      "settings_file": "petg-mk4s-0p4.ini",
+      "settings_sha256": "ffd6e84b9e5153e09b8b4843b34c4cb1f51b24f99cbfe53d56f123639d56e25e",
+      "gcode_sha256": "24623dbb64f080ea2e4ca96784b8966eab68d30e0dbb0d132a8bf8c257d43fab",
+      "gcode_gzip_sha256": "e5ab1e25e016da0667161b5575841ab8152606f1ba12553b46721630d169a773",
+      "support_used": false,
+      "screen_pass": true
+    }
+  ],
+  "check_script_sha256": "671692d457875ac5844e605f423e7549cfd5dfc31c9168f92bb6146b7b15a382",
+  "settings_sha256": "ffd6e84b9e5153e09b8b4843b34c4cb1f51b24f99cbfe53d56f123639d56e25e",
+  "profiles_in_jobs": {
+    "petg-mk4s-0p4.ini": "ffd6e84b9e5153e09b8b4843b34c4cb1f51b24f99cbfe53d56f123639d56e25e",
+    "front-petg-mk4s-0p4.ini": "d11aa47abc9f37af30015b1564bda206a8b075602eaa6b29bdafcfdd93e59538"
+  },
+  "checks_per_part": 12,
+  "smallest_bed_margin_mm": 6.888,
+  "longest_clear_air_over_actual_deposition_mm": 8.714,
+  "normal_seconds": 38888,
+  "total_filament_g": 239.17,
+  "total_filament_m": 78.292,
+  "all_screens_pass": true
+}

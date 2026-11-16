@@ -1,0 +1,46 @@
+{
+  "source": "https://www.ti.com/lit/zip/SLVMDI4",
+  "model_version": "TI TPS2116 Final 1.10 / SLVMDI4A",
+  "archive_sha256": "730dd922475b68183cb2d3ecac3259c8f5637e6458764ced7f3fbc0c89da80a7",
+  "library_sha256": "3c111bb702f86d7c3abf957e24f565651e534e4cdac40799b210b8ec1358ea18",
+  "simulator": "******\n** ngspice-47 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2026, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html\n******",
+  "cases": [
+    {
+      "name": "threshold_nominal",
+      "reltol": ".001",
+      "max_step": "1u",
+      "usb_initial": 5.23437,
+      "usb_active": 5.23437,
+      "solar_after": 4.9962,
+      "transient_min": 3.88297,
+      "last_point": 4.9962
+    },
+    {
+      "name": "threshold_tighter",
+      "reltol": ".0008",
+      "max_step": "1u",
+      "usb_initial": 5.23437,
+      "usb_active": 5.23437,
+      "solar_after": 4.9962,
+      "transient_min": 3.88164,
+      "last_point": 4.9962
+    },
+    {
+      "name": "threshold_half_step",
+      "reltol": ".001",
+      "max_step": ".5u",
+      "usb_initial": 5.23437,
+      "usb_active": 5.23437,
+      "solar_after": 4.9962,
+      "transient_min": 3.88204,
+      "last_point": 4.9962
+    }
+  ],
+  "comparison": "VBUS-to-PV minimum following steady-state USB agrees within 20mV across 3 runs.",
+  "fixture": "Both inputs valid initially; solar equivalent 5.01111V (6.8M/1.5M/2.7M EOC); source resistance 0.5 ohm per rail, DC 180 ohm load, VOUT 3.5uF effective, 55 milliohm capacitor ESR, 1uF USB; ngspice default 27\u00b0C.",
+  "exclusions": [
+    "The circuit is initialized at its DC operating point with valid USB and valid solar. With the cold-start variant, ngspice can converge to inconsistent starting branches; this run is not a startup validation.",
+    "TI removed diode-mode behavior from this model. With MODE=VBUS=0 it cannot validate the physical highest-input fallback.",
+    "BQ24074, cell, SPV1050 harvesting dynamics, temperature and source parasitics beyond the stated test fixture are outside this model."
+  ]
+}

@@ -1,0 +1,1580 @@
+{
+  "parts": [
+    {
+      "ref": "U401",
+      "mpn": "TPS7A0228PDBVR",
+      "value": "2.8V always-on",
+      "lcsc": "C5220176",
+      "footprint": "TI_DBV5_W",
+      "height_mm": 1.45,
+      "pins": {
+        "1": "SYS_AON",
+        "2": "GND",
+        "3": "SYS_AON",
+        "5": "VAON"
+      },
+      "pin_names": {
+        "1": "IN",
+        "2": "GND",
+        "3": "EN",
+        "4": "NC",
+        "5": "OUT"
+      },
+      "pin_types": {
+        "1": "pwr",
+        "2": "pwr",
+        "3": "in",
+        "4": "nc",
+        "5": "out"
+      },
+      "x": 4,
+      "y": 6,
+      "rot": 0,
+      "function": "Always-on supply",
+      "intentional_no_connect": [
+        "4"
+      ]
+    },
+    {
+      "ref": "C401",
+      "mpn": "CL21B475KOFNNNE",
+      "value": "4.7u 16V",
+      "lcsc": "C107365",
+      "footprint": "C0805",
+      "height_mm": 1.35,
+      "pins": {
+        "1": "SYS_AON",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 1,
+      "y": 6,
+      "rot": 90,
+      "function": "Always-on supply"
+    },
+    {
+      "ref": "C402",
+      "mpn": "CL21B475KOFNNNE",
+      "value": "4.7u 16V",
+      "lcsc": "C107365",
+      "footprint": "C0805",
+      "height_mm": 1.35,
+      "pins": {
+        "1": "VAON",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 7,
+      "y": 6,
+      "rot": 90,
+      "function": "Always-on supply"
+    },
+    {
+      "ref": "U402",
+      "mpn": "TPL5111DDCR",
+      "value": "One-shot watchdog",
+      "lcsc": "C2870554",
+      "footprint": "TI_DDC6_TPL",
+      "height_mm": 1.1,
+      "pins": {
+        "1": "VAON",
+        "2": "GND",
+        "3": "WAKE_MDRV",
+        "4": "DONE_2V8",
+        "5": "MAIN_EN",
+        "6": "GND"
+      },
+      "pin_names": {
+        "1": "VDD",
+        "2": "GND",
+        "3": "DELAY_MDRV",
+        "4": "DONE",
+        "5": "DRVn",
+        "6": "EN_ONE_SHOT"
+      },
+      "pin_types": {
+        "1": "pwr",
+        "2": "pwr",
+        "3": "in",
+        "4": "in",
+        "5": "out",
+        "6": "in"
+      },
+      "x": 11,
+      "y": 6,
+      "rot": 0,
+      "function": "Wake timer"
+    },
+    {
+      "ref": "C403",
+      "mpn": "CL05B104KO5NNNC",
+      "value": "100n 16V",
+      "lcsc": "C1525",
+      "footprint": "C0402",
+      "height_mm": 0.55,
+      "pins": {
+        "1": "VAON",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 10,
+      "y": 8.4,
+      "rot": 0,
+      "function": "Wake timer"
+    },
+    {
+      "ref": "R401",
+      "mpn": "0402WGF3002TCE",
+      "value": "30k 1%",
+      "lcsc": "C25776",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "WAKE_MDRV",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 10,
+      "y": 3.5,
+      "rot": 0,
+      "function": "Wake timer"
+    },
+    {
+      "ref": "R402",
+      "mpn": "0402WGF3302TCE",
+      "value": "33k 1%",
+      "lcsc": "C25779",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "TIMER_DONE",
+        "2": "DONE_2V8"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 13.5,
+      "y": 3.3,
+      "rot": 0,
+      "function": "Wake timer"
+    },
+    {
+      "ref": "R403",
+      "mpn": "0402WGF1003TCE",
+      "value": "100k 1%",
+      "lcsc": "C25741",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "DONE_2V8",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 16,
+      "y": 3.3,
+      "rot": 0,
+      "function": "Wake timer"
+    },
+    {
+      "ref": "C404",
+      "mpn": "CL05B103KB5NNNC",
+      "value": "10n 50V",
+      "lcsc": "C15195",
+      "footprint": "C0402",
+      "height_mm": 0.55,
+      "pins": {
+        "1": "DONE_2V8",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 13.5,
+      "y": 5,
+      "rot": 90,
+      "function": "Wake timer"
+    },
+    {
+      "ref": "U403",
+      "mpn": "PCF85063AT/AY",
+      "value": "RTC 0x51",
+      "lcsc": "C5151540",
+      "footprint": "NXP_SO8_RTC",
+      "height_mm": 1.75,
+      "pins": {
+        "1": "RTC_XI",
+        "2": "RTC_XO",
+        "3": "RTC_IRQ_N",
+        "4": "GND",
+        "5": "SDA",
+        "6": "SCL",
+        "8": "VAON"
+      },
+      "pin_names": {
+        "1": "OSCI",
+        "2": "OSCO",
+        "3": "INTn",
+        "4": "VSS",
+        "5": "SDA",
+        "6": "SCL",
+        "7": "CLKOUT",
+        "8": "VDD"
+      },
+      "pin_types": {
+        "1": "in",
+        "2": "out",
+        "3": "oc",
+        "4": "pwr",
+        "5": "io",
+        "6": "in",
+        "7": "out",
+        "8": "pwr"
+      },
+      "x": 23,
+      "y": 5,
+      "rot": 0,
+      "function": "Clock and alarm",
+      "intentional_no_connect": [
+        "7"
+      ]
+    },
+    {
+      "ref": "Y401",
+      "mpn": "ABS07-32.768KHZ-7-1-T",
+      "value": "32.768 kHz 7pF",
+      "lcsc": "C1985277",
+      "footprint": "ABRACON_ABS07",
+      "height_mm": 0.9,
+      "pins": {
+        "1": "RTC_XI",
+        "2": "RTC_XO"
+      },
+      "pin_names": {
+        "1": "XTAL1",
+        "2": "XTAL2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 17.8,
+      "y": 6.2,
+      "rot": 270,
+      "function": "Clock and alarm"
+    },
+    {
+      "ref": "C407",
+      "mpn": "CL05B104KO5NNNC",
+      "value": "100n 16V",
+      "lcsc": "C1525",
+      "footprint": "C0402",
+      "height_mm": 0.55,
+      "pins": {
+        "1": "VAON",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 25.8,
+      "y": 8.3,
+      "rot": 0,
+      "function": "Clock and alarm"
+    },
+    {
+      "ref": "R404",
+      "mpn": "0402WGF4702TCE",
+      "value": "47k 1%",
+      "lcsc": "C25792",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "VAON",
+        "2": "RTC_IRQ_N"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 18.6,
+      "y": 1.4,
+      "rot": 0,
+      "function": "Clock and alarm"
+    },
+    {
+      "ref": "R405",
+      "mpn": "0402WGF4701TCE",
+      "value": "4.7k 1%",
+      "lcsc": "C25900",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "VMAIN",
+        "2": "SCL"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 27.6,
+      "y": 5.7,
+      "rot": 90,
+      "function": "Ambient sensor"
+    },
+    {
+      "ref": "R406",
+      "mpn": "0402WGF4701TCE",
+      "value": "4.7k 1%",
+      "lcsc": "C25900",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "VMAIN",
+        "2": "SDA"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 27.6,
+      "y": 3.6,
+      "rot": 90,
+      "function": "Ambient sensor"
+    },
+    {
+      "ref": "U404",
+      "mpn": "BME280",
+      "value": "BME280 0x76",
+      "lcsc": "C92489",
+      "footprint": "BOSCH_BME280",
+      "height_mm": 1.0,
+      "pins": {
+        "1": "GND",
+        "2": "VMAIN",
+        "3": "SDA",
+        "4": "SCL",
+        "5": "GND",
+        "6": "VMAIN",
+        "7": "GND",
+        "8": "VMAIN"
+      },
+      "pin_names": {
+        "1": "GND1",
+        "2": "CSB",
+        "3": "SDI",
+        "4": "SCK",
+        "5": "SDO",
+        "6": "VDDIO",
+        "7": "GND2",
+        "8": "VDD"
+      },
+      "pin_types": {
+        "1": "pwr",
+        "2": "in",
+        "3": "io",
+        "4": "in",
+        "5": "io",
+        "6": "pwr",
+        "7": "pwr",
+        "8": "pwr"
+      },
+      "x": 31,
+      "y": 4.6,
+      "rot": 0,
+      "function": "Ambient sensor"
+    },
+    {
+      "ref": "C405",
+      "mpn": "CL05B104KO5NNNC",
+      "value": "100n 16V",
+      "lcsc": "C1525",
+      "footprint": "C0402",
+      "height_mm": 0.55,
+      "pins": {
+        "1": "VMAIN",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 29,
+      "y": 5.7,
+      "rot": 90,
+      "function": "Ambient sensor"
+    },
+    {
+      "ref": "C406",
+      "mpn": "CL05B104KO5NNNC",
+      "value": "100n 16V",
+      "lcsc": "C1525",
+      "footprint": "C0402",
+      "height_mm": 0.55,
+      "pins": {
+        "1": "VMAIN",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 29,
+      "y": 3.5,
+      "rot": 90,
+      "function": "Ambient sensor"
+    },
+    {
+      "ref": "U405",
+      "mpn": "74HC123PW,118",
+      "value": "Dual event monostable",
+      "lcsc": "C426698",
+      "footprint": "NXP_TSSOP16_MONO",
+      "height_mm": 1.2,
+      "pins": {
+        "1": "RTC_IRQ_N",
+        "2": "VAON",
+        "3": "VAON",
+        "4": "RTC_PULSE_N",
+        "6": "GND",
+        "7": "KEY_MONO_RC",
+        "8": "GND",
+        "9": "ANY_KEY_N",
+        "10": "VAON",
+        "11": "VAON",
+        "12": "KEY_PULSE_N",
+        "14": "GND",
+        "15": "RTC_MONO_RC",
+        "16": "VAON"
+      },
+      "pin_names": {
+        "1": "1A",
+        "2": "1B",
+        "3": "1RDn",
+        "4": "1Qn",
+        "5": "2Q",
+        "6": "2CEXT",
+        "7": "2RCEXT",
+        "8": "GND",
+        "9": "2A",
+        "10": "2B",
+        "11": "2RDn",
+        "12": "2Qn",
+        "13": "1Q",
+        "14": "1CEXT",
+        "15": "1RCEXT",
+        "16": "VCC"
+      },
+      "pin_types": {
+        "1": "in",
+        "2": "in",
+        "3": "in",
+        "4": "out",
+        "5": "out",
+        "6": "pas",
+        "7": "pas",
+        "8": "pwr",
+        "9": "in",
+        "10": "in",
+        "11": "in",
+        "12": "out",
+        "13": "out",
+        "14": "pas",
+        "15": "pas",
+        "16": "pwr"
+      },
+      "x": 14,
+      "y": 14.3,
+      "rot": 0,
+      "function": "Wake pulse",
+      "intentional_no_connect": [
+        "5",
+        "13"
+      ]
+    },
+    {
+      "ref": "C408",
+      "mpn": "CL05B104KO5NNNC",
+      "value": "100n 16V",
+      "lcsc": "C1525",
+      "footprint": "C0402",
+      "height_mm": 0.55,
+      "pins": {
+        "1": "VAON",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 16,
+      "y": 17.9,
+      "rot": 0,
+      "function": "Wake pulse"
+    },
+    {
+      "ref": "R407",
+      "mpn": "0402WGF4702TCE",
+      "value": "47k 1%",
+      "lcsc": "C25792",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "VAON",
+        "2": "RTC_MONO_RC"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 19,
+      "y": 15.5,
+      "rot": 90,
+      "function": "Wake pulse"
+    },
+    {
+      "ref": "C409",
+      "mpn": "CL21B475KOFNNNE",
+      "value": "4.7u 16V",
+      "lcsc": "C107365",
+      "footprint": "C0805",
+      "height_mm": 1.35,
+      "pins": {
+        "1": "RTC_MONO_RC",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 19,
+      "y": 13.1,
+      "rot": 90,
+      "function": "Wake pulse"
+    },
+    {
+      "ref": "R408",
+      "mpn": "0402WGF4702TCE",
+      "value": "47k 1%",
+      "lcsc": "C25792",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "VAON",
+        "2": "KEY_MONO_RC"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 9,
+      "y": 11.5,
+      "rot": 90,
+      "function": "Wake pulse"
+    },
+    {
+      "ref": "C410",
+      "mpn": "CL21B475KOFNNNE",
+      "value": "4.7u 16V",
+      "lcsc": "C107365",
+      "footprint": "C0805",
+      "height_mm": 1.35,
+      "pins": {
+        "1": "KEY_MONO_RC",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 9,
+      "y": 14,
+      "rot": 90,
+      "function": "Wake pulse"
+    },
+    {
+      "ref": "D401",
+      "mpn": "BAT54A,215",
+      "value": "Dual Schottky common anode",
+      "lcsc": "C130910",
+      "footprint": "SOT23_WAKE",
+      "height_mm": 1.12,
+      "pins": {
+        "1": "RTC_PULSE_N",
+        "2": "KEY_PULSE_N",
+        "3": "PULSE_GATE_N"
+      },
+      "pin_names": {
+        "1": "K1",
+        "2": "K2",
+        "3": "COM_A"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas",
+        "3": "pas"
+      },
+      "x": 7,
+      "y": 17,
+      "rot": 180,
+      "function": "Wake pulse"
+    },
+    {
+      "ref": "R409",
+      "mpn": "0402WGF1003TCE",
+      "value": "100k 1%",
+      "lcsc": "C25741",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "VAON",
+        "2": "PULSE_GATE_N"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 5,
+      "y": 14,
+      "rot": 0,
+      "function": "Wake pulse"
+    },
+    {
+      "ref": "Q401",
+      "mpn": "AO3401A",
+      "value": "P-channel wake drive",
+      "lcsc": "C15127",
+      "footprint": "SOT23_WAKE",
+      "height_mm": 1.12,
+      "pins": {
+        "1": "PULSE_GATE_N",
+        "2": "VAON",
+        "3": "WAKE_MDRV"
+      },
+      "pin_names": {
+        "1": "G",
+        "2": "S",
+        "3": "D"
+      },
+      "pin_types": {
+        "1": "in",
+        "2": "pas",
+        "3": "pas"
+      },
+      "x": 4,
+      "y": 11.4,
+      "rot": 0,
+      "function": "Wake pulse"
+    },
+    {
+      "ref": "U406",
+      "mpn": "SN74AUP3G14DCUR",
+      "value": "Key isolation / Schmitt",
+      "lcsc": "C2863927",
+      "footprint": "TI_DCU8_KEY",
+      "height_mm": 0.9,
+      "pins": {
+        "1": "KEY1_N",
+        "2": "KEY3_OUT",
+        "3": "KEY2_N",
+        "4": "GND",
+        "5": "KEY2_OUT",
+        "6": "KEY3_N",
+        "7": "KEY1_OUT",
+        "8": "VMAIN"
+      },
+      "pin_names": {
+        "1": "1A",
+        "2": "3Y",
+        "3": "2A",
+        "4": "GND",
+        "5": "2Y",
+        "6": "3A",
+        "7": "1Y",
+        "8": "VCC"
+      },
+      "pin_types": {
+        "1": "in",
+        "2": "out",
+        "3": "in",
+        "4": "pwr",
+        "5": "out",
+        "6": "in",
+        "7": "out",
+        "8": "pwr"
+      },
+      "x": 27,
+      "y": 13.3,
+      "rot": 0,
+      "function": "User keys"
+    },
+    {
+      "ref": "C411",
+      "mpn": "CL05B104KO5NNNC",
+      "value": "100n 16V",
+      "lcsc": "C1525",
+      "footprint": "C0402",
+      "height_mm": 0.55,
+      "pins": {
+        "1": "VMAIN",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 29,
+      "y": 15.1,
+      "rot": 0,
+      "function": "User keys"
+    },
+    {
+      "ref": "R410",
+      "mpn": "0402WGF4702TCE",
+      "value": "47k 1%",
+      "lcsc": "C25792",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "VAON",
+        "2": "ANY_KEY_N"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 21,
+      "y": 15.5,
+      "rot": 0,
+      "function": "User keys"
+    },
+    {
+      "ref": "D402",
+      "mpn": "BAT54A,215",
+      "value": "Dual Schottky common anode",
+      "lcsc": "C130910",
+      "footprint": "SOT23_WAKE",
+      "height_mm": 1.12,
+      "pins": {
+        "1": "KEY1_N",
+        "2": "KEY2_N",
+        "3": "ANY_KEY_N"
+      },
+      "pin_names": {
+        "1": "K1",
+        "2": "K2",
+        "3": "COM_A"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas",
+        "3": "pas"
+      },
+      "x": 22,
+      "y": 19,
+      "rot": 0,
+      "function": "User keys"
+    },
+    {
+      "ref": "D403",
+      "mpn": "BAT54A,215",
+      "value": "Dual Schottky common anode",
+      "lcsc": "C130910",
+      "footprint": "SOT23_WAKE",
+      "height_mm": 1.12,
+      "pins": {
+        "1": "KEY3_N",
+        "2": "KEY3_N",
+        "3": "ANY_KEY_N"
+      },
+      "pin_names": {
+        "1": "K1",
+        "2": "K2",
+        "3": "COM_A"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas",
+        "3": "pas"
+      },
+      "x": 26.2,
+      "y": 18.9,
+      "rot": 0,
+      "function": "User keys"
+    },
+    {
+      "ref": "SW401",
+      "mpn": "SKRPABE010",
+      "value": "Key 1",
+      "lcsc": "C115360",
+      "footprint": "ALPS_SKRP",
+      "height_mm": 2.6,
+      "pins": {
+        "1": "KEY1_SW",
+        "2": "KEY1_SW",
+        "3": "GND",
+        "4": "GND"
+      },
+      "pin_names": {
+        "1": "A1",
+        "2": "A2",
+        "3": "B1",
+        "4": "B2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas",
+        "3": "pas",
+        "4": "pas"
+      },
+      "x": 5,
+      "y": 27,
+      "rot": 0,
+      "function": "User keys"
+    },
+    {
+      "ref": "R411",
+      "mpn": "0402WGF1003TCE",
+      "value": "100k 1%",
+      "lcsc": "C25741",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "VAON",
+        "2": "KEY1_N"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 3.7,
+      "y": 22,
+      "rot": 0,
+      "function": "User keys"
+    },
+    {
+      "ref": "C412",
+      "mpn": "CL21B475KOFNNNE",
+      "value": "4.7u 16V",
+      "lcsc": "C107365",
+      "footprint": "C0805",
+      "height_mm": 1.35,
+      "pins": {
+        "1": "KEY1_N",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 6.3,
+      "y": 23,
+      "rot": 90,
+      "function": "User keys"
+    },
+    {
+      "ref": "R414",
+      "mpn": "0402WGF3300TCE",
+      "value": "330R 1%",
+      "lcsc": "C25104",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "KEY1_SW",
+        "2": "KEY1_N"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 3.7,
+      "y": 24.3,
+      "rot": 0,
+      "function": "User keys"
+    },
+    {
+      "ref": "R417",
+      "mpn": "0402WGF3301TCE",
+      "value": "3.3k 1%",
+      "lcsc": "C25890",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "KEY1_OUT",
+        "2": "BTN1"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 30.7,
+      "y": 12.9,
+      "rot": 0,
+      "function": "User keys"
+    },
+    {
+      "ref": "SW402",
+      "mpn": "SKRPABE010",
+      "value": "Key 2",
+      "lcsc": "C115360",
+      "footprint": "ALPS_SKRP",
+      "height_mm": 2.6,
+      "pins": {
+        "1": "KEY2_SW",
+        "2": "KEY2_SW",
+        "3": "GND",
+        "4": "GND"
+      },
+      "pin_names": {
+        "1": "A1",
+        "2": "A2",
+        "3": "B1",
+        "4": "B2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas",
+        "3": "pas",
+        "4": "pas"
+      },
+      "x": 15.5,
+      "y": 27,
+      "rot": 0,
+      "function": "User keys"
+    },
+    {
+      "ref": "R412",
+      "mpn": "0402WGF1003TCE",
+      "value": "100k 1%",
+      "lcsc": "C25741",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "VAON",
+        "2": "KEY2_N"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 14.2,
+      "y": 22,
+      "rot": 0,
+      "function": "User keys"
+    },
+    {
+      "ref": "C413",
+      "mpn": "CL21B475KOFNNNE",
+      "value": "4.7u 16V",
+      "lcsc": "C107365",
+      "footprint": "C0805",
+      "height_mm": 1.35,
+      "pins": {
+        "1": "KEY2_N",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 16.8,
+      "y": 23,
+      "rot": 90,
+      "function": "User keys"
+    },
+    {
+      "ref": "R415",
+      "mpn": "0402WGF3300TCE",
+      "value": "330R 1%",
+      "lcsc": "C25104",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "KEY2_SW",
+        "2": "KEY2_N"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 14.2,
+      "y": 24.3,
+      "rot": 0,
+      "function": "User keys"
+    },
+    {
+      "ref": "R418",
+      "mpn": "0402WGF3301TCE",
+      "value": "3.3k 1%",
+      "lcsc": "C25890",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "KEY2_OUT",
+        "2": "BTN2"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 30.7,
+      "y": 11.65,
+      "rot": 0,
+      "function": "User keys"
+    },
+    {
+      "ref": "SW403",
+      "mpn": "SKRPABE010",
+      "value": "Key 3",
+      "lcsc": "C115360",
+      "footprint": "ALPS_SKRP",
+      "height_mm": 2.6,
+      "pins": {
+        "1": "KEY3_SW",
+        "2": "KEY3_SW",
+        "3": "GND",
+        "4": "GND"
+      },
+      "pin_names": {
+        "1": "A1",
+        "2": "A2",
+        "3": "B1",
+        "4": "B2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas",
+        "3": "pas",
+        "4": "pas"
+      },
+      "x": 26,
+      "y": 27,
+      "rot": 0,
+      "function": "User keys"
+    },
+    {
+      "ref": "R413",
+      "mpn": "0402WGF1003TCE",
+      "value": "100k 1%",
+      "lcsc": "C25741",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "VAON",
+        "2": "KEY3_N"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 24.7,
+      "y": 22,
+      "rot": 0,
+      "function": "User keys"
+    },
+    {
+      "ref": "C414",
+      "mpn": "CL21B475KOFNNNE",
+      "value": "4.7u 16V",
+      "lcsc": "C107365",
+      "footprint": "C0805",
+      "height_mm": 1.35,
+      "pins": {
+        "1": "KEY3_N",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 27.3,
+      "y": 23,
+      "rot": 90,
+      "function": "User keys"
+    },
+    {
+      "ref": "R416",
+      "mpn": "0402WGF3300TCE",
+      "value": "330R 1%",
+      "lcsc": "C25104",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "KEY3_SW",
+        "2": "KEY3_N"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 24.7,
+      "y": 24.3,
+      "rot": 0,
+      "function": "User keys"
+    },
+    {
+      "ref": "R419",
+      "mpn": "0402WGF3301TCE",
+      "value": "3.3k 1%",
+      "lcsc": "C25890",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "KEY3_OUT",
+        "2": "BTN3"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 30.7,
+      "y": 10.4,
+      "rot": 0,
+      "function": "User keys"
+    },
+    {
+      "ref": "U407",
+      "mpn": "TPS22919DCKR",
+      "value": "Gated battery sample",
+      "lcsc": "C2149796",
+      "footprint": "TI_DCK6_SENSE",
+      "height_mm": 1.1,
+      "pins": {
+        "1": "VBAT",
+        "2": "GND",
+        "3": "SENSE_SWITCH_EN",
+        "5": "VBAT_ADC_SRC",
+        "6": "VBAT_ADC_SRC"
+      },
+      "pin_names": {
+        "1": "IN",
+        "2": "GND",
+        "3": "ON",
+        "4": "NC",
+        "5": "QOD",
+        "6": "OUT"
+      },
+      "pin_types": {
+        "1": "pwr",
+        "2": "pwr",
+        "3": "in",
+        "4": "nc",
+        "5": "pas",
+        "6": "out"
+      },
+      "x": 35,
+      "y": 13,
+      "rot": 0,
+      "function": "Battery ADC",
+      "intentional_no_connect": [
+        "4"
+      ]
+    },
+    {
+      "ref": "C415",
+      "mpn": "CL05A105KA5NQNC",
+      "value": "1u 25V",
+      "lcsc": "C52923",
+      "footprint": "C0402",
+      "height_mm": 0.55,
+      "pins": {
+        "1": "VBAT",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 33.5,
+      "y": 15.1,
+      "rot": 0,
+      "function": "Battery ADC"
+    },
+    {
+      "ref": "R420",
+      "mpn": "0402WGF1002TCE",
+      "value": "10k 1%",
+      "lcsc": "C25744",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "VBAT_ADC_SRC",
+        "2": "VBAT_SENSE"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 37.3,
+      "y": 14.1,
+      "rot": 90,
+      "function": "Battery ADC"
+    },
+    {
+      "ref": "R421",
+      "mpn": "0402WGF1002TCE",
+      "value": "10k 1%",
+      "lcsc": "C25744",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "VBAT_SENSE",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 37.3,
+      "y": 11.6,
+      "rot": 90,
+      "function": "Battery ADC"
+    },
+    {
+      "ref": "C416",
+      "mpn": "0402B102K500NT",
+      "value": "1n 50V",
+      "lcsc": "C1523",
+      "footprint": "C0402",
+      "height_mm": 0.55,
+      "pins": {
+        "1": "VBAT_SENSE",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 39,
+      "y": 12.5,
+      "rot": 90,
+      "function": "Battery ADC"
+    },
+    {
+      "ref": "U408",
+      "mpn": "SN74AUP1G97DCKR",
+      "value": "Schmitt ADC interlock",
+      "lcsc": "C2682139",
+      "footprint": "TI_DCK6_SENSE",
+      "height_mm": 1.1,
+      "pins": {
+        "1": "GND",
+        "2": "GND",
+        "3": "MEAS_FILTER",
+        "4": "SENSE_SWITCH_EN",
+        "5": "VAON",
+        "6": "MAIN_EN"
+      },
+      "pin_names": {
+        "1": "B",
+        "2": "GND",
+        "3": "A",
+        "4": "Y",
+        "5": "VCC",
+        "6": "C"
+      },
+      "pin_types": {
+        "1": "in",
+        "2": "pwr",
+        "3": "in",
+        "4": "out",
+        "5": "pwr",
+        "6": "in"
+      },
+      "x": 35,
+      "y": 19,
+      "rot": 0,
+      "function": "Battery ADC"
+    },
+    {
+      "ref": "C417",
+      "mpn": "CL05B104KO5NNNC",
+      "value": "100n 16V",
+      "lcsc": "C1525",
+      "footprint": "C0402",
+      "height_mm": 0.55,
+      "pins": {
+        "1": "VAON",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 37.4,
+      "y": 20,
+      "rot": 90,
+      "function": "Battery ADC"
+    },
+    {
+      "ref": "R422",
+      "mpn": "0402WGF1002TCE",
+      "value": "10k 1%",
+      "lcsc": "C25744",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "VBAT_MEAS_EN",
+        "2": "MEAS_FILTER"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 32.5,
+      "y": 18.6,
+      "rot": 90,
+      "function": "Battery ADC"
+    },
+    {
+      "ref": "R423",
+      "mpn": "0402WGF1003TCE",
+      "value": "100k 1%",
+      "lcsc": "C25741",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "MEAS_FILTER",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 32.5,
+      "y": 21.1,
+      "rot": 90,
+      "function": "Battery ADC"
+    },
+    {
+      "ref": "R424",
+      "mpn": "0402WGF1002TCE",
+      "value": "10k 1%",
+      "lcsc": "C25744",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "SENSE_SWITCH_EN",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 39,
+      "y": 15.2,
+      "rot": 90,
+      "function": "Battery ADC"
+    },
+    {
+      "ref": "C418",
+      "mpn": "CL05B103KB5NNNC",
+      "value": "10n 50V",
+      "lcsc": "C15195",
+      "footprint": "C0402",
+      "height_mm": 0.55,
+      "pins": {
+        "1": "MEAS_FILTER",
+        "2": "GND"
+      },
+      "pin_names": {
+        "1": "1",
+        "2": "2"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      },
+      "x": 31.1,
+      "y": 20.4,
+      "rot": 90,
+      "function": "Battery ADC"
+    }
+  ],
+  "notes": [
+    "All XY are block-local mm; sensor and three keys may be detached to suitable board edges. VAON and WAKE_MDRV are also fixture dry-contact nets.",
+    "Paper schematics must distinguish the documented IC NC pads from deliberately unused logic and CLKOUT outputs.",
+    "MAIN_EN and VBAT_MEAS_EN interlock enable battery sample. No GPIO pulls to VAON."
+  ]
+}

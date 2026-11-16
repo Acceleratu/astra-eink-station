@@ -1,0 +1,103 @@
+/dts-v1/;
+#include <nordic/nrf54l15_cpuapp.dtsi>
+#include <zephyr/dt-bindings/adc/adc.h>
+#include <zephyr/dt-bindings/adc/nrf-saadc-nrf54l.h>
+
+/ {
+	model = "Astra 4.2 inch weather station";
+	compatible = "astra,weather-station";
+	chosen {
+		zephyr,sram = &cpuapp_sram;
+		zephyr,flash-controller = &rram_controller;
+		zephyr,flash = &cpuapp_rram;
+		zephyr,code-partition = &application;
+	};
+	zephyr,user {
+		io-channels = <&adc 0>;
+		measure-enable-gpios = <&gpio1 9 GPIO_ACTIVE_HIGH>;
+		done-gpios = <&gpio0 0 GPIO_ACTIVE_HIGH>;
+		button-gpios = <&gpio1 5 GPIO_ACTIVE_HIGH>, <&gpio1 6 GPIO_ACTIVE_HIGH>,
+			       <&gpio1 7 GPIO_ACTIVE_HIGH>;
+		epd-dc-gpios = <&gpio2 0 GPIO_ACTIVE_HIGH>;
+		epd-reset-gpios = <&gpio2 3 GPIO_ACTIVE_LOW>;
+		epd-busy-gpios = <&gpio2 4 GPIO_ACTIVE_HIGH>;
+	};
+};
+
+&cpuapp_rram {
+	partitions {
+		compatible = "fixed-partitions";
+		#address-cells = <1>;
+		#size-cells = <1>;
+		application: partition@0 { label = "application"; reg = <0x0 0x15d000>; };
+		panel_state: partition@15d000 { label = "panel-state"; reg = <0x15d000 0x8000>; };
+	};
+};
+&cpuapp_sram { status = "okay"; };
+&gpio0 { status = "okay"; };
+&gpio1 { status = "okay"; };
+&gpio2 { status = "okay"; };
+&gpiote20 { status = "okay"; };
+&gpiote30 { status = "okay"; };
+&clock { status = "okay"; };
+&hfxo {
+	load-capacitors = "internal";
+	load-capacitance-femtofarad = <15000>;
+};
+&lfxo {
+	load-capacitors = "internal";
+	load-capacitance-femtofarad = <17000>;
+};
+&regulators { status = "okay"; };
+&vregmain {
+	status = "okay";
+	regulator-initial-mode = <NRF5X_REG_MODE_DCDC>;
+};
+&grtc {
+	owned-channels = <0 1 2 3 4 5 6 7 8 9 10 11>;
+	child-owned-channels = <3 4 7 8 9 10 11>;
+	status = "okay";
+};
+&radio { status = "okay"; };
+&pinctrl {
+	astra_spi: astra-spi {
+		group1 { psels = <NRF_PSEL(SPIM_SCK, 2, 1)>, <NRF_PSEL(SPIM_MOSI, 2, 2)>; };
+	};
+	astra_i2c: astra-i2c {
+		group1 { psels = <NRF_PSEL(TWIM_SDA, 1, 12)>, <NRF_PSEL(TWIM_SCL, 1, 11)>; };
+	};
+};
+&spi00 {
+	status = "okay";
+	pinctrl-0 = <&astra_spi>;
+	pinctrl-names = "default";
+	cs-gpios = <&gpio2 5 GPIO_ACTIVE_LOW>;
+	panel: epd@0 {
+		compatible = "solomon,ssd1683-raw";
+		reg = <0>;
+		spi-max-frequency = <2000000>;
+		spi-cs-setup-delay-ns = <1000>;
+		spi-cs-hold-delay-ns = <1000>;
+	};
+};
+&i2c21 {
+	status = "okay";
+	clock-frequency = <100000>;
+	pinctrl-0 = <&astra_i2c>;
+	pinctrl-names = "default";
+	external_rtc: rtc@51 { compatible = "nxp,pcf85063a"; reg = <0x51>; };
+	bme: bme280@76 { compatible = "bosch,bme280"; reg = <0x76>; };
+};
+&adc {
+	status = "okay";
+	#address-cells = <1>;
+	#size-cells = <0>;
+	channel@0 {
+		reg = <0>;
+		zephyr,gain = "ADC_GAIN_1_3";
+		zephyr,reference = "ADC_REF_INTERNAL";
+		zephyr,acquisition-time = <ADC_ACQ_TIME(ADC_ACQ_TIME_MICROSECONDS, 40)>;
+		zephyr,input-positive = <NRF_SAADC_AIN0>;
+		zephyr,resolution = <12>;
+	};
+};

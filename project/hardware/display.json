@@ -1,0 +1,577 @@
+{
+  "parts": [
+    {
+      "ref": "J301",
+      "mpn": "FH12-24S-0.5SH(55)",
+      "value": "EPD FPC 24 bottom-contact",
+      "lcsc": "C202112",
+      "footprint": "FH12_24S_05SH",
+      "height_mm": 2.0,
+      "pins": {
+        "2": "EPD_GDR",
+        "3": "EPD_RESE",
+        "5": "EPD_VSH2",
+        "8": "GND",
+        "9": "EPD_BUSY",
+        "10": "EPD_RST",
+        "11": "EPD_DC",
+        "12": "EPD_CS",
+        "13": "EPD_SCK",
+        "14": "EPD_MOSI",
+        "15": "VMAIN",
+        "16": "VMAIN",
+        "17": "GND",
+        "18": "EPD_VCORE",
+        "19": "EPD_VPP",
+        "20": "EPD_VSH1",
+        "21": "EPD_VGH",
+        "22": "EPD_VSL",
+        "23": "EPD_VGL",
+        "24": "EPD_VCOM",
+        "MP1": "GND",
+        "MP2": "GND"
+      },
+      "x": 15,
+      "y": 3.3,
+      "rot": 0,
+      "function": "Panel connector",
+      "pin_names": {
+        "1": "NC1",
+        "2": "GDR",
+        "3": "RESE",
+        "4": "NC4",
+        "5": "VSH2",
+        "6": "TSCL",
+        "7": "TSDA",
+        "8": "BS1",
+        "9": "BUSY",
+        "10": "nRES",
+        "11": "DC",
+        "12": "nCS",
+        "13": "SCL",
+        "14": "SDA",
+        "15": "VDDIO",
+        "16": "VCI",
+        "17": "VSS",
+        "18": "VDD",
+        "19": "VPP",
+        "20": "VSH1",
+        "21": "VGH",
+        "22": "VSL",
+        "23": "VGL",
+        "24": "VCOM",
+        "MP1": "SHELL1",
+        "MP2": "SHELL2"
+      },
+      "pin_types": {
+        "1": "nc",
+        "2": "pas",
+        "3": "pas",
+        "4": "nc",
+        "5": "pas",
+        "6": "pas",
+        "7": "pas",
+        "8": "pas",
+        "9": "pas",
+        "10": "pas",
+        "11": "pas",
+        "12": "pas",
+        "13": "pas",
+        "14": "pas",
+        "15": "pas",
+        "16": "pas",
+        "17": "pas",
+        "18": "pas",
+        "19": "pas",
+        "20": "pas",
+        "21": "pas",
+        "22": "pas",
+        "23": "pas",
+        "24": "pas",
+        "MP1": "pas",
+        "MP2": "pas"
+      }
+    },
+    {
+      "ref": "Q301",
+      "mpn": "BSS138LT1G",
+      "value": "BSS138L 50V NMOS",
+      "lcsc": "C82045",
+      "footprint": "BSS138_CASE318",
+      "height_mm": 1.11,
+      "pins": {
+        "1": "EPD_GDR",
+        "2": "EPD_RESE",
+        "3": "EPD_SW"
+      },
+      "x": 7.15,
+      "y": 11.5,
+      "rot": 0,
+      "function": "Bipolar boost",
+      "pin_names": {
+        "1": "G",
+        "2": "S",
+        "3": "D"
+      },
+      "pin_types": {
+        "1": "in",
+        "2": "pas",
+        "3": "pas"
+      }
+    },
+    {
+      "ref": "L301",
+      "mpn": "SRN4018-100M",
+      "value": "10uH 1.4A Isat",
+      "lcsc": "C503307",
+      "footprint": "SRN4018",
+      "height_mm": 1.8,
+      "pins": {
+        "1": "VMAIN",
+        "2": "EPD_SW"
+      },
+      "x": 3.05,
+      "y": 12.475,
+      "rot": 0,
+      "function": "Bipolar boost"
+    },
+    {
+      "ref": "D301",
+      "mpn": "MBR0530T1G",
+      "value": "MBR0530 30V Schottky",
+      "lcsc": "C82046",
+      "footprint": "MBR0530_CASE425",
+      "height_mm": 1.35,
+      "pins": {
+        "1": "GND",
+        "2": "EPD_PUMP"
+      },
+      "x": 15.6,
+      "y": 12.475,
+      "rot": 180,
+      "function": "Bipolar boost",
+      "pin_names": {
+        "1": "K",
+        "2": "A"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      }
+    },
+    {
+      "ref": "D302",
+      "mpn": "MBR0530T1G",
+      "value": "MBR0530 30V Schottky",
+      "lcsc": "C82046",
+      "footprint": "MBR0530_CASE425",
+      "height_mm": 1.35,
+      "pins": {
+        "1": "EPD_PUMP",
+        "2": "EPD_VGL"
+      },
+      "x": 15.6,
+      "y": 15.1,
+      "rot": 0,
+      "function": "Bipolar boost",
+      "pin_names": {
+        "1": "K",
+        "2": "A"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      }
+    },
+    {
+      "ref": "D303",
+      "mpn": "MBR0530T1G",
+      "value": "MBR0530 30V Schottky",
+      "lcsc": "C82046",
+      "footprint": "MBR0530_CASE425",
+      "height_mm": 1.35,
+      "pins": {
+        "1": "EPD_VGH",
+        "2": "EPD_SW"
+      },
+      "x": 5.515,
+      "y": 16.25,
+      "rot": 0,
+      "function": "Bipolar boost",
+      "pin_names": {
+        "1": "K",
+        "2": "A"
+      },
+      "pin_types": {
+        "1": "pas",
+        "2": "pas"
+      }
+    },
+    {
+      "ref": "R301",
+      "mpn": "0402WGF1002TCE",
+      "value": "10k 1%",
+      "lcsc": "C25744",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "GND",
+        "2": "EPD_GDR"
+      },
+      "x": 5.15,
+      "y": 9.45,
+      "rot": 0,
+      "function": "Bipolar boost"
+    },
+    {
+      "ref": "R302",
+      "mpn": "RC0603FR-073RL",
+      "value": "3R 1% 100mW",
+      "lcsc": "C137724",
+      "footprint": "R0603",
+      "height_mm": 0.55,
+      "pins": {
+        "1": "GND",
+        "2": "EPD_RESE"
+      },
+      "x": 8.1,
+      "y": 8.45,
+      "rot": 90,
+      "function": "Bipolar boost"
+    },
+    {
+      "ref": "C301",
+      "mpn": "CL32B475KBJNNNE",
+      "value": "4.7uF 50V X7R",
+      "lcsc": "C47783",
+      "footprint": "EPD_C1210",
+      "height_mm": 3.0,
+      "pins": {
+        "1": "EPD_SW",
+        "2": "EPD_PUMP"
+      },
+      "x": 10.9,
+      "y": 12.475,
+      "rot": 0,
+      "function": "Bipolar boost"
+    },
+    {
+      "ref": "C302",
+      "mpn": "CL21A475KAQNNNE",
+      "value": "4.7uF 25V X5R",
+      "lcsc": "C1779",
+      "footprint": "C0805",
+      "height_mm": 1.45,
+      "pins": {
+        "1": "VMAIN",
+        "2": "GND"
+      },
+      "x": 1.875,
+      "y": 8.8,
+      "rot": 270,
+      "function": "Bipolar boost"
+    },
+    {
+      "ref": "C303",
+      "mpn": "CL21B105KBFNNNE",
+      "value": "1uF 50V X7R",
+      "lcsc": "C28323",
+      "footprint": "C0805",
+      "height_mm": 1.35,
+      "pins": {
+        "1": "EPD_VSH2",
+        "2": "GND"
+      },
+      "x": 11.25,
+      "y": 9.45,
+      "rot": 90,
+      "function": "Panel capacitors"
+    },
+    {
+      "ref": "C304",
+      "mpn": "CL05B104KO5NNNC",
+      "value": "100nF 16V X7R",
+      "lcsc": "C1525",
+      "footprint": "C0402",
+      "height_mm": 0.55,
+      "pins": {
+        "1": "VMAIN",
+        "2": "GND"
+      },
+      "x": 16.45,
+      "y": 8.4,
+      "rot": 90,
+      "function": "Panel capacitors"
+    },
+    {
+      "ref": "C305",
+      "mpn": "CL05A105KA5NQNC",
+      "value": "1uF 25V X5R",
+      "lcsc": "C52923",
+      "footprint": "C0402",
+      "height_mm": 0.55,
+      "pins": {
+        "1": "EPD_VCORE",
+        "2": "GND"
+      },
+      "x": 17.85,
+      "y": 8.6,
+      "rot": 90,
+      "function": "Panel capacitors"
+    },
+    {
+      "ref": "C306",
+      "mpn": "CL21B105KBFNNNE",
+      "value": "1uF 50V X7R",
+      "lcsc": "C28323",
+      "footprint": "C0805",
+      "height_mm": 1.35,
+      "pins": {
+        "1": "EPD_VPP",
+        "2": "GND"
+      },
+      "x": 19.2,
+      "y": 9.7,
+      "rot": 90,
+      "function": "Panel capacitors"
+    },
+    {
+      "ref": "C307",
+      "mpn": "CL21B105KBFNNNE",
+      "value": "1uF 50V X7R",
+      "lcsc": "C28323",
+      "footprint": "C0805",
+      "height_mm": 1.35,
+      "pins": {
+        "1": "EPD_VSH1",
+        "2": "GND"
+      },
+      "x": 21.25,
+      "y": 10.1,
+      "rot": 90,
+      "function": "Panel capacitors"
+    },
+    {
+      "ref": "C308",
+      "mpn": "CL31B105KCHNNNE",
+      "value": "1uF 100V X7R",
+      "lcsc": "C13832",
+      "footprint": "EPD_C1206",
+      "height_mm": 1.8,
+      "pins": {
+        "1": "EPD_VGH",
+        "2": "GND"
+      },
+      "x": 21.7,
+      "y": 13.95,
+      "rot": 180,
+      "function": "Panel capacitors"
+    },
+    {
+      "ref": "C309",
+      "mpn": "CL21B105KBFNNNE",
+      "value": "1uF 50V X7R",
+      "lcsc": "C28323",
+      "footprint": "C0805",
+      "height_mm": 1.35,
+      "pins": {
+        "1": "EPD_VSL",
+        "2": "GND"
+      },
+      "x": 23.4,
+      "y": 9.9,
+      "rot": 90,
+      "function": "Panel capacitors"
+    },
+    {
+      "ref": "C310",
+      "mpn": "CL31B105KCHNNNE",
+      "value": "1uF 100V X7R",
+      "lcsc": "C13832",
+      "footprint": "EPD_C1206",
+      "height_mm": 1.8,
+      "pins": {
+        "1": "EPD_VGL",
+        "2": "GND"
+      },
+      "x": 26.35,
+      "y": 10.5,
+      "rot": 90,
+      "function": "Panel capacitors"
+    },
+    {
+      "ref": "C311",
+      "mpn": "CL21B105KBFNNNE",
+      "value": "1uF 50V X7R",
+      "lcsc": "C28323",
+      "footprint": "C0805",
+      "height_mm": 1.35,
+      "pins": {
+        "1": "EPD_VCOM",
+        "2": "GND"
+      },
+      "x": 24.9,
+      "y": 6.65,
+      "rot": 0,
+      "function": "Panel capacitors"
+    },
+    {
+      "ref": "R303",
+      "mpn": "0402WGF1003TCE",
+      "value": "100k 1%",
+      "lcsc": "C25741",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "EPD_CS",
+        "2": "VMAIN"
+      },
+      "x": 14.9,
+      "y": 9.0,
+      "rot": 90,
+      "function": "Digital interface"
+    },
+    {
+      "ref": "R304",
+      "mpn": "0402WGF1003TCE",
+      "value": "100k 1%",
+      "lcsc": "C25741",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "EPD_RST",
+        "2": "VMAIN"
+      },
+      "x": 13.8,
+      "y": 9.1,
+      "rot": 90,
+      "function": "Digital interface"
+    },
+    {
+      "ref": "R305",
+      "mpn": "0402WGF1003TCE",
+      "value": "100k 1%",
+      "lcsc": "C25741",
+      "footprint": "R0402",
+      "height_mm": 0.4,
+      "pins": {
+        "1": "EPD_BUSY",
+        "2": "GND"
+      },
+      "x": 12.65,
+      "y": 9.0,
+      "rot": 90,
+      "function": "Digital interface"
+    },
+    {
+      "ref": "TP301",
+      "mpn": "PCB test land",
+      "value": "EPD_VGH",
+      "lcsc": "",
+      "footprint": "TP",
+      "height_mm": 0,
+      "pins": {
+        "1": "EPD_VGH"
+      },
+      "x": 2.7,
+      "y": 15.35,
+      "rot": 0,
+      "function": "Test access",
+      "pin_names": {
+        "1": "EPD_VGH"
+      },
+      "pin_types": {
+        "1": "pas"
+      },
+      "populate": false,
+      "assembly": "PCB fabrication feature"
+    },
+    {
+      "ref": "TP302",
+      "mpn": "PCB test land",
+      "value": "EPD_VGL",
+      "lcsc": "",
+      "footprint": "TP",
+      "height_mm": 0,
+      "pins": {
+        "1": "EPD_VGL"
+      },
+      "x": 18.5,
+      "y": 16.0,
+      "rot": 0,
+      "function": "Test access",
+      "pin_names": {
+        "1": "EPD_VGL"
+      },
+      "pin_types": {
+        "1": "pas"
+      },
+      "populate": false,
+      "assembly": "PCB fabrication feature"
+    }
+  ],
+  "panel_pose": {
+    "panel": "Waveshare SKU 13186 monochrome, rear label V2, SSD1683",
+    "panel_glass_mm": [
+      91.0,
+      77.0,
+      1.2
+    ],
+    "panel_face_normal": [
+      0,
+      0,
+      -1
+    ],
+    "connector_entry_vector": [
+      0,
+      1,
+      0
+    ],
+    "flex_contact_normal": [
+      0,
+      0,
+      -1
+    ],
+    "stiffener_normal": [
+      0,
+      0,
+      1
+    ],
+    "tail_from_nearest_glass_edge_mm": 18.5,
+    "tail_from_nearest_glass_edge_tolerance_mm": 0.5,
+    "tail_center_from_left_glass_edge_mm": 23.05,
+    "tail_width_mm": 12.5,
+    "tail_tip_thickness_mm": 0.3,
+    "tail_tip_thickness_tolerance_mm": 0.03,
+    "finger_pitch_mm": 0.5,
+    "contact_span_mm": 11.5,
+    "connector_mouth_relative_to_body_mm": [
+      0,
+      -2.8
+    ],
+    "notes": "Open-port face at y=-2.8. Hirose section gives 3.1 mm mouth-to-contact plus 1.3 mm contact-to-flex-tip, 4.4 mm nominal seated depth. Flat glass extends toward south with display/front facing down; drawing provides 18.50±0.50 mm tip projection. This fixture pose is external to the assembled PCB.",
+    "insertion_depth_mm": 4.4,
+    "contact_from_tip_mm": 1.3,
+    "connector_closed_height_mm": 2.0,
+    "connector_service_open_height_mm": 4.8,
+    "glass_bounds_relative_to_J301_mm": [
+      -23.05,
+      -93.9,
+      67.95,
+      -16.9
+    ],
+    "tail_width_tolerance_mm": 0.1,
+    "connector_recommended_tail_width_tolerance_mm": 0.07,
+    "flat_fixture_finger_contact_z_mm": 0.55,
+    "flat_fixture_reinforced_tip_midplane_z_mm": 0.7,
+    "flat_fixture_stiffener_top_z_mm": 0.85,
+    "mating_z_method": "Scaled from the Hirose 0.5 mm bottom-contact mated section, 3.1 mm datum, seated with zero solder standoff. Approximate, no published vertical tolerance.",
+    "flex_contact_z_mm": 0.55,
+    "flex_contact_z_reference": "Hirose FH12 mated 0.5 mm bottom-contact section, verification/display/sources/hirose-fh12-mated.pdf printed page 12 (PDF page 7). Approximate vector scaling 3.1 mm / 23.228 PDF points; underside y=157.080, contact y=152.950. Nominal illustration only, no published Z tolerance or solder standoff."
+  },
+  "notes": [
+    "Use Waveshare 13186 B/W V2 SSD1683. NC 1/4 remain open. No panel-local external I2C temperature sensor fitted; TSCL/TSDA open. BS1=GND. VPP AC bypass only.",
+    "VGH/VGL are generated by the panel-controlled dual-polarity boost. K mark identifies SOD123 pad 1.",
+    "J301 is placed at the edge; front mouth points toward negative local Y. TP301/TP302 are bare ENIG test lands."
+  ]
+}

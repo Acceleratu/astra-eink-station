@@ -1,0 +1,28 @@
+TPS2116 steady USB, falling through PR1 threshold, with valid solar available
+.include ti.lib
+VUSB us 0 PWL(0 5.25 1m 5.25 8m 5.25 8.2m 3.55 11m 3.55)
+RSRC us usb 0.5
+CVBUS usb 0 1u
+VPV src 0 5.01111
+RPV src pv 0.5
+RPRH usb pr 301k
+RPRL pr 0 100k
+XU1 0 usb pr stat usb pv vout vout TPS2116_TRANS
+RESR vout vc 0.055
+COUT vc 0 3.5u
+RLOAD vout 0 180
+.option method=trap maxord=2 itl4=1000 reltol=@reltol@ abstol=1n
+.tran 1u 11m 0 @step@
+.control
+set noaskquit
+run
+meas tran usb_initial FIND v(vout) AT=2.8m
+meas tran usb_active FIND v(vout) AT=6m
+meas tran solar_after FIND v(vout) AT=10m
+meas tran transient_min MIN v(vout) FROM=7.98m TO=9m
+meas tran last_point FIND v(vout) AT=10.99m
+set wr_singlescale
+wrdata trace.txt v(usb) v(pv) v(pr) v(vout)
+quit
+.endc
+.end

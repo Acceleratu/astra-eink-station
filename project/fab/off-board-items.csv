@@ -1,0 +1,4 @@
+Assembly item,Qty,Manufacturer,Order number,Variant and receiving check,Electrical interface,Source
+Display panel,1,Waveshare,13186,4.2inch e-Paper black and white raw glass V2 with SSD1683 and 24 contacts; confirm V2 label and flex marking,Hirose FH12 J301 bottom contacts,https://www.waveshare.com/4.2inch-e-paper.htm
+Protected battery,1,LiPol,LP223439,250 mAh with PCM and 10 kOhm B3435 NTC; request drawing FD_3423_10 index 1 and verify connector cavity 1 black GND 2 yellow NTC 3 red VBAT,JST ACHR-03V-S mating J102,https://lipo-battery.com/lipo-battery-lp223439-3-7v-250mah-0-925wh-with-pcm-wires-connector-jst-achr-03v-s-b/
+Solar panel,1,ABRA,SP-5V-230MA-100X80,5 V and 230 mA at rated maximum power; verify polarity and open-circuit voltage over temperature before connection,Two soldered wires on J103 pad 1 PV+ and pad 2 GND,https://abra-electronics.com/solar-products/solar-cells-chargers-modules/0-1-watt/sp-5v-230ma-100.8x82.5mm.html

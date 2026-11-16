@@ -1,0 +1,137 @@
+{
+  "method": "Independent analysis of physical pad nets from native XML. No generator code imported.",
+  "scope": "Selected high-risk physical pad checks and closed-form limits; trace continuity and parasitics require separate verification.",
+  "corners": {
+    "checks": {
+      "PV current link is the fitted Panasonic 1 A zero-ohm part": true,
+      "SPV output ladder 10 to 20 MΩ inclusive": true,
+      "SPV EOC within 2.6 to 5.3V; solar restarts above maximum BQ VIN-DPM, typical hysteresis": true,
+      "SPV UVP in 2.2 to 3.6V and separated from EOC": true,
+      "Mux at a valid USB port voltage selects USB": true,
+      "BQ ISET standard range and under pack 125 mA without USB100 clamp": true,
+      "BQ programmed safety timer range and termination below charging current": true,
+      "Both connector CC have separate 5.1k ±1% sink resistors": true,
+      "NTC guard band, at stated error bounds, stays inside pack 10..45°C": true,
+      "Divider tolerance alone <50mV at 4.2V before ADC error": true
+    },
+    "SPV_total_output_resistance_ohm": [
+      10890000.0,
+      11110000.0
+    ],
+    "SPV_EOC_V": [
+      4.8868752,
+      5.1383722
+    ],
+    "SPV_UVP_V": [
+      3.1501744,
+      3.294276
+    ],
+    "MPP_fraction_of_harvester_open_circuit_V": [
+      0.2114267,
+      0.2181729
+    ],
+    "MPPT_fraction_of_Voc": [
+      0.8033106,
+      0.8095543
+    ],
+    "highest_PV_IN_Voc_at_all_resistor_corners_for_2p1V_MPP": 9.6254,
+    "USB_takeover_V_including_PR1_100nA": [
+      3.6045654,
+      4.4268737
+    ],
+    "ISET_A_before_USB100": [
+      0.0911211,
+      0.1137238
+    ],
+    "USB100_ITERM_A": [
+      0.0042558,
+      0.0066443
+    ],
+    "BQ_fast_timer_h_not_in_DPM": [
+      6.732,
+      11.4466667
+    ],
+    "NTC_cold_trip_C_range": [
+      12.0874604,
+      15.6700074
+    ],
+    "NTC_hot_trip_C_range": [
+      37.5356961,
+      42.6258517
+    ],
+    "ADC_error_V_resistors_only_at_4p2V": [
+      -0.042,
+      0.042
+    ]
+  },
+  "schematic": {
+    "pads_tested": 300,
+    "devices_tested": 63,
+    "R126_terminal_net_members": {
+      "PV_IN": [
+        "D102.1",
+        "R126.2"
+      ],
+      "PV_IC_IN": [
+        "C103.1",
+        "R105.1",
+        "R126.1",
+        "U101.20"
+      ]
+    },
+    "errors": [],
+    "sha256": "8a3620049672e4c6689bd5ed1912b18c2d15d24d47e5e1930bf133851b04ded0",
+    "path": "schematic/astra.sch"
+  },
+  "board": {
+    "pads_tested": 300,
+    "devices_tested": 63,
+    "R126_terminal_net_members": {
+      "PV_IN": [
+        "D102.1",
+        "R126.2"
+      ],
+      "PV_IC_IN": [
+        "C103.1",
+        "R105.1",
+        "R126.1",
+        "U101.20"
+      ]
+    },
+    "errors": [],
+    "sha256": "0da00a40681e1f48cb4f430ed5fa661a97a2074d9160dce65e817eecbc15665d",
+    "path": "board/astra.brd",
+    "construction": {
+      "checks": {
+        "Native two-sided stack selector is (1*16)": true,
+        "Native foil + dielectric + foil nominal 1.00mm": true,
+        "All actual signal traces, pours and plated vias are two-layer features": true,
+        "Every fitted or board-feature placement faces top and every SMD in used packages is top": true
+      },
+      "elements": 149,
+      "mirrored_elements": [],
+      "non_top_smds": [],
+      "native_stack_foil_dielectric_foil_mm": [
+        0.035,
+        0.93,
+        0.035
+      ],
+      "foil_to_foil_nominal_mm": 1.0,
+      "routed_layer_uses": {
+        "wire": {
+          "1": 946,
+          "16": 124
+        },
+        "polygon": {
+          "1": 49,
+          "16": 1
+        },
+        "via": {
+          "1-16": 210
+        }
+      }
+    }
+  },
+  "errors": [],
+  "status": "PASS"
+}

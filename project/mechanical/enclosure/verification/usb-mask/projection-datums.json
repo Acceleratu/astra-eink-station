@@ -1,0 +1,21 @@
+{
+  "qualification_basis": "Final reopened CAD section and frontal P-printed path, actual dimension windows challenged separately by the physical case gauge.",
+  "case_step_sha256": "7ebccd28f6a0456b7df6d3617ae5b70082b730a55e9df0d9f9a9bdce0b359d4c",
+  "usb_pocket_source_sha256": "087acd6f338b22fa63bc9f44e282c7e489cca79657157679703d36c88e639e5e",
+  "BRep_section_receipt_sha256": "c0a54440b895524b83a572724c0c508f2384fa39241a99a620e4afb757c98b84",
+  "BRep_section_at_x_mm": -8.75,
+  "BRep_section": {
+    "width_mm": 17.120000000000005,
+    "height_mm": 10.215,
+    "centre_yz_mm": [
+      67.0,
+      0.7124999999999999
+    ]
+  },
+  "cheek_bottom_relative_to_GCT_axis_mm": -6.12,
+  "cheek_top_relative_to_GCT_axis_mm": 4.095,
+  "minimum_cheek_to_metal_axial_mm": 8.4,
+  "max_outward_print_error_each_axis_mm": 0.25,
+  "max_rigid_to_GCT_axis_error_each_axis_mm": 0.35,
+  "minimum_directional_land_after_uncertainty_mm": 0.005
+}

@@ -1,0 +1,11 @@
+Three successful clean links, independently staged source directories
+Artifact identity with byte-for-byte comparison: PASS
+release HEX SHA-256: 949584c6b16f27df2d483919eb68d885149049035e217a43216d1df8f71c4286
+clean second HEX SHA-256: 949584c6b16f27df2d483919eb68d885149049035e217a43216d1df8f71c4286
+minimal SDK module list HEX SHA-256: 949584c6b16f27df2d483919eb68d885149049035e217a43216d1df8f71c4286
+release ELF SHA-256: fd25bb33eb6b6dab0caa0999e78f260d9fde7f68429e162eafaacdd1dd7e54b0
+clean second ELF SHA-256: 7277f7bdc14e8bde678c638e7a9b2d5fd44737c25009963572fe60717ad754a2
+ELFs include distinct temporary DWARF paths; initialized sections were independently compared with their HEX for both builds.
+Minimal module build explicitly limited ZEPHYR_MODULES to cmsis, cmsis_6, hal_nordic.
+Native fault tests used AddressSanitizer + UndefinedBehaviorSanitizer.
+CPU clocks, analog and optical panel response were not physically measured.

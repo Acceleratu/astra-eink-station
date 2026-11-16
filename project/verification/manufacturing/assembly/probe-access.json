@@ -1,0 +1,427 @@
+[
+  {
+    "ref": "J103",
+    "pad": "1",
+    "net": "PV_RAW",
+    "xy": [
+      13.7,
+      75.0
+    ],
+    "width": 2.2,
+    "kind": "terminal",
+    "exposed_inscribed_diameter_mm": 2.2,
+    "body_edge_clearance_mm": 1.462,
+    "nearest_body": "D102",
+    "land_to_board_edge_mm": 7.9,
+    "nearest_probe_pitch_mm": 3.5,
+    "criteria": {
+      "center_exposed": true,
+      "no_stencil": true,
+      "minimum_land": true,
+      "probe_body_clearance": true,
+      "setback_to_routed_edge": true,
+      "probe_pitch": true
+    },
+    "status": "PASS"
+  },
+  {
+    "ref": "J103",
+    "pad": "2",
+    "net": "GND",
+    "xy": [
+      13.7,
+      71.5
+    ],
+    "width": 2.2,
+    "kind": "terminal",
+    "exposed_inscribed_diameter_mm": 2.25,
+    "body_edge_clearance_mm": 1.493,
+    "nearest_body": "R109",
+    "land_to_board_edge_mm": 11.4,
+    "nearest_probe_pitch_mm": 3.5,
+    "criteria": {
+      "center_exposed": true,
+      "no_stencil": true,
+      "minimum_land": true,
+      "probe_body_clearance": true,
+      "setback_to_routed_edge": true,
+      "probe_pitch": true
+    },
+    "status": "PASS"
+  },
+  {
+    "ref": "TP101",
+    "pad": "1",
+    "net": "PV_STORE",
+    "xy": [
+      23.3,
+      60.35
+    ],
+    "width": 1,
+    "kind": "pogo",
+    "exposed_inscribed_diameter_mm": 1.0,
+    "body_edge_clearance_mm": 1.089,
+    "nearest_body": "R117",
+    "land_to_board_edge_mm": 22.8,
+    "nearest_probe_pitch_mm": 13.926,
+    "criteria": {
+      "center_exposed": true,
+      "no_stencil": true,
+      "minimum_land": true,
+      "probe_body_clearance": true,
+      "setback_to_routed_edge": true,
+      "probe_pitch": true
+    },
+    "status": "PASS"
+  },
+  {
+    "ref": "TP102",
+    "pad": "1",
+    "net": "CHG_IN",
+    "xy": [
+      7.5,
+      57.5
+    ],
+    "width": 1,
+    "kind": "pogo",
+    "exposed_inscribed_diameter_mm": 1.0,
+    "body_edge_clearance_mm": 0.887,
+    "nearest_body": "C109",
+    "land_to_board_edge_mm": 7.0,
+    "nearest_probe_pitch_mm": 11.616,
+    "criteria": {
+      "center_exposed": true,
+      "no_stencil": true,
+      "minimum_land": true,
+      "probe_body_clearance": true,
+      "setback_to_routed_edge": true,
+      "probe_pitch": true
+    },
+    "status": "PASS"
+  },
+  {
+    "ref": "TP103",
+    "pad": "1",
+    "net": "VBAT",
+    "xy": [
+      17.7,
+      47.6
+    ],
+    "width": 1,
+    "kind": "pogo",
+    "exposed_inscribed_diameter_mm": 1.0,
+    "body_edge_clearance_mm": 1.416,
+    "nearest_body": "J102",
+    "land_to_board_edge_mm": 17.2,
+    "nearest_probe_pitch_mm": 8.766,
+    "criteria": {
+      "center_exposed": true,
+      "no_stencil": true,
+      "minimum_land": true,
+      "probe_body_clearance": true,
+      "setback_to_routed_edge": true,
+      "probe_pitch": true
+    },
+    "status": "PASS"
+  },
+  {
+    "ref": "TP104",
+    "pad": "1",
+    "net": "SYS_AON",
+    "xy": [
+      9.1,
+      45.9
+    ],
+    "width": 1,
+    "kind": "pogo",
+    "exposed_inscribed_diameter_mm": 1.0,
+    "body_edge_clearance_mm": 2.5,
+    "nearest_body": "C110",
+    "land_to_board_edge_mm": 8.6,
+    "nearest_probe_pitch_mm": 2.2,
+    "criteria": {
+      "center_exposed": true,
+      "no_stencil": true,
+      "minimum_land": true,
+      "probe_body_clearance": true,
+      "setback_to_routed_edge": true,
+      "probe_pitch": true
+    },
+    "status": "PASS"
+  },
+  {
+    "ref": "TP105",
+    "pad": "1",
+    "net": "GND",
+    "xy": [
+      6.9,
+      45.9
+    ],
+    "width": 1,
+    "kind": "pogo",
+    "exposed_inscribed_diameter_mm": 1.05,
+    "body_edge_clearance_mm": 2.877,
+    "nearest_body": "C110",
+    "land_to_board_edge_mm": 6.4,
+    "nearest_probe_pitch_mm": 2.2,
+    "criteria": {
+      "center_exposed": true,
+      "no_stencil": true,
+      "minimum_land": true,
+      "probe_body_clearance": true,
+      "setback_to_routed_edge": true,
+      "probe_pitch": true
+    },
+    "status": "PASS"
+  },
+  {
+    "ref": "TP106",
+    "pad": "1",
+    "net": "VMAIN",
+    "xy": [
+      4.0,
+      36.4
+    ],
+    "width": 1,
+    "kind": "pogo",
+    "exposed_inscribed_diameter_mm": 1.0,
+    "body_edge_clearance_mm": 0.901,
+    "nearest_body": "C116",
+    "land_to_board_edge_mm": 3.5,
+    "nearest_probe_pitch_mm": 9.933,
+    "criteria": {
+      "center_exposed": true,
+      "no_stencil": true,
+      "minimum_land": true,
+      "probe_body_clearance": true,
+      "setback_to_routed_edge": true,
+      "probe_pitch": true
+    },
+    "status": "PASS"
+  },
+  {
+    "ref": "J201",
+    "pad": "1",
+    "net": "GND",
+    "xy": [
+      100.47,
+      38.81
+    ],
+    "width": 1.45,
+    "kind": "pogo",
+    "exposed_inscribed_diameter_mm": 1.5,
+    "body_edge_clearance_mm": 3.169,
+    "nearest_body": "C416",
+    "land_to_board_edge_mm": 10.805,
+    "nearest_probe_pitch_mm": 2.54,
+    "criteria": {
+      "center_exposed": true,
+      "no_stencil": true,
+      "minimum_land": true,
+      "probe_body_clearance": true,
+      "setback_to_routed_edge": true,
+      "probe_pitch": true
+    },
+    "status": "PASS"
+  },
+  {
+    "ref": "J201",
+    "pad": "2",
+    "net": "VMAIN",
+    "xy": [
+      97.93,
+      38.81
+    ],
+    "width": 1.45,
+    "kind": "pogo",
+    "exposed_inscribed_diameter_mm": 1.45,
+    "body_edge_clearance_mm": 1.568,
+    "nearest_body": "C416",
+    "land_to_board_edge_mm": 13.345,
+    "nearest_probe_pitch_mm": 2.54,
+    "criteria": {
+      "center_exposed": true,
+      "no_stencil": true,
+      "minimum_land": true,
+      "probe_body_clearance": true,
+      "setback_to_routed_edge": true,
+      "probe_pitch": true
+    },
+    "status": "PASS"
+  },
+  {
+    "ref": "J201",
+    "pad": "3",
+    "net": "SWCLK",
+    "xy": [
+      100.47,
+      36.27
+    ],
+    "width": 1.45,
+    "kind": "pogo",
+    "exposed_inscribed_diameter_mm": 1.45,
+    "body_edge_clearance_mm": 4.997,
+    "nearest_body": "C416",
+    "land_to_board_edge_mm": 10.805,
+    "nearest_probe_pitch_mm": 2.54,
+    "criteria": {
+      "center_exposed": true,
+      "no_stencil": true,
+      "minimum_land": true,
+      "probe_body_clearance": true,
+      "setback_to_routed_edge": true,
+      "probe_pitch": true
+    },
+    "status": "PASS"
+  },
+  {
+    "ref": "J201",
+    "pad": "4",
+    "net": "SWDIO",
+    "xy": [
+      97.93,
+      36.27
+    ],
+    "width": 1.45,
+    "kind": "pogo",
+    "exposed_inscribed_diameter_mm": 1.45,
+    "body_edge_clearance_mm": 3.784,
+    "nearest_body": "R421",
+    "land_to_board_edge_mm": 13.345,
+    "nearest_probe_pitch_mm": 2.54,
+    "criteria": {
+      "center_exposed": true,
+      "no_stencil": true,
+      "minimum_land": true,
+      "probe_body_clearance": true,
+      "setback_to_routed_edge": true,
+      "probe_pitch": true
+    },
+    "status": "PASS"
+  },
+  {
+    "ref": "J201",
+    "pad": "5",
+    "net": "NRST",
+    "xy": [
+      100.47,
+      33.73
+    ],
+    "width": 1.45,
+    "kind": "pogo",
+    "exposed_inscribed_diameter_mm": 1.45,
+    "body_edge_clearance_mm": 7.226,
+    "nearest_body": "C416",
+    "land_to_board_edge_mm": 10.805,
+    "nearest_probe_pitch_mm": 2.54,
+    "criteria": {
+      "center_exposed": true,
+      "no_stencil": true,
+      "minimum_land": true,
+      "probe_body_clearance": true,
+      "setback_to_routed_edge": true,
+      "probe_pitch": true
+    },
+    "status": "PASS"
+  },
+  {
+    "ref": "J201",
+    "pad": "6",
+    "net": "WAKE_MDRV",
+    "xy": [
+      97.93,
+      33.73
+    ],
+    "width": 1.45,
+    "kind": "pogo",
+    "exposed_inscribed_diameter_mm": 1.45,
+    "body_edge_clearance_mm": 6.075,
+    "nearest_body": "R421",
+    "land_to_board_edge_mm": 13.345,
+    "nearest_probe_pitch_mm": 2.54,
+    "criteria": {
+      "center_exposed": true,
+      "no_stencil": true,
+      "minimum_land": true,
+      "probe_body_clearance": true,
+      "setback_to_routed_edge": true,
+      "probe_pitch": true
+    },
+    "status": "PASS"
+  },
+  {
+    "ref": "J201",
+    "pad": "7",
+    "net": "VAON",
+    "xy": [
+      100.47,
+      31.19
+    ],
+    "width": 1.45,
+    "kind": "pogo",
+    "exposed_inscribed_diameter_mm": 1.45,
+    "body_edge_clearance_mm": 9.453,
+    "nearest_body": "R421",
+    "land_to_board_edge_mm": 10.805,
+    "nearest_probe_pitch_mm": 2.54,
+    "criteria": {
+      "center_exposed": true,
+      "no_stencil": true,
+      "minimum_land": true,
+      "probe_body_clearance": true,
+      "setback_to_routed_edge": true,
+      "probe_pitch": true
+    },
+    "status": "PASS"
+  },
+  {
+    "ref": "TP301",
+    "pad": "1",
+    "net": "EPD_VGH",
+    "xy": [
+      33.7,
+      17.5
+    ],
+    "width": 1,
+    "kind": "pogo",
+    "exposed_inscribed_diameter_mm": 1.0,
+    "body_edge_clearance_mm": 2.504,
+    "nearest_body": "D303",
+    "land_to_board_edge_mm": 17.0,
+    "nearest_probe_pitch_mm": 17.365,
+    "criteria": {
+      "center_exposed": true,
+      "no_stencil": true,
+      "minimum_land": true,
+      "probe_body_clearance": true,
+      "setback_to_routed_edge": true,
+      "probe_pitch": true
+    },
+    "status": "PASS"
+  },
+  {
+    "ref": "TP302",
+    "pad": "1",
+    "net": "EPD_VGL",
+    "xy": [
+      51.0,
+      16.0
+    ],
+    "width": 1,
+    "kind": "pogo",
+    "exposed_inscribed_diameter_mm": 1.0,
+    "body_edge_clearance_mm": 1.058,
+    "nearest_body": "D302",
+    "land_to_board_edge_mm": 15.5,
+    "nearest_probe_pitch_mm": 17.365,
+    "criteria": {
+      "center_exposed": true,
+      "no_stencil": true,
+      "minimum_land": true,
+      "probe_body_clearance": true,
+      "setback_to_routed_edge": true,
+      "probe_pitch": true
+    },
+    "status": "PASS"
+  }
+]

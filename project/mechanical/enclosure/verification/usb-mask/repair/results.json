@@ -1,0 +1,93 @@
+{
+  "variant": "Optional black lower apron for an overhanging board edge; no change to the nominal released assembly",
+  "case_step_sha256": "0ecf7606efe8e2e5c8d1abdf82748b40e9f5b99b8cd6232bdbb4c4b8cf062447",
+  "alternate_module_step_sha256": "f41c75aa8c0e523924e51df80c167c4cb984dda8b7ea73b036f22d7f95bca3fe",
+  "algorithm_sha256": "39dfdc68dbb365417f242c368bf5c4009c169c61557a8c6783e5e9d3cddd3593",
+  "references": [
+    "USB_black_PSA_lip_seal",
+    "USB_black_PET_side_guards",
+    "USB_black_PET_anchor",
+    "USB_black_PSA_anchor",
+    "Conversion_upper_black_PET_125um",
+    "Conversion_lower_black_PET_50um",
+    "Conversion_lower_black_tesa_68822"
+  ],
+  "reopened_positive_overlaps_mm3": {},
+  "board_nominal_distance_to_each_reworked_part_mm": {
+    "Conversion_upper_black_PET_125um": 0.09568829604502319,
+    "Conversion_lower_black_PET_50um": 0.2275,
+    "Conversion_lower_black_tesa_68822": 0.20623105973640343
+  },
+  "hypothetical_FR4_extension_envelope_mm": [
+    -0.2075,
+    59.4,
+    -1.01,
+    0.0,
+    74.6,
+    0.0
+  ],
+  "distances_to_hypothetical_FR4_extension_mm": {
+    "Conversion_upper_black_PET_125um": 0.08,
+    "Conversion_lower_black_PET_50um": 0.020000000000000018,
+    "Conversion_lower_black_tesa_68822": 0.105
+  },
+  "distances_to_front_wall_mm": {
+    "Conversion_upper_black_PET_125um": 0.17249999999999704,
+    "Conversion_lower_black_PET_50um": 0.07249999999999951,
+    "Conversion_lower_black_tesa_68822": 0.122499999999997
+  },
+  "twenty_mm_vertical_lift_to_fixed_front_and_rails_mm": {
+    "Conversion_upper_black_PET_125um": 0.17249999999999632,
+    "Conversion_lower_black_PET_50um": 0.07249999999999679,
+    "Conversion_lower_black_tesa_68822": 0.12249999999999633
+  },
+  "in_plane_overlap_upper_and_apron_mm2": 14.807968979230132,
+  "continuous_opaque_tesa_bond_area_mm2": 13.4869665354245,
+  "complete_opaque_seam_test_stripe_mm3": 0.05939999999999994,
+  "opaque_material_in_test_stripe_mm3": 0.05939999999999996,
+  "min_apron_to_worst_bore_at_5deg_including_0p020_relative_registration_mm": 0.07179848190664016,
+  "central_min_nominal_pet_overlap_Z_mm": 0.11500000000000006,
+  "central_nominal_black_adhesive_web_Z_mm": 0.07500000000000016,
+  "additional_nominal_apron_clearance_around_original_hole_mm": 0.07999999999999963,
+  "apron_front_x_mm": -0.27749999999999997,
+  "apron_back_x_mm": -0.22749999999999998,
+  "native_projection_lost_area_mm2": 0.0,
+  "native_projection_extra_material_mm2": 0.0,
+  "drawings": {
+    "Conversion-upper-X30-125um.dxf": {
+      "sha256": "75e8fb12848af03744397730accac29c66f4b373b0bb806522b06ccc3b6f6148",
+      "closed_loops": 2,
+      "net_area_mm2": 55.729555978001585,
+      "flat_profile_bounds_mm": [
+        -7.5,
+        -1.6450000000000005,
+        7.5,
+        3.7
+      ]
+    },
+    "Conversion-apron-X30-50um.dxf": {
+      "sha256": "6ce7adf0719cb01e3e74417474459acd74509c91e7199706bd651ecd5620fb38",
+      "closed_loops": 1,
+      "net_area_mm2": 45.35827862837887,
+      "flat_profile_bounds_mm": [
+        -7.5,
+        -3.7,
+        7.5,
+        0.5
+      ]
+    },
+    "Conversion-apron-bond-tesa-68822-50um.dxf": {
+      "sha256": "c048e1c891325586276dff1444422efa1c8eacc63a61970ffc0f3ce7f82e9777",
+      "closed_loops": 1,
+      "net_area_mm2": 13.486966535424498,
+      "flat_profile_bounds_mm": [
+        -7.425000000000001,
+        -1.62,
+        7.425000000000001,
+        0.4250000000000102
+      ]
+    }
+  },
+  "digital_fit_pass": true,
+  "physical_qualification_executed": false
+}

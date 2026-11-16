@@ -1,0 +1,12 @@
+PASS journal: all 81 byte-cut positions in clear, intent and seal on a reused slot
+PASS journal: all 512 single-bit flips in latest intent/seal require full, then recover
+PASS journal: newest sequence selected across 32-bit wrap
+PASS policy: cadence, forced full, time, thermal, low/high battery, renderer guards
+PASS SSD1683 command sink: full, both 15000-byte planes match, origins reset, 30 SPI fault sites
+PASS SSD1683 command sink: cold differential, both 15000-byte planes match, origins reset, 30 SPI fault sites
+PASS BUSY: disconnected low, stuck during waveform, stuck before reset; bounded timeout
+PASS PCF85063A calendar: all 36525 dates 2000..2099, midnight alarm, OS and malformed BCD
+PASS RTC cadence: all 86400 input seconds, midnight and 2 s boundary guard; 96 varying active runtimes add zero accumulated software drift
+PASS PCF85063A driver: AF retained across I2C re-arm retry, bus clear, 23:59:58 guard
+PASS PCF85063A driver: persistent clock-reset provenance after a failed first alarm write
+PASS PCF85063A driver: UTC provisioning, alarm readback fault and bounded oscillator timeout

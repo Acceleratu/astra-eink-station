@@ -1,0 +1,41 @@
+{
+  "input_kind": "Synthetic gray values 30 and 210; no physical measurement.",
+  "digital_references": [
+    "verification/firmware/fixture/15C/old.pbm",
+    "verification/firmware/fixture/15C/new.pbm"
+  ],
+  "score": {
+    "temperature_c": 15.0,
+    "partial_count": 5,
+    "full_white_black_contrast": 7.0,
+    "after_partial_white_black_contrast": 7.0,
+    "contrast_gate_active": false,
+    "transitions": {
+      "black_to_black": {
+        "interior_px": 2316,
+        "mean_luminance_change_fraction": 0.0,
+        "p95_absolute_change_fraction": 0.0,
+        "mean_after_position_in_reference_span": 0.0
+      },
+      "white_to_white": {
+        "interior_px": 104366,
+        "mean_luminance_change_fraction": 0.0,
+        "p95_absolute_change_fraction": 0.0,
+        "mean_after_position_in_reference_span": 1.0
+      },
+      "black_to_white": {
+        "interior_px": 168,
+        "mean_luminance_change_fraction": 1.0,
+        "p95_absolute_change_fraction": 1.0,
+        "mean_after_position_in_reference_span": 1.0
+      },
+      "white_to_black": {
+        "interior_px": 108,
+        "mean_luminance_change_fraction": -1.0,
+        "p95_absolute_change_fraction": 1.0,
+        "mean_after_position_in_reference_span": 0.0
+      }
+    },
+    "failed": []
+  }
+}

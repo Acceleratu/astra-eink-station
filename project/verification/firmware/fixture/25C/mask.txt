@@ -1,0 +1,2 @@
+chamber=25; old.temp_centi_c=2368; new.temp_centi_c=2433
+Changed rectangle (inclusive) [44,50]..[138,84]; white->black=425, black->white=500

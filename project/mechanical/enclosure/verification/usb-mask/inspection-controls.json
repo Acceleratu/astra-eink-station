@@ -1,0 +1,45 @@
+{
+  "synthetic_only": true,
+  "expected_nominal_pass": {
+    "serial": "SYNTHETIC-control",
+    "expanded_pairwise_uncertainty_mm": 0.005,
+    "measured_minimum_distances_mm": {
+      "free_PET_border": 0.1699999999999999,
+      "adhesive_setback_from_PET": 0.02999943525847702,
+      "circumferential_steel_adhesive_bearing": 0.08342988693146611
+    },
+    "lower_confidence_bounds_mm": {
+      "free_PET_border": 0.1649999999999999,
+      "adhesive_setback_from_PET": 0.024999435258477018,
+      "circumferential_steel_adhesive_bearing": 0.0784298869314661
+    },
+    "limits_mm": {
+      "free_PET_border": 0.025,
+      "adhesive_setback_from_PET": 0.01,
+      "circumferential_steel_adhesive_bearing": 0.035
+    },
+    "radial_PET_to_bore_center_mm": 3.440159739227255e-16,
+    "upper_confidence_radial_center_mm": 0.0050000000000003444,
+    "maximum_radial_center_mm": 0.035,
+    "geometry_pass": true,
+    "transparent_PSA_oblique_check": {
+      "status": "measured outlines and bounded pocket",
+      "pass": true,
+      "required_after_uncertainty_mm": 0.005,
+      "pet_back_to_steel_upper_mm": 0.055,
+      "magnification_of_PAIR_uncertainty": 1.0065907729179149,
+      "nominal_minimum_projected_land_mm": 0.013309378867955269,
+      "minimum_land_after_uncertainty_mm": 0.008276425003365694,
+      "minimum_cheek_to_steel_mm": 8.4,
+      "max_cheek_edge_outwards_per_axis_mm": 0.25,
+      "max_board_to_pocket_centre_per_axis_mm": 0.35,
+      "case_step_sha256": "0ecf7606efe8e2e5c8d1abdf82748b40e9f5b99b8cd6232bdbb4c4b8cf062447",
+      "usb_pocket_source_sha256": "087acd6f338b22fa63bc9f44e282c7e489cca79657157679703d36c88e639e5e",
+      "credits_black_adhesive": false
+    },
+    "release_pass": true
+  },
+  "misregistration_rejected": true,
+  "PSA_intrusion_rejected": true,
+  "insufficient_circumferential_bearing_rejected": true
+}

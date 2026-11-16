@@ -1,0 +1,46 @@
+{
+  "origin": "U201 body center, relative Cartesian top coordinates with antenna +Y",
+  "edge": {
+    "y": 3.95,
+    "orientation": "local +Y faces air; host outline can run across or recess to this line",
+    "reference": "nearest pad outer edge y=3.05 mm (manufacturer 1mm land); 0.90 mm land-edge"
+  },
+  "keepouts": [
+    {
+      "name": "U201 antenna, no carrier copper/traces/vias, mount or silkscreen",
+      "rect": [
+        -6.2,
+        3.45,
+        6.2,
+        8.8
+      ],
+      "layers": [
+        1,
+        16
+      ]
+    },
+    {
+      "name": "U201 antenna clearance to other metal and parts, keep display frame, solar wires, screws, battery and enclosure metal away",
+      "rect": [
+        -16.25,
+        3.95,
+        16.25,
+        19.0
+      ],
+      "layers": [
+        1,
+        16
+      ],
+      "physical_clearance_only": true
+    }
+  ],
+  "wires": [],
+  "vias": [],
+  "layout_notes": [
+    "Use local return/ground stitching in the electronic body. Do not add a host-side antenna or a 50 ohm trace.",
+    "Bring pins 30 and 31 and center pins 37 to 40 into connected local ground and then both planes, via-in-pad only if filled/capped. Route other pins outward from electronic end when possible.",
+    "Place 100n C201 beside U201.9/.10. Use continuous bottom ground below module body except essential short fanout. Do not put EPD switching nodes or the RT6160 inductor below or beside U201.",
+    "Place J201 on the top, out of the glass and cable path, with contact fixture access. Pogo can be moved independently of module; ensure fixture approach in enclosure or provide explicit uncovered factory fixture access.",
+    "If placing larger clearance to nearby exterior metal, keep it outside the antenna region, not inside the shield/ground counterpoise."
+  ]
+}

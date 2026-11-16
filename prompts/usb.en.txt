@@ -1,0 +1,1 @@
+Here’s a problem. I want to get the enclosure just right. Change the PCB if you need to, or anything else you think needs changing. The finished design has to pass all your checks. Please fix the USB opening so that only the port itself is exposed.

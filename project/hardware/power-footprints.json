@@ -1,0 +1,1093 @@
+{
+  "GCT_USB4135": {
+    "body": [
+      8.94,
+      6.9
+    ],
+    "height_mm": 3.35,
+    "pads": [
+      {
+        "n": "B12",
+        "x": -2.75,
+        "y": 3.03,
+        "w": 0.8,
+        "h": 1.2
+      },
+      {
+        "n": "B9",
+        "x": -1.52,
+        "y": 3.03,
+        "w": 0.76,
+        "h": 1.2
+      },
+      {
+        "n": "A5",
+        "x": -0.5,
+        "y": 3.03,
+        "w": 0.7,
+        "h": 1.2
+      },
+      {
+        "n": "B5",
+        "x": 0.5,
+        "y": 3.03,
+        "w": 0.7,
+        "h": 1.2
+      },
+      {
+        "n": "A9",
+        "x": 1.52,
+        "y": 3.03,
+        "w": 0.76,
+        "h": 1.2
+      },
+      {
+        "n": "A12",
+        "x": 2.75,
+        "y": 3.03,
+        "w": 0.8,
+        "h": 1.2
+      },
+      {
+        "n": "SH1",
+        "x": -5.125,
+        "y": 2.98,
+        "w": 1.8,
+        "h": 1.35
+      },
+      {
+        "n": "SH2",
+        "x": 5.125,
+        "y": 2.98,
+        "w": 1.8,
+        "h": 1.35
+      },
+      {
+        "n": "SH3",
+        "x": -5.125,
+        "y": -0.6,
+        "w": 1.8,
+        "h": 1.5
+      },
+      {
+        "n": "SH4",
+        "x": 5.125,
+        "y": -0.6,
+        "w": 1.8,
+        "h": 1.5
+      }
+    ],
+    "source": "GCT USB4135 drawing rev A2, top-side Recommended PCB Layout. Origin on nominal case center; mating face y=-3.45 mm. Shell terminals outside case width. Worst-case mechanical envelope 3.35 mm. https://gct.co/files/drawings/usb4135.pdf"
+  },
+  "JST_ACH03P_POWER": {
+    "body": [
+      4.3,
+      5.4
+    ],
+    "height_mm": 1.5,
+    "pads": [
+      {
+        "n": "1",
+        "x": 2.025,
+        "y": 1.2,
+        "w": 0.85,
+        "h": 0.6
+      },
+      {
+        "n": "2",
+        "x": 2.025,
+        "y": 0.0,
+        "w": 0.85,
+        "h": 0.6
+      },
+      {
+        "n": "3",
+        "x": 2.025,
+        "y": -1.2,
+        "w": 0.85,
+        "h": 0.6
+      },
+      {
+        "n": "M1",
+        "x": -1.75,
+        "y": 2.35,
+        "w": 0.8,
+        "h": 0.7
+      },
+      {
+        "n": "M2",
+        "x": -1.75,
+        "y": -2.35,
+        "w": 0.8,
+        "h": 0.7
+      }
+    ],
+    "source": "JST ACH connector component-side PCB layout. Top-entry latch, wires exit local -X. Topmost contact in vendor orientation is #1. https://www.jst.com/wp-content/uploads/2021/01/eACH-new.pdf"
+  },
+  "PV_WIRE_PAIR": {
+    "body": [
+      5.7,
+      3.0
+    ],
+    "height_mm": 0,
+    "pads": [
+      {
+        "n": "1",
+        "x": -1.75,
+        "y": 0,
+        "w": 2.2,
+        "h": 3.0,
+        "cream": false
+      },
+      {
+        "n": "2",
+        "x": 1.75,
+        "y": 0,
+        "w": 2.2,
+        "h": 3.0,
+        "cream": false
+      }
+    ],
+    "source": "Custom paired hand-solder lands for panel wire and return. Positive land 1. Provide strain relief on enclosure for the panel pigtail."
+  },
+  "SPV_VFQFPN20": {
+    "body": [
+      3,
+      3
+    ],
+    "height_mm": 1,
+    "pads": [
+      {
+        "n": "1",
+        "x": -1.475,
+        "y": 0.8,
+        "w": 0.8,
+        "h": 0.25,
+        "roundness": 15
+      },
+      {
+        "n": "2",
+        "x": -1.475,
+        "y": 0.4,
+        "w": 0.8,
+        "h": 0.25,
+        "roundness": 15
+      },
+      {
+        "n": "3",
+        "x": -1.475,
+        "y": 0.0,
+        "w": 0.8,
+        "h": 0.25,
+        "roundness": 15
+      },
+      {
+        "n": "4",
+        "x": -1.475,
+        "y": -0.4,
+        "w": 0.8,
+        "h": 0.25,
+        "roundness": 15
+      },
+      {
+        "n": "5",
+        "x": -1.475,
+        "y": -0.8,
+        "w": 0.8,
+        "h": 0.25,
+        "roundness": 15
+      },
+      {
+        "n": "6",
+        "x": -0.8,
+        "y": -1.475,
+        "w": 0.25,
+        "h": 0.8,
+        "roundness": 15
+      },
+      {
+        "n": "7",
+        "x": -0.4,
+        "y": -1.475,
+        "w": 0.25,
+        "h": 0.8,
+        "roundness": 15
+      },
+      {
+        "n": "8",
+        "x": -0.0,
+        "y": -1.475,
+        "w": 0.25,
+        "h": 0.8,
+        "roundness": 15
+      },
+      {
+        "n": "9",
+        "x": 0.4,
+        "y": -1.475,
+        "w": 0.25,
+        "h": 0.8,
+        "roundness": 15
+      },
+      {
+        "n": "10",
+        "x": 0.8,
+        "y": -1.475,
+        "w": 0.25,
+        "h": 0.8,
+        "roundness": 15
+      },
+      {
+        "n": "11",
+        "x": 1.475,
+        "y": -0.8,
+        "w": 0.8,
+        "h": 0.25,
+        "roundness": 15
+      },
+      {
+        "n": "12",
+        "x": 1.475,
+        "y": -0.4,
+        "w": 0.8,
+        "h": 0.25,
+        "roundness": 15
+      },
+      {
+        "n": "13",
+        "x": 1.475,
+        "y": -0.0,
+        "w": 0.8,
+        "h": 0.25,
+        "roundness": 15
+      },
+      {
+        "n": "14",
+        "x": 1.475,
+        "y": 0.4,
+        "w": 0.8,
+        "h": 0.25,
+        "roundness": 15
+      },
+      {
+        "n": "15",
+        "x": 1.475,
+        "y": 0.8,
+        "w": 0.8,
+        "h": 0.25,
+        "roundness": 15
+      },
+      {
+        "n": "16",
+        "x": 0.8,
+        "y": 1.475,
+        "w": 0.25,
+        "h": 0.8,
+        "roundness": 15
+      },
+      {
+        "n": "17",
+        "x": 0.4,
+        "y": 1.475,
+        "w": 0.25,
+        "h": 0.8,
+        "roundness": 15
+      },
+      {
+        "n": "18",
+        "x": 0.0,
+        "y": 1.475,
+        "w": 0.25,
+        "h": 0.8,
+        "roundness": 15
+      },
+      {
+        "n": "19",
+        "x": -0.4,
+        "y": 1.475,
+        "w": 0.25,
+        "h": 0.8,
+        "roundness": 15
+      },
+      {
+        "n": "20",
+        "x": -0.8,
+        "y": 1.475,
+        "w": 0.25,
+        "h": 0.8,
+        "roundness": 15
+      },
+      {
+        "n": "EP",
+        "x": 0,
+        "y": 0,
+        "w": 1.75,
+        "h": 1.75,
+        "paste_w": 0,
+        "paste_h": 0
+      }
+    ],
+    "source": "ST SPV1050 DS10044 rev8, manufacturer footprint figure 26, p25. 3.75 overall, 0.80 by 0.25 edge lands (ST nominal 0.20 widened to match JLC 0.25 ordinary pad minimum and maximum terminal width), 1.75 EP. Pin numbering per top view. https://www.st.com/resource/en/datasheet/spv1050.pdf",
+    "rectangles": [
+      {
+        "x1": -0.785,
+        "y1": -0.785,
+        "x2": -0.095,
+        "y2": -0.095,
+        "layer": 31
+      },
+      {
+        "x1": -0.785,
+        "y1": 0.095,
+        "x2": -0.095,
+        "y2": 0.785,
+        "layer": 31
+      },
+      {
+        "x1": 0.095,
+        "y1": -0.785,
+        "x2": 0.785,
+        "y2": -0.095,
+        "layer": 31
+      },
+      {
+        "x1": 0.095,
+        "y1": 0.095,
+        "x2": 0.785,
+        "y2": 0.785,
+        "layer": 31
+      }
+    ]
+  },
+  "TI_RGT16_BQ74": {
+    "body": [
+      3,
+      3
+    ],
+    "height_mm": 1,
+    "pads": [
+      {
+        "n": "1",
+        "x": -1.4,
+        "y": 0.75,
+        "w": 0.6,
+        "h": 0.25,
+        "roundness": 15
+      },
+      {
+        "n": "2",
+        "x": -1.4,
+        "y": 0.25,
+        "w": 0.6,
+        "h": 0.25,
+        "roundness": 15
+      },
+      {
+        "n": "3",
+        "x": -1.4,
+        "y": -0.25,
+        "w": 0.6,
+        "h": 0.25,
+        "roundness": 15
+      },
+      {
+        "n": "4",
+        "x": -1.4,
+        "y": -0.75,
+        "w": 0.6,
+        "h": 0.25,
+        "roundness": 15
+      },
+      {
+        "n": "5",
+        "x": -0.75,
+        "y": -1.4,
+        "w": 0.25,
+        "h": 0.6,
+        "roundness": 15
+      },
+      {
+        "n": "6",
+        "x": -0.25,
+        "y": -1.4,
+        "w": 0.25,
+        "h": 0.6,
+        "roundness": 15
+      },
+      {
+        "n": "7",
+        "x": 0.25,
+        "y": -1.4,
+        "w": 0.25,
+        "h": 0.6,
+        "roundness": 15
+      },
+      {
+        "n": "8",
+        "x": 0.75,
+        "y": -1.4,
+        "w": 0.25,
+        "h": 0.6,
+        "roundness": 15
+      },
+      {
+        "n": "9",
+        "x": 1.4,
+        "y": -0.75,
+        "w": 0.6,
+        "h": 0.25,
+        "roundness": 15
+      },
+      {
+        "n": "10",
+        "x": 1.4,
+        "y": -0.25,
+        "w": 0.6,
+        "h": 0.25,
+        "roundness": 15
+      },
+      {
+        "n": "11",
+        "x": 1.4,
+        "y": 0.25,
+        "w": 0.6,
+        "h": 0.25,
+        "roundness": 15
+      },
+      {
+        "n": "12",
+        "x": 1.4,
+        "y": 0.75,
+        "w": 0.6,
+        "h": 0.25,
+        "roundness": 15
+      },
+      {
+        "n": "13",
+        "x": 0.75,
+        "y": 1.4,
+        "w": 0.25,
+        "h": 0.6,
+        "roundness": 15
+      },
+      {
+        "n": "14",
+        "x": 0.25,
+        "y": 1.4,
+        "w": 0.25,
+        "h": 0.6,
+        "roundness": 15
+      },
+      {
+        "n": "15",
+        "x": -0.25,
+        "y": 1.4,
+        "w": 0.25,
+        "h": 0.6,
+        "roundness": 15
+      },
+      {
+        "n": "16",
+        "x": -0.75,
+        "y": 1.4,
+        "w": 0.25,
+        "h": 0.6,
+        "roundness": 15
+      },
+      {
+        "n": "EP",
+        "x": 0,
+        "y": 0,
+        "w": 1.68,
+        "h": 1.68,
+        "paste_w": 0,
+        "paste_h": 0
+      }
+    ],
+    "source": "TI BQ24074, RGT0016C current package supplement, 4222419E p53 (July 2025). 0.25 wide pads (nominal 0.24), 1.68 exposed land. https://www.ti.com/lit/ds/symlink/bq24074.pdf",
+    "rectangles": [
+      {
+        "x1": -0.765,
+        "y1": -0.765,
+        "x2": -0.075,
+        "y2": -0.075,
+        "layer": 31
+      },
+      {
+        "x1": -0.765,
+        "y1": 0.075,
+        "x2": -0.075,
+        "y2": 0.765,
+        "layer": 31
+      },
+      {
+        "x1": 0.075,
+        "y1": -0.765,
+        "x2": 0.765,
+        "y2": -0.075,
+        "layer": 31
+      },
+      {
+        "x1": 0.075,
+        "y1": 0.075,
+        "x2": 0.765,
+        "y2": 0.765,
+        "layer": 31
+      }
+    ]
+  },
+  "TI_DRL8_MUX": {
+    "body": [
+      1.2,
+      1.6
+    ],
+    "height_mm": 0.6,
+    "pads": [
+      {
+        "n": "1",
+        "x": -0.74,
+        "y": 0.75,
+        "w": 0.67,
+        "h": 0.3
+      },
+      {
+        "n": "2",
+        "x": -0.74,
+        "y": 0.25,
+        "w": 0.67,
+        "h": 0.3
+      },
+      {
+        "n": "3",
+        "x": -0.74,
+        "y": -0.25,
+        "w": 0.67,
+        "h": 0.3
+      },
+      {
+        "n": "4",
+        "x": -0.74,
+        "y": -0.75,
+        "w": 0.67,
+        "h": 0.3
+      },
+      {
+        "n": "5",
+        "x": 0.74,
+        "y": -0.75,
+        "w": 0.67,
+        "h": 0.3
+      },
+      {
+        "n": "6",
+        "x": 0.74,
+        "y": -0.25,
+        "w": 0.67,
+        "h": 0.3
+      },
+      {
+        "n": "7",
+        "x": 0.74,
+        "y": 0.25,
+        "w": 0.67,
+        "h": 0.3
+      },
+      {
+        "n": "8",
+        "x": 0.74,
+        "y": 0.75,
+        "w": 0.67,
+        "h": 0.3
+      }
+    ],
+    "source": "TI TPS2116 DRL0008A, board layout example 4224486/G p23. https://www.ti.com/lit/ds/symlink/tps2116.pdf"
+  },
+  "MC_MSOP8_TEMP": {
+    "body": [
+      3,
+      3
+    ],
+    "height_mm": 1.1,
+    "pads": [
+      {
+        "n": "1",
+        "x": -2.2,
+        "y": 0.975,
+        "w": 1.45,
+        "h": 0.45
+      },
+      {
+        "n": "2",
+        "x": -2.2,
+        "y": 0.325,
+        "w": 1.45,
+        "h": 0.45
+      },
+      {
+        "n": "3",
+        "x": -2.2,
+        "y": -0.325,
+        "w": 1.45,
+        "h": 0.45
+      },
+      {
+        "n": "4",
+        "x": -2.2,
+        "y": -0.975,
+        "w": 1.45,
+        "h": 0.45
+      },
+      {
+        "n": "5",
+        "x": 2.2,
+        "y": -0.975,
+        "w": 1.45,
+        "h": 0.45
+      },
+      {
+        "n": "6",
+        "x": 2.2,
+        "y": -0.325,
+        "w": 1.45,
+        "h": 0.45
+      },
+      {
+        "n": "7",
+        "x": 2.2,
+        "y": 0.325,
+        "w": 1.45,
+        "h": 0.45
+      },
+      {
+        "n": "8",
+        "x": 2.2,
+        "y": 0.975,
+        "w": 1.45,
+        "h": 0.45
+      }
+    ],
+    "source": "Microchip MSOP 3x3, C04-2111-MS rev E. Pin1 top left. https://ww1.microchip.com/downloads/aemDocuments/documents/product-documents/package-drawings/08L-MSOP-3x3-MS-C04-00111e.pdf"
+  },
+  "RT_WLCSP15": {
+    "body": [
+      1.44,
+      2.34
+    ],
+    "height_mm": 0.6,
+    "pads": [
+      {
+        "n": "A1",
+        "x": -0.4,
+        "y": 0.8,
+        "w": 0.25,
+        "h": 0.25,
+        "shape": "round",
+        "roundness": 100,
+        "mask_w": 0.22,
+        "mask_h": 0.22,
+        "paste_w": 0.22,
+        "paste_h": 0.22
+      },
+      {
+        "n": "A2",
+        "x": 0.0,
+        "y": 0.8,
+        "w": 0.25,
+        "h": 0.25,
+        "shape": "round",
+        "roundness": 100,
+        "mask_w": 0.22,
+        "mask_h": 0.22,
+        "paste_w": 0.22,
+        "paste_h": 0.22
+      },
+      {
+        "n": "A3",
+        "x": 0.4,
+        "y": 0.8,
+        "w": 0.25,
+        "h": 0.25,
+        "shape": "round",
+        "roundness": 100,
+        "mask_w": 0.22,
+        "mask_h": 0.22,
+        "paste_w": 0.22,
+        "paste_h": 0.22
+      },
+      {
+        "n": "B1",
+        "x": -0.4,
+        "y": 0.4,
+        "w": 0.25,
+        "h": 0.25,
+        "shape": "round",
+        "roundness": 100,
+        "mask_w": 0.22,
+        "mask_h": 0.22,
+        "paste_w": 0.22,
+        "paste_h": 0.22
+      },
+      {
+        "n": "B2",
+        "x": 0.0,
+        "y": 0.4,
+        "w": 0.25,
+        "h": 0.25,
+        "shape": "round",
+        "roundness": 100,
+        "mask_w": 0.22,
+        "mask_h": 0.22,
+        "paste_w": 0.22,
+        "paste_h": 0.22
+      },
+      {
+        "n": "B3",
+        "x": 0.4,
+        "y": 0.4,
+        "w": 0.25,
+        "h": 0.25,
+        "shape": "round",
+        "roundness": 100,
+        "mask_w": 0.22,
+        "mask_h": 0.22,
+        "paste_w": 0.22,
+        "paste_h": 0.22
+      },
+      {
+        "n": "C1",
+        "x": -0.4,
+        "y": 0.0,
+        "w": 0.25,
+        "h": 0.25,
+        "shape": "round",
+        "roundness": 100,
+        "mask_w": 0.22,
+        "mask_h": 0.22,
+        "paste_w": 0.22,
+        "paste_h": 0.22
+      },
+      {
+        "n": "C2",
+        "x": 0.0,
+        "y": 0.0,
+        "w": 0.25,
+        "h": 0.25,
+        "shape": "round",
+        "roundness": 100,
+        "mask_w": 0.22,
+        "mask_h": 0.22,
+        "paste_w": 0.22,
+        "paste_h": 0.22
+      },
+      {
+        "n": "C3",
+        "x": 0.4,
+        "y": 0.0,
+        "w": 0.25,
+        "h": 0.25,
+        "shape": "round",
+        "roundness": 100,
+        "mask_w": 0.22,
+        "mask_h": 0.22,
+        "paste_w": 0.22,
+        "paste_h": 0.22
+      },
+      {
+        "n": "D1",
+        "x": -0.4,
+        "y": -0.4,
+        "w": 0.25,
+        "h": 0.25,
+        "shape": "round",
+        "roundness": 100,
+        "mask_w": 0.22,
+        "mask_h": 0.22,
+        "paste_w": 0.22,
+        "paste_h": 0.22
+      },
+      {
+        "n": "D2",
+        "x": 0.0,
+        "y": -0.4,
+        "w": 0.25,
+        "h": 0.25,
+        "shape": "round",
+        "roundness": 100,
+        "mask_w": 0.22,
+        "mask_h": 0.22,
+        "paste_w": 0.22,
+        "paste_h": 0.22
+      },
+      {
+        "n": "D3",
+        "x": 0.4,
+        "y": -0.4,
+        "w": 0.25,
+        "h": 0.25,
+        "shape": "round",
+        "roundness": 100,
+        "mask_w": 0.22,
+        "mask_h": 0.22,
+        "paste_w": 0.22,
+        "paste_h": 0.22
+      },
+      {
+        "n": "E1",
+        "x": -0.4,
+        "y": -0.8,
+        "w": 0.25,
+        "h": 0.25,
+        "shape": "round",
+        "roundness": 100,
+        "mask_w": 0.22,
+        "mask_h": 0.22,
+        "paste_w": 0.22,
+        "paste_h": 0.22
+      },
+      {
+        "n": "E2",
+        "x": 0.0,
+        "y": -0.8,
+        "w": 0.25,
+        "h": 0.25,
+        "shape": "round",
+        "roundness": 100,
+        "mask_w": 0.22,
+        "mask_h": 0.22,
+        "paste_w": 0.22,
+        "paste_h": 0.22
+      },
+      {
+        "n": "E3",
+        "x": 0.4,
+        "y": -0.8,
+        "w": 0.25,
+        "h": 0.25,
+        "shape": "round",
+        "roundness": 100,
+        "mask_w": 0.22,
+        "mask_h": 0.22,
+        "paste_w": 0.22,
+        "paste_h": 0.22
+      }
+    ],
+    "source": "Richtek RT6160A DS6160A-05 p4 top view and p32 SMD option. 0.25 copper / 0.22 mask within specified ±0.025 mm. ENIG, 0.08 mm local stencil. https://www.richtek.com/assets/product_file/RT6160A/DS6160A-05.pdf"
+  },
+  "COIL_XGL4015": {
+    "body": [
+      4.3,
+      4.3
+    ],
+    "height_mm": 1.5,
+    "pads": [
+      {
+        "n": "1",
+        "x": -1.185,
+        "y": 0,
+        "w": 0.98,
+        "h": 3.4
+      },
+      {
+        "n": "2",
+        "x": 1.185,
+        "y": 0,
+        "w": 0.98,
+        "h": 3.4
+      }
+    ],
+    "source": "Coilcraft XGL4015 document 1660-3, recommended land pattern. https://www.coilcraft.com/getmedia/c5d04454-742d-473e-8b80-06c97338c587/xgl4015.pdf"
+  },
+  "BOURNS_SRN3015": {
+    "body": [
+      3.1,
+      3.1
+    ],
+    "height_mm": 1.5,
+    "pads": [
+      {
+        "n": "1",
+        "x": -1.1,
+        "y": 0,
+        "w": 1.0,
+        "h": 2.7
+      },
+      {
+        "n": "2",
+        "x": 1.1,
+        "y": 0,
+        "w": 1.0,
+        "h": 2.7
+      }
+    ],
+    "source": "Bourns SRN3015 series, recommended layout p1 rotated 90 degrees: inner gap 1.2 mm. https://www.bourns.com/docs/product-datasheets/srn3015.pdf"
+  },
+  "C1206P": {
+    "body": [
+      3.2,
+      1.6
+    ],
+    "height_mm": 1.8,
+    "pads": [
+      {
+        "n": "1",
+        "x": -1.45,
+        "y": 0,
+        "w": 1.25,
+        "h": 1.75,
+        "roundness": 25
+      },
+      {
+        "n": "2",
+        "x": 1.45,
+        "y": 0,
+        "w": 1.25,
+        "h": 1.75,
+        "roundness": 25
+      }
+    ],
+    "source": "Murata GRM31 through 3216 M metric, land pattern for reflow. 1.65 mm inner gap with 1.25 mm opposing lands."
+  },
+  "NXP_CFP3_DIODE": {
+    "body": [
+      2.7,
+      1.7
+    ],
+    "height_mm": 1.1,
+    "pads": [
+      {
+        "n": "1",
+        "x": -1.4,
+        "y": 0,
+        "w": 1.2,
+        "h": 1.2,
+        "paste_w": 1.1,
+        "paste_h": 1.1
+      },
+      {
+        "n": "2",
+        "x": 1.4,
+        "y": 0,
+        "w": 1.2,
+        "h": 1.2,
+        "paste_w": 1.1,
+        "paste_h": 1.1
+      }
+    ],
+    "source": "Nexperia PMEG2010ER/CFP3 SOD123W reflow land figure; cathode terminal 1. https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf"
+  },
+  "SOT23_AO3401A": {
+    "body": [
+      2.95,
+      1.65
+    ],
+    "height_mm": 1.2,
+    "pads": [
+      {
+        "n": "1",
+        "x": -0.95,
+        "y": -1.0,
+        "w": 0.7,
+        "h": 1.05
+      },
+      {
+        "n": "2",
+        "x": 0.95,
+        "y": -1.0,
+        "w": 0.7,
+        "h": 1.05
+      },
+      {
+        "n": "3",
+        "x": 0,
+        "y": 1.0,
+        "w": 0.7,
+        "h": 1.05
+      }
+    ],
+    "source": "Alpha & Omega Semiconductor AO3401A SOT-23 top view, 1 G (bottom left), 2 S (bottom right), 3 D (top). https://www.aosmd.com/sites/default/files/res/datasheets/AO3401A.pdf",
+    "body_rot": 90
+  },
+  "ST_SOT23_6_ESD": {
+    "body": [
+      1.75,
+      3.0
+    ],
+    "height_mm": 1.45,
+    "pads": [
+      {
+        "n": "1",
+        "x": -1.3,
+        "y": 0.95,
+        "w": 1.1,
+        "h": 0.6
+      },
+      {
+        "n": "2",
+        "x": -1.3,
+        "y": 0.0,
+        "w": 1.1,
+        "h": 0.6
+      },
+      {
+        "n": "3",
+        "x": -1.3,
+        "y": -0.95,
+        "w": 1.1,
+        "h": 0.6
+      },
+      {
+        "n": "4",
+        "x": 1.3,
+        "y": -0.95,
+        "w": 1.1,
+        "h": 0.6
+      },
+      {
+        "n": "5",
+        "x": 1.3,
+        "y": 0.0,
+        "w": 1.1,
+        "h": 0.6
+      },
+      {
+        "n": "6",
+        "x": 1.3,
+        "y": 0.95,
+        "w": 1.1,
+        "h": 0.6
+      }
+    ],
+    "source": "ST USBLC6-2SC6 SOT23-6L recommended footprint. Pins 1–3 descending left and 4–6 ascending right. https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+  },
+  "NXP_SOT23_DIODE": {
+    "body": [
+      2.95,
+      1.65
+    ],
+    "height_mm": 1.1,
+    "pads": [
+      {
+        "n": "1",
+        "x": -0.95,
+        "y": -1.0,
+        "w": 0.7,
+        "h": 1.05
+      },
+      {
+        "n": "2",
+        "x": 0.95,
+        "y": -1.0,
+        "w": 0.7,
+        "h": 1.05
+      },
+      {
+        "n": "3",
+        "x": 0,
+        "y": 1.0,
+        "w": 0.7,
+        "h": 1.05
+      }
+    ],
+    "source": "Nexperia BAT54C, SOT23 / TO-236AB package, top view left/right anodes pin1/pin2, opposite common cathode pin3. https://assets.nexperia.com/documents/data-sheet/BAT54C.pdf"
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "assembly_step_sha256": "0ecf7606efe8e2e5c8d1abdf82748b40e9f5b99b8cd6232bdbb4c4b8cf062447",
+  "checker_sha256": "d87d0bdb12b07753930b9ae80a626bea2de16c5fda347dd14aa8692ce24d7e8c",
+  "physical_measurements_executed": false,
+  "scope": "Every direct ray between the measured rear PET exit and true stainless OD. The native GCT bore and downstream shields are tested independently.",
+  "cheek_X_mm": -8.75,
+  "native_cheek_bounds_YZ_mm": [
+    58.44,
+    -4.395,
+    75.56,
+    5.82
+  ],
+  "section_at_front_GCT_X_mm": -0.0024999999441206455,
+  "native_cheek_to_lip_mm": 8.74750000005588,
+  "physical_edge_allowance_per_axis_mm": 0.25,
+  "per_axis_registration_allowance_mm": 0.35,
+  "required_cheek_to_lip_minimum_mm": 8.4,
+  "maximum_combined_profile_uncertainty_mm": 0.01,
+  "required_all_normals_lower_land_mm": 0.005,
+  "native_profile_at_g055_U005": {
+    "gap_upper_mm": 0.055,
+    "combined_profile_uncertainty_mm": 0.005,
+    "extrapolation_ratio_max": 0.0065907729179149185,
+    "steel_covers_all_directions": true,
+    "signed_land_mm": 0.013243986190493386,
+    "lower_land_after_propagation_mm": 0.008211032325903811,
+    "pass": true,
+    "edge_support_crosscheck": {
+      "worst_support_direction_YZ": [
+        -0.8191508851585149,
+        0.573578091757366
+      ],
+      "minimum_support_land_mm": 0.013243986190490276,
+      "difference_from_full_polygon_mm": 3.110359192426415e-15
+    },
+    "envelope_area_mm2": 25.507199138015757
+  },
+  "factory_example_independent_results": {
+    "01-pass-nonzero.json": {
+      "gap_upper_mm": 0.055,
+      "combined_profile_uncertainty_mm": 0.003,
+      "extrapolation_ratio_max": 0.0065907729179149185,
+      "steel_covers_all_directions": true,
+      "signed_land_mm": 0.00868040564390495,
+      "lower_land_after_propagation_mm": 0.005660633325151206,
+      "pass": true,
+      "edge_support_crosscheck": {
+        "worst_support_direction_YZ": [
+          0.8404453474587057,
+          0.5418963165911126
+        ],
+        "minimum_support_land_mm": 0.008680405643904265,
+        "difference_from_full_polygon_mm": 6.852157730108388e-16
+      },
+      "envelope_area_mm2": 25.574599550543436,
+      "serial": "SYNTHETIC-01-pass-nonzero",
+      "specimen_file_sha256": "9878b9ef2d0b9b01b26425f47b49e9613f9b3f716aa1a8b864f8d51e88b16199",
+      "factory_old_dimensional_result": true,
+      "factory_oblique_result": true,
+      "signed_distance_delta_vs_factory_mm": 0.0
+    },
+    "02-fail-oblique.json": {
+      "gap_upper_mm": 0.055,
+      "combined_profile_uncertainty_mm": 0.002,
+      "extrapolation_ratio_max": 0.0065907729179149185,
+      "steel_covers_all_directions": false,
+      "signed_land_mm": -0.030061082274773134,
+      "lower_land_after_propagation_mm": -0.03207426382060896,
+      "pass": false,
+      "edge_support_crosscheck": {
+        "worst_support_direction_YZ": [
+          0.8404453474587057,
+          -0.5418963165911126
+        ],
+        "minimum_support_land_mm": -0.030061082274773554,
+        "difference_from_full_polygon_mm": 4.198030811863873e-16
+      },
+      "envelope_area_mm2": 25.94951835928077,
+      "serial": "SYNTHETIC-02-fail-oblique",
+      "specimen_file_sha256": "2ef9a98cd0dc9da53ba0321c1926831bbf5d72cc1c62b633d3c012728e486cfe",
+      "factory_old_dimensional_result": true,
+      "factory_oblique_result": false,
+      "signed_distance_delta_vs_factory_mm": 6.938893903907228e-18
+    },
+    "03-pass-recut-same-connector.json": {
+      "gap_upper_mm": 0.055,
+      "combined_profile_uncertainty_mm": 0.002,
+      "extrapolation_ratio_max": 0.0065907729179149185,
+      "steel_covers_all_directions": true,
+      "signed_land_mm": 0.010197448905545883,
+      "lower_land_after_propagation_mm": 0.008184267359710052,
+      "pass": true,
+      "edge_support_crosscheck": {
+        "worst_support_direction_YZ": [
+          0.8404453474587057,
+          -0.5418963165911126
+        ],
+        "minimum_support_land_mm": 0.010197448905546302,
+        "difference_from_full_polygon_mm": 4.198030811863873e-16
+      },
+      "envelope_area_mm2": 25.07028188173091,
+      "serial": "SYNTHETIC-03-pass-recut-same-connector",
+      "specimen_file_sha256": "195f3a8f2985422900e38999085d9feba230c932bcc2c6c5ec6ec64fba904b67",
+      "factory_old_dimensional_result": true,
+      "factory_oblique_result": true,
+      "signed_distance_delta_vs_factory_mm": 0.0
+    },
+    "04-fail-before-recentering.json": {
+      "gap_upper_mm": 0.055,
+      "combined_profile_uncertainty_mm": 0.003,
+      "extrapolation_ratio_max": 0.0065907729179149185,
+      "steel_covers_all_directions": true,
+      "signed_land_mm": 0.0008492275046803811,
+      "lower_land_after_propagation_mm": -0.002170544814073364,
+      "pass": false,
+      "edge_support_crosscheck": {
+        "worst_support_direction_YZ": [
+          0.8577301161946085,
+          -0.5141002312514394
+        ],
+        "minimum_support_land_mm": 0.0008492275046805275,
+        "difference_from_full_polygon_mm": 1.4647571350279165e-16
+      },
+      "envelope_area_mm2": 25.57459955054345,
+      "serial": "SYNTHETIC-04-fail-before-recentering",
+      "specimen_file_sha256": "a3e5e29489cc053dd91d0bf8743d8fb518fd80d69ba33e6fbac48d77bf9f7f9f",
+      "factory_old_dimensional_result": true,
+      "factory_oblique_result": false,
+      "signed_distance_delta_vs_factory_mm": 8.673617379884035e-19
+    },
+    "05-pass-after-recentering.json": {
+      "gap_upper_mm": 0.055,
+      "combined_profile_uncertainty_mm": 0.003,
+      "extrapolation_ratio_max": 0.0065907729179149185,
+      "steel_covers_all_directions": true,
+      "signed_land_mm": 0.008925356776328011,
+      "lower_land_after_propagation_mm": 0.005905584457574267,
+      "pass": true,
+      "edge_support_crosscheck": {
+        "worst_support_direction_YZ": [
+          0.8404453474587057,
+          0.5418963165911126
+        ],
+        "minimum_support_land_mm": 0.008925356776328108,
+        "difference_from_full_polygon_mm": 9.71445146547012e-17
+      },
+      "envelope_area_mm2": 25.57459955054345,
+      "serial": "SYNTHETIC-05-pass-after-recentering",
+      "specimen_file_sha256": "a3425a0bd2576ab105bcd6501bee29dfe49f7df08448e3aa89f4d9e6e2a2952d",
+      "factory_old_dimensional_result": true,
+      "factory_oblique_result": true,
+      "signed_distance_delta_vs_factory_mm": 0.0
+    }
+  },
+  "old_dimensional_sample_physical_first_hit": {
+    "old_receiving_example": {
+      "PET_cut_outward_mm": 0.02,
+      "PSA_cut_outward_mm": 0.004,
+      "face_shift_YZ_mm": [
+        0.022,
+        -0.022
+      ]
+    },
+    "origin_mm": [
+      -10.018,
+      57.158274,
+      5.603447
+    ],
+    "direction": [
+      0.5567745585410564,
+      0.7850688457518961,
+      -0.2714203352573226
+    ],
+    "target_input_mm": [
+      1.404761,
+      73.26471,
+      0.035
+    ],
+    "first_surface_without_any_tape": "pcb",
+    "first_hit_without_any_tape": {
+      "distance_mm": 20.644904865685906,
+      "point_xyz_mm": [
+        1.4765577927143774,
+        73.36594563356174,
+        8.881784197001252e-16
+      ]
+    },
+    "metal_face_plane_point_YZ_mm": [
+      71.28042973440607,
+      0.7210213825147731
+    ],
+    "misses_steel_OD_by_mm": 0.006902773885179101,
+    "only_black_core_slices": {
+      "-0.05250": {
+        "black_core_would_block": false,
+        "distance_to_black_core_edge_mm": 0.015276065214520695
+      },
+      "-0.02750": {
+        "black_core_would_block": true,
+        "distance_to_black_core_edge_mm": 0.021123073940126736
+      },
+      "-0.02250": {
+        "black_core_would_block": true,
+        "distance_to_black_core_edge_mm": 0.028402902069374167
+      },
+      "-0.00250": {
+        "black_core_would_block": true,
+        "distance_to_black_core_edge_mm": 0.057522750842422775
+      }
+    }
+  },
+  "old_sample_native_directional_score": {
+    "gap_upper_mm": 0.055,
+    "combined_profile_uncertainty_mm": 0.002,
+    "extrapolation_ratio_max": 0.0065907729179149185,
+    "steel_covers_all_directions": false,
+    "signed_land_mm": -0.03007459421051434,
+    "lower_land_after_propagation_mm": -0.03208777575635017,
+    "pass": false,
+    "edge_support_crosscheck": {
+      "worst_support_direction_YZ": [
+        0.8191747257465117,
+        -0.5735440425094898
+      ],
+      "minimum_support_land_mm": -0.03007459421051184,
+      "difference_from_full_polygon_mm": 2.501471252358556e-15
+    },
+    "envelope_area_mm2": 25.948095697983565
+  },
+  "criteria": {
+    "collimated_ray_on_rejected_actual_profile_hits_PCB": true,
+    "nominal_native_at_conservative_gap_and_pair_error": true,
+    "independent_factory_example_decisions_agree": true,
+    "adverse_old_dimensional_pass_is_rejected_and_recut_is_accepted": true,
+    "bounding_section_measured_in_actual_case": true
+  },
+  "passed": true
+}

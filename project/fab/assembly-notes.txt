@@ -1,0 +1,39 @@
+ASTRA PROTOTYPE — FABRICATION AND FIRST-ARTICLE ASSEMBLY
+
+Order a two-layer rigid FR-4 PCB. Finished thickness 1.00 mm nominal, 1 oz
+outer copper, ENIG and green solder mask. The closed profile centreline gives
+the finished dimensions. Keep plated and non-plated Excellon files separate.
+Apply the IPC-D-356 list to the bare-board electrical test.
+
+Use Standard PCBA, populated side TOP only, and the BOM and CPL supplied.
+CPL coordinates and stencil DXF coordinates use the same TOP Cartesian
+millimetre origin as the fabrication files. Add process rails on the ±Y
+edges, at least 5 mm wide. Allow feed-in and out beyond the stencil steps.
+Keep rails, clamps and adjacent boards clear of the +X radio overhang and
+the USB and FPC openings. Confirm panel depanelization clearance before cut.
+
+Use a framed, electropolished stepped stencil. Base foil is 100 µm. The DXF
+layer FOIL_080UM specifies 80 µm near the RT6160. Layer FOIL_150UM specifies
+150 µm around the Hirose FH12. Set paste apertures 1:1 to the TOP paste
+Gerber. The DXF lines define foil thickness changes. Align the coordinates
+to the panel map. Confirm the geometric step-to-aperture clearance before
+cutting. Inspect paste deposits by SPI in both stepped regions.
+
+Inspect the 15 WLCSP ball joints on U104 and the exposed-pad joints on U101
+and U102 by X-ray. Reject shorts and missing joints. Check the FPC contact
+fillets and anchor joints by AOI or microscope. The pin-1 and input/output
+datums appear on the enclosed TOP assembly drawing. For L102 align the short
+winding lead, beside the printed bar, with land 1 (RT_SW1). For U201 the
+antenna end must point out over the +X edge. Keep the BME280 sensory port
+clear of flux residue, adhesive and conformal coating.
+
+Measure the tallest populated point from the PCB TOP seating plane. Maximum
+allowed protrusion is 4.10 mm. Use the probe map for fixture clearance.
+The battery, raw glass display and photovoltaic panel are installed after
+reflow and electrical inspection. Their receiving requirements are listed in
+off-board-items.csv and the prototype qualification procedure.
+
+The removable 0-ohm links R124, R125 and R126 normally remain populated.
+For current measurements, power the board down before removing a link and
+connect the ammeter across the pair specified in measurement-links.csv.
+Restore the correct zero-ohm part before the normal functional test.

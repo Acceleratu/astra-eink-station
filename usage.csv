@@ -1,0 +1,4 @@
+stage,requests,uncached_input,cached_input,output_including_reasoning,reasoning_included,cache_writes,max_input_per_request,estimated_USD,elapsed_ms
+board,2452,3873137,370936448,994702,279944,0,248020,459.402918,6396274
+enclosure,1495,2080431,221413632,702439,247345,0,245857,277.339892,4009602
+usb,2697,3257702,419919104,1090795,395320,0,246222,507.035874,7237410

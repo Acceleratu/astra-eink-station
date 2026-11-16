@@ -1,0 +1,77 @@
+{
+  "assembly_step_sha256": "0ecf7606efe8e2e5c8d1abdf82748b40e9f5b99b8cd6232bdbb4c4b8cf062447",
+  "check_fit_sha256": "f7b0afccac18f49de2a78e8cd5839b989e9aaae71ec7753d0918c46114d6e3c7",
+  "criterion_count": 35,
+  "field_rays": 174253599,
+  "fine_mouth_rays": 95958432,
+  "historical_ray_records": 523,
+  "transparent_tape_wide_registration_forbidden": {
+    "field": 0,
+    "mouth": 36
+  },
+  "wide_registration_forbidden_by_depth_of_black_PET_film": {
+    "adjacent_to_front_PET": 36,
+    "at_midplane": 34,
+    "adjacent_to_steel": 0
+  },
+  "nominal_registered_disk_radii_passed_without_any_tape_mm": [
+    0.0,
+    0.035,
+    0.05
+  ],
+  "per_unit_control_uses_no_adhesive_shadow": true,
+  "physical_measurements_executed": false,
+  "first_hits_remaining_after_directional_receiving": {
+    "field": 0,
+    "mouth": 0
+  },
+  "negative_0p026x0p021_slit_reported_PCB_hits": 1,
+  "reverse_from_previous_release": {
+    "original_step_sha256": "9b77992a17318e33b4140959148d4fb48400909764b7ec949cef154d8e2d2bb5",
+    "original_counterexamples": 41,
+    "each_pose_set": 369,
+    "two_pose_sets": 738,
+    "uncovered": [],
+    "minimum_continuous_family_to_cheek_edge_mm": 0.71916,
+    "source_file_sha256": "f1e0ee9e7cef5472785c99c5d0151fd64e0b9f1848a4d6ee219409ce8191b32b"
+  },
+  "sha256_by_file": {
+    "geometry-results.json": "af4b401c5fa7368c8a6e501d0c5b5df35257ab6ad947669fbae747ee79cb6544",
+    "mesh-witness.json": "d2b2069eb0fec3b984a16b1e517de7d04e2ad06ed99f5fa9b55050c6f238147f",
+    "negative-controls.json": "473cae0c4d19ea5bf4a95d952b1de95bbe7f3bb0b6941a87e06d5dcbf58777d5",
+    "check_usb.py": "ea361055b359dbc80fa8f617fb5397bf59c392d04d701f21e8f54b77a05d8895",
+    "check_usb_sections.py": "ac7a37a649c308278a44069c2dba0dfe4d9d9ad4a40c23f77a3152ea8eb2a8db",
+    "check_usb_reverse.py": "772c9ae7ff6748594d8a1f4ad970f583c6df09b1cf2bd6102c07ca5fb9544763",
+    "check_usb_mask_tolerance.py": "4b31f502826e463df1652efd47895ac9081b2719873cdd658d445d4de8b54db0",
+    "check_usb_received.py": "d87d0bdb12b07753930b9ae80a626bea2de16c5fda347dd14aa8692ce24d7e8c",
+    "draw_usb_receiving.py": "1b0a410b5e345eb745d052343c63d0296aef343a1692d11ce0436525979c36d6",
+    "usb/current.json": "16491a5cb33fdca9ab8a17aa8910af33e5673aaa015f40d99682c29811117b50",
+    "usb/historical-rays-solid-sections.json": "645b155628f5923da75132423a8ab584fcca8b58617adac2988fd1be2247103c",
+    "usb/controls.json": "05377215041e94d98520457efb5061b22778e7f6eff2c8e33a3d6e3b89d174c6",
+    "usb/legacy.json": "d889522d558ee6e80ca23087e4c8e535647e7f3e45ceb6d8c71a863669d53266",
+    "usb/historical-defect-rays.json": "6de06539c49701abfddf90f71a968bc3cbd0f46ef7193f527b750a45ee7c4f94",
+    "usb/visibility.png": "627e4c70e749cb66bf4fbf0fedcccf6e691931a7e6e0d20ac9cd38e48499bb66",
+    "usb/metal-mask-contact.png": "a4380b6f3036c6856b2e27066c38b9ea4f8b5ab5faa3db124410a2405d6f73e1",
+    "critical-sections.png": "a61594812c2c0b21f80f6629bdc8b844985178574161b12ab8c20ed008b45f6b",
+    "usb/previous-side-aperture.json": "9a24916c0821d88b6c3196201bfbd83423d4c54f183eaf7acd76d25c76635a7b",
+    "usb/reverse-side-section.json": "1e92bb96982e88f5a9e4ea5c8ea7c0c620a7811b6ecc00d80025e85be468e751",
+    "usb/reverse-side-section.png": "d436daa8c4a02924b4fa58d37981bdef08d6b7bbcada8d47eef202c8c4b4d81b",
+    "usb/mask-registration-and-carrier.json": "f800875146bfa78c29f6ed07375c65aefd0938017655602f9cbd8fd0d4517caf",
+    "usb/directional-receiving.json": "fa81c2be7196f0feb71fd81d23a13ccb8171ed11395914b486535258a5f1923d",
+    "usb/directional-receiving.png": "22c029d031edea9d5d07d549d6303174cfa10f26786daf039aae04c186623f1f",
+    "usb/iterations.json": "a5c257385dec6c2474b38418d5e9fa66d4dfb6d5f14c74d8195fda70d26d4f4f",
+    "README.md": "4c1f7afcfe039ce21cf87dc3f096b57ba365a411df8b0c1fdcbfe77b22c014d5",
+    "usb/README.md": "bbb7cc0b3a6a6ac2f8c0403d4ad8a847f74777b4778181640311692ec1140966",
+    "iteration-log.md": "b0b9d6fbe72f8e5fee671c9a4a39b426755028bff049f6f82d06f55cf7ef9fcb"
+  },
+  "external_evidence_SHA256_relative_to_verification": {
+    "usb-mask/registered_optics.py": "1a8ce60c2ccdcbe54f6ff970d00bf780045368bba3d1cc1fcaba17a8f4f7cb19",
+    "usb-mask/check_measured_profiles.py": "18a12eebc6794678e2ba74a91fe6a7d4db5fdf8d77bd562cdd9d0fad3435414f",
+    "usb-mask/optical-receiving.md": "b4a57826aa99af0a0c001f12a5fb669c46ecd5482adbb1fc826a4b6f60000af5",
+    "usb-mask/examples/qualification-results.json": "facb6581502c9bb9ae36172d0696db568e49128290c800ae37e2427f8b4bcb2d",
+    "usb-mask/examples/native-ray.json": "a6fce3aa345046a351c0311f91d2526ab671f4eedc6b2031ce1412a0bf3b88a7",
+    "usb-datums.peripheral.json": "f1e0ee9e7cef5472785c99c5d0151fd64e0b9f1848a4d6ee219409ce8191b32b",
+    "usb-datums.replay.json": "6df4464c14032a3d311ffa85d700f3c668bc72920ace466979cf632cc3d7e486",
+    "usb-datums.board-surfaces.json": "7e1c367602b659970580d532dac46d5a4c95f9a472a1d92a9214b326d912a5d6"
+  }
+}

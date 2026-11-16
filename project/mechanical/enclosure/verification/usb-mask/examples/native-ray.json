@@ -1,0 +1,58 @@
+{
+  "case_step_sha256": "0ecf7606efe8e2e5c8d1abdf82748b40e9f5b99b8cd6232bdbb4c4b8cf062447",
+  "example_sha256": "2ef9a98cd0dc9da53ba0321c1926831bbf5d72cc1c62b633d3c012728e486cfe",
+  "status": "Synthetic in-tolerance cut and placement on the measured production CAD, no physical test",
+  "metal_and_all_downstream_native_geometry": "unchanged",
+  "all_PSA": "transparent for primary witness",
+  "PET_normal_cut_deviation_mm": 0.02,
+  "PSA_normal_cut_deviation_mm": 0.004,
+  "registration_yz_mm": [
+    0.022,
+    -0.022
+  ],
+  "external_origin_xyz_mm": [
+    -10.018,
+    57.158273847563486,
+    5.603447101240016
+  ],
+  "metal_face_intercept_xyz_mm": [
+    -0.0025,
+    71.28043019381612,
+    0.7210212890960166
+  ],
+  "passed_three_original_dimensional_gates_and_registration": true,
+  "passes_new_zero_credit_optical_gate": false,
+  "ray_outside_true_outer_steel_at_lip_mm": 0.0064869671861627065,
+  "native_hits_in_order": [
+    {
+      "body": "PCB:PCB_1mm",
+      "first_xyz_mm": [
+        1.4765575420479466,
+        73.3659458299706,
+        -2.927364629885123e-16
+      ],
+      "ray_length_in_solid_mm": 3.684322284919734
+    },
+    {
+      "body": "Lower_PCB_rail",
+      "first_xyz_mm": [
+        4.023859974565175,
+        76.95771890302716,
+        -1.2417767608066814
+      ],
+      "ray_length_in_solid_mm": 1.7532052055847203
+    }
+  ],
+  "ray_signed_distance_beyond_inner_PSA_profile_mm_by_clear_depth_from_steel_mm": {
+    "0.0": 0.05705968871077505,
+    "0.01": 0.04249488198380891,
+    "0.015": 0.03521588831277933,
+    "0.02": 0.027939225732415807,
+    "0.025": 0.02066493909094369,
+    "0.03": 0.013393074379203895,
+    "0.035": 0.0061236787668665915,
+    "0.04": -0.0011431993601889179,
+    "0.05": -0.01566920329866095
+  },
+  "layer_note": "A positive distance is inside the black carrier material if a continuous opaque carrier actually occupies this axial plane. Negative is within its aperture. The vendor does not publish the thickness of the separate acrylic skins."
+}

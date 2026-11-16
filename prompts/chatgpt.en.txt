@@ -1,0 +1,6 @@
+https://www.anthropic.com/research/claude-electronics-design
+
+https://dantudose.github.io/articles/solar-e-ink-board-with-an-ai/
+
+I want to use GPT-6 Astra Max in Codex to reproduce the experiment.
+I’ll use Fusion and the Fusion MCP. The model can use my computer whenever it wants, with full access to my PC and the internet. No restrictions. I want you to write the prompt for me. I’d like to try doing the whole thing with one prompt, so we’ll use /goal. Tell it to keep going until it’s checked everything visually and run every test it thinks it needs, including the manufacturing checks (I think they’re called DOM). If it spots a problem while testing, it should fix it itself. Tell it to think things through and make the best decisions it can. It can use any tool it wants in Fusion or on my PC, and install whatever it needs. Have it research PCB and schematic design best practices thoroughly online. I just want a prompt that fits within the 4,000-character limit for /goal. I don’t want any extra Markdown files. Let Astra do the reasoning. Just give me the initial prompt. Leave out the sources and include only the requirements. I don’t want it to copy the original experiment or see what went wrong the first time.

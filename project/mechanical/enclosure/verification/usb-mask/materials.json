@@ -1,0 +1,62 @@
+{
+  "producer": "Toray Industries",
+  "catalogue": "https://www.films.toray/en/products/lumirror/lum_005.html",
+  "product_feed": "https://www.films.toray/products_filter/js/data_en.json",
+  "complete_feed_sha256": "83c286e65270312849018721a5ea55b3b8170af470ad997423f3efce7d3c4ad7",
+  "selected_records": {
+    "B-61": {
+      "order": 61,
+      "id": "B-61",
+      "productName": "Lumirror\u2122",
+      "productProp": "lumirror",
+      "nominalThicknessType": "#50 - X30",
+      "grades": "Black Grades",
+      "subGrades": "Standard",
+      "PDF": "https://catalog.ulprospector.com/Datasheet.aspx?I=83754&FMT=PDF&E=303351&CULTURE=en-US&",
+      "featuresOutline": "Chemical Characteristics--Chemical resistance; Coloring--Black; Coloring--Light shielding; Electrical Characteristics--Electrical insulation; Optical Characteristics--Light shielding; Thickness--26 \u03bcm - 75 \u03bcm; Everyday devices and supplies--Adhesive tape; Electrical and electronic components--Drum heads; Other uses--Electric insulation; ",
+      "features": [
+        "Chemical | Chemical resistance",
+        "Coloring | Black",
+        "Coloring | Light shielding",
+        "Electrical | Electrical insulation",
+        "Optical | Light shielding",
+        "Thickness | 26 \u03bcm - 75 \u03bcm"
+      ],
+      "applications": [
+        "EverydayDevicesAndSupplies | Adhesive tape",
+        "Electrical | Drum heads"
+      ],
+      "byProcessUse": [
+        "OtherUses | Electric insulation"
+      ]
+    },
+    "B-64": {
+      "order": 64,
+      "id": "B-64",
+      "productName": "Lumirror\u2122",
+      "productProp": "lumirror",
+      "nominalThicknessType": "#125 - X30",
+      "grades": "Black Grades",
+      "subGrades": "Standard",
+      "PDF": "https://catalog.ulprospector.com/Datasheet.aspx?I=83754&FMT=PDF&E=303354&CULTURE=en-US&",
+      "featuresOutline": "Chemical Characteristics--Chemical resistance; Coloring--Black; Coloring--Light shielding; Electrical Characteristics--Electrical insulation; Optical Characteristics--Light shielding; Thickness--76 \u03bcm - 125 \u03bcm; Everyday devices and supplies--Adhesive tape; Electrical and electronic components--Drum heads; Other uses--Electric insulation; Manufacturing process--Paper used in the manufacturing process; surface treating--Adhesive treating; ",
+      "features": [
+        "Chemical | Chemical resistance",
+        "Coloring | Black",
+        "Coloring | Light shielding",
+        "Electrical | Electrical insulation",
+        "Optical | Light shielding",
+        "Thickness | 76 \u03bcm - 125 \u03bcm"
+      ],
+      "applications": [
+        "EverydayDevicesAndSupplies | Adhesive tape",
+        "Electrical | Drum heads"
+      ],
+      "byProcessUse": [
+        "OtherUses | Electric insulation",
+        "ManufacturingProcess | Paper used in the manufacturing process",
+        "SurfaceTreating | Adhesive treating"
+      ]
+    }
+  }
+}

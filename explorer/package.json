@@ -1,0 +1,5 @@
+{
+  "name":"astra-hardware-explorer","private":true,"type":"module",
+  "scripts":{"build":"esbuild src/app.js --bundle --splitting --format=esm --minify --legal-comments=none --entry-names=[name] --chunk-names=[name]-viewer --outdir=."},
+  "dependencies":{"three":"0.180.0"},"devDependencies":{"esbuild":"0.25.12"}
+}

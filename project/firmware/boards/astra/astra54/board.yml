@@ -1,0 +1,6 @@
+board:
+  name: astra54
+  full_name: Astra e-paper weather station
+  vendor: others
+  socs:
+    - name: nrf54l15
